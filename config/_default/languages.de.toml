@@ -1,0 +1,17 @@
+disabled = false
+languageCode = "de"
+languageName = "Deutsch"
+weight = 4
+title = "WillHack"
+
+[params]
+displayName = "DE"
+isoCode = "de"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "logo.png"
+description = "Hacke deine Realität"
+
+[params.author]
+headline = "Hacke deine Realität - wenn du dich in der Welt von morgen, in der die Intelligenz explodiert, zurechtfinden willst, beginne noch heute, dich vorzubereiten."
+bio = "Ersteller dieser Website"

@@ -1,0 +1,17 @@
+disabled = false
+languageCode = "pl"
+languageName = "Polski"
+weight = 2
+title = "WillHack"
+
+[params]
+displayName = "PL"
+isoCode = "pl"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "logo.png"
+description = "Hakuj swoją rzeczywistość"
+
+[params.author]
+headline = "Hakuj swoją rzeczywistość - jeśli chcesz odnaleźć się w jutrzejszym świecie eksplozji inteligencji - zacznij przygotowywać się już dziś. "
+bio = "twórca tej strony"

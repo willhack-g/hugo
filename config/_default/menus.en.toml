@@ -1,0 +1,48 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "AI"
+pageRef = "AI"
+identifier = "nu5VQvW2hY"
+weight = 1
+
+[[main]]
+name = "Blockchain"
+pageRef = "blockchain"
+identifier = "pSZUdsMLwN"
+weight = 2
+
+[[main]]
+name = "Technology"
+pageRef = "technology"
+identifier = "bxmE9zazAu"
+weight = 3
+
+[[main]]
+name = "health"
+pre = "heart"
+pageRef = "health"
+identifier = "WZLmCP9cKG"
+weight = 4
+
+[[main]]
+name = "Geopolitics"
+pageRef = "geopolitics"
+identifier = "LwYs7ovSjO"
+weight = 5
+
+[[footer]]
+none = "none"
+
+[[footer]]
+name = "tags"
+pageRef = "tags"
+identifier = "stV4NOc6nI"
+weight = 9999
+
+[[footer]]
+name = "categories"
+pageRef = "categories"
+identifier = "63UMUlVwd1"
+weight = 9999

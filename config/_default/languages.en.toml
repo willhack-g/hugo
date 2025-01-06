@@ -1,0 +1,17 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "WillHack"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "logo.png"
+description = "Hack your reality"
+
+[params.author]
+headline = "Hack you reality - if you want to find yourself in tomorrow's world of intelligence explosion - start getting ready today."
+bio = "creator of this site"
