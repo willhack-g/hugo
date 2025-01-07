@@ -4,10 +4,8 @@
     <title>Categories on WillHack</title>
     <link>http://localhost:1313/hugo/es/categories/</link>
     <description>Recent content in Categories on WillHack</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>es</language>
-    <copyright>© 2025 </copyright>
     <atom:link href="http://localhost:1313/hugo/es/categories/index.xml" rel="self" type="application/rss+xml" />
-    
   </channel>
 </rss>
