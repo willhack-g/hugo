@@ -13,7 +13,7 @@ defaultFeaturedImage = "def.png"
 highlightCurrentMenuArea = "Enable"
 smartTOC = "Enable"
 backgroundImageWidth =	"1400"
-custom_css = "css/custom.css"
+custom_css = ["css/custom.css"]
 
 
 
