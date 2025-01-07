@@ -12,8 +12,8 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 defaultFeaturedImage = "def.png"
 highlightCurrentMenuArea = "Enable"
 smartTOC = "Enable"
-backgroundImageWidth =	"1400"
-custom_css = ["css/custom.css"]
+#backgroundImageWidth =	"1400"
+
 
 
 
