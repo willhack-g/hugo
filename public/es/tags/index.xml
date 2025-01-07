@@ -4,8 +4,10 @@
     <title>Tags on WillHack</title>
     <link>http://localhost:1313/hugo/es/tags/</link>
     <description>Recent content in Tags on WillHack</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
+    <copyright>© 2025 </copyright>
     <atom:link href="http://localhost:1313/hugo/es/tags/index.xml" rel="self" type="application/rss+xml" />
+    
   </channel>
 </rss>

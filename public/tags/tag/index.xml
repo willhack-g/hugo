@@ -4,51 +4,70 @@
     <title>Tag on WillHack</title>
     <link>http://localhost:1313/hugo/tags/tag/</link>
     <description>Recent content in Tag on WillHack</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/hugo/tags/tag/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/hugo/tags/tag/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>deepseek</title>
       <link>http://localhost:1313/hugo/en/ai/1736161284625-deepseek/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/hugo/en/ai/1736161284625-deepseek/</guid>
       <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/hugo/en/ai/1736161284625-deepseek/featured.webp" />
     </item>
+    
     <item>
       <title>deepseek</title>
       <link>http://localhost:1313/hugo/en/ai/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/hugo/en/ai/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>deepseek</title>
       <link>http://localhost:1313/hugo/en/health/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/hugo/en/health/</guid>
       <description></description>
+      
     </item>
+    
     <item>
       <title>diet</title>
       <link>http://localhost:1313/hugo/en/health/1736161371581-diet/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/hugo/en/health/1736161371581-diet/</guid>
       <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/hugo/en/health/1736161371581-diet/featured.webp" />
     </item>
+    
     <item>
       <title>drugs</title>
       <link>http://localhost:1313/hugo/en/health/1736161267630-drugs/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/hugo/en/health/1736161267630-drugs/</guid>
       <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/hugo/en/health/1736161267630-drugs/featured.webp" />
     </item>
+    
     <item>
       <title>models</title>
       <link>http://localhost:1313/hugo/en/ai/1736161342140-models/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/hugo/en/ai/1736161342140-models/</guid>
       <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/hugo/en/ai/1736161342140-models/featured.webp" />
     </item>
+    
   </channel>
 </rss>
