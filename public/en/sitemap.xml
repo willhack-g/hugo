@@ -1,73 +1,172 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
   <url>
     <loc>http://localhost:1313/hugo/en/ai/1736161284625-deepseek/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
+  </url><url>
     <loc>http://localhost:1313/hugo/en/ai/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
+  </url><url>
     <loc>http://localhost:1313/hugo/en/health/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
+  </url><url>
     <loc>http://localhost:1313/hugo/en/health/1736161371581-diet/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
+  </url><url>
     <loc>http://localhost:1313/hugo/en/health/1736161267630-drugs/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
+  </url><url>
     <loc>http://localhost:1313/hugo/en/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
+  </url><url>
+    <loc>http://localhost:1313/hugo/tags/example/</loc>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/hugo/en/ai/1736161342140-models/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
+  </url><url>
+    <loc>http://localhost:1313/hugo/tags/tag/</loc>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/hugo/tags/</loc>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/hugo/pl/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/hugo/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/hugo/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/hugo/tags/"
+                />
+  </url><url>
     <loc>http://localhost:1313/hugo/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
-      rel="alternate"
-      hreflang="pl"
-      href="http://localhost:1313/hugo/pl/"
-    />
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/hugo/pl/"
+                />
     <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="http://localhost:1313/hugo/es/"
-    />
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/hugo/es/"
+                />
     <xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="http://localhost:1313/hugo/de/"
-    />
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/hugo/de/"
+                />
     <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/hugo/"
-    />
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/hugo/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/hugo/authors/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/hugo/pl/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/hugo/es/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/hugo/de/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/hugo/authors/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/hugo/categories/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/hugo/pl/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/hugo/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/hugo/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/hugo/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/hugo/series/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/hugo/pl/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/hugo/es/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/hugo/de/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/hugo/series/"
+                />
   </url>
 </urlset>

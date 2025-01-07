@@ -4,10 +4,8 @@
     <title>Authors on WillHack</title>
     <link>http://localhost:1313/hugo/pl/authors/</link>
     <description>Recent content in Authors on WillHack</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>pl</language>
-    <copyright>© 2025 </copyright>
     <atom:link href="http://localhost:1313/hugo/pl/authors/index.xml" rel="self" type="application/rss+xml" />
-    
   </channel>
 </rss>
