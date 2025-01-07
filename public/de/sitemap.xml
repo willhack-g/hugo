@@ -1,125 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
   <url>
-    <loc>http://localhost:1313/hugo/de/authors/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/hugo/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="http://localhost:1313/hugo/pl/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/hugo/es/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/hugo/de/authors/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/hugo/de/categories/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/hugo/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="http://localhost:1313/hugo/pl/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/hugo/es/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/hugo/de/categories/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/hugo/de/series/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/hugo/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="http://localhost:1313/hugo/pl/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/hugo/es/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/hugo/de/series/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/hugo/de/tags/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/hugo/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="http://localhost:1313/hugo/pl/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/hugo/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/hugo/de/tags/"
-                />
-  </url><url>
     <loc>http://localhost:1313/hugo/de/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/hugo/"
-                />
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/hugo/"
+    />
     <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="http://localhost:1313/hugo/pl/"
-                />
+      rel="alternate"
+      hreflang="pl"
+      href="http://localhost:1313/hugo/pl/"
+    />
     <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/hugo/es/"
-                />
+      rel="alternate"
+      hreflang="es"
+      href="http://localhost:1313/hugo/es/"
+    />
     <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/hugo/de/"
-                />
+      rel="alternate"
+      hreflang="de"
+      href="http://localhost:1313/hugo/de/"
+    />
   </url>
 </urlset>
