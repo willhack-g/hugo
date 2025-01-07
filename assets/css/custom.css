@@ -51,3 +51,42 @@
   image-rendering: pixelated;
   -ms-interpolation-mode: nearest-neighbor;
 }
+
+/* Zaokrąglone rogi dla kart Recent Posts */
+.rounded {
+  border-radius: 1rem !important;
+}
+
+.home-recent .card {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.home-recent .card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* Dodatkowe style dla optymalizacji obrazów */
+.thumbnail_card {
+  aspect-ratio: 16/9;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Style dla trybu ciemnego */
+.dark .card {
+  background-color: #1a1a1a;
+  border-color: #333;
+}
+
+.dark .card h2 {
+  color: #f5f5f5;
+}
+
+/* Responsywność */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 1rem;
+  }
+}
