@@ -1,4 +1,4 @@
-baseURL = 'https://willhack-g.github.io/'
+baseURL = 'https://willhack-g.github.io/hugo/'
 relativeURLs = true
 theme = "blowfish"
 defaultContentLanguage = "en"
