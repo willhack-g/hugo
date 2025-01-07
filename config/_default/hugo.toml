@@ -1,4 +1,5 @@
 baseURL = 'https://willhack-g.github.io/'
+relativeURLs = true
 theme = "blowfish"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
