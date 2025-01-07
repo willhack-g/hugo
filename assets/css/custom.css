@@ -52,7 +52,7 @@
   -ms-interpolation-mode: nearest-neighbor;
 }
 
-/* Zaokrąglone rogi dla kart Recent Posts */
+/* Zaokrąglone rogi kart Recent Posts */
 .rounded {
   border-radius: 1rem !important;
 }
