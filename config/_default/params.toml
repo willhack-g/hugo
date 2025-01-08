@@ -2,17 +2,17 @@ colorScheme = "blowfish"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
-enableCodeCopy = true
+enableCodeCopy = false
 replyByEmail = false
 disableImageOptimization = false
 disableTextInHeader = false
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
-#defaultBackgroundImage = "back.webp"
+defaultBackgroundImage = "back.webp"
 defaultFeaturedImage = "def.png"
 highlightCurrentMenuArea = "Enable"
 smartTOC = "Enable"
-#backgroundImageWidth =	"1400"
+#backgroundImageWidth = "1920"
 
 
 
@@ -36,7 +36,7 @@ showRecentItems = "6"
 cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = false
-homepageImage = "back.webp"
+ homepageImage = "back.webp"
 home_image_blur = false
 
 [article]
@@ -69,7 +69,7 @@ relatedContentLimit = "5"
 
 [list]
 showHero = false
-layoutBackgroundBlur = true
+layoutBackgroundBlur = false
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
 showSummary = false
