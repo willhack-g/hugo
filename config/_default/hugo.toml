@@ -2,14 +2,14 @@ baseURL = 'https://willhack.top'
 theme = "blowfish"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
-summaryLength = 0
+summaryLength = 5
 buildDrafts = false
 buildFuture = false
 enableEmoji = true
 googleAnalytics = "G-7SL7HVPDGL"
 
 [pagination]
-pagerSize = 100
+pagerSize = 10
 
 [imaging]
 anchor = "Center"

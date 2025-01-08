@@ -165,7 +165,8 @@
   
   
   <div class="min-h-[148px]"></div>
-<div class="fixed inset-x-0 pl-[24px] pr-[24px] bg-neutral dark:bg-neutral-800" style="z-index:100">
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
   <div class="relative max-w-[64rem] ml-auto mr-auto">
     <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
@@ -413,6 +414,13 @@
 
   </div>
 </div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
 
   
   <div class="relative flex flex-col grow">
@@ -420,52 +428,37 @@
       
   
   
-    
-<article class="max-w-full prose dark:prose-invert">
-    <div class="relative">
-        <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
-        <div class="mx-auto max-w-7xl p-0">
-            <div class="relative shadow-xl sm:overflow-hidden rounded-2xl">
-                <div class="absolute inset-0">
-                    
-                    
-                        
-                            
-                        
-                    
-                    
-                        
-                            
-                        
-                    
-                    
-                    <img class="h-full w-full object-cover m-0 nozoom" src="/back.webp">
-                    <div
-                        class="absolute inset-0 bg-gradient-to-r from-primary-500 to-secondary-600 dark:from-primary-600 dark:to-secondary-800 mix-blend-multiply">
-                    </div>
-                    
-                </div>
-                <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 flex flex-col items-center justify-center text-center">
-                    
-                    <h1 class="mb-2 text-4xl font-extrabold text-neutral-200">
-                        WillHack
-                    </h1>
-                    
-                    <h2 class="mt-0 mb-0 text-xl text-neutral-300">
-                        Hackea tu realidad: si quieres encontrarte en el mundo de la explosión de inteligencia del mañana, empieza a prepararte hoy mismo.
-                    </h2>
-                    
-                    <div class="mt-3 mb-10 text-2xl">
-                        
-                    </div>
-                    <section class="prose prose-invert"></section>
-                </div>
-            </div>
-        </div>
-    </div>
-</article>
-<section>
-    
+    <div style="
+  background: url('/back.webp') no-repeat center center;
+  background-size: cover;
+  min-height: 60vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 20px;
+">
+  <h1 style="
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-bottom: 1rem;
+  ">WillHack</h1>
+  <p style="
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    max-width: 800px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  ">Hackea tu realidad: si quieres encontrarte en el mundo de la explosión de inteligencia del mañana, empieza a prepararte hoy mismo.</p>
+</div>
+
+<div class="recent-articles-section">
+  
 
 
 
@@ -485,7 +478,7 @@
 
 
 
-</section>
+</div>
 
   
 

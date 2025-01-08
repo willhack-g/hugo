@@ -12,13 +12,13 @@ defaultBackgroundImage = "back.webp"
 defaultFeaturedImage = "def.png"
 highlightCurrentMenuArea = "Enable"
 smartTOC = "Enable"
-#backgroundImageWidth = "1920"
+backgroundImageWidth = "1408"
 
 
 
 
 [header]
-layout = "fixed-fill"
+layout = "fixed-fill-blur"
 
 [footer]
 showMenu = true
@@ -28,7 +28,7 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "hero"
+layout = "custom"
 showRecent = "enable"
 showRecentItems = "6"
 #showMoreLink = "Enable"
@@ -65,7 +65,7 @@ showWordCount = true
 showZenMode = "Show"
 heroStyle = "basic"
 showRelatedContent = "Show"
-relatedContentLimit = "5"
+relatedContentLimit = "6"
 
 [list]
 showHero = false

@@ -1,0 +1,32 @@
+<div style="
+  background: url('/back.webp') no-repeat center center;
+  background-size: cover;
+  min-height: 60vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 20px;
+">
+  <h1 style="
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-bottom: 1rem;
+  ">{{ .Site.Title }}</h1>
+  <p style="
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    max-width: 800px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  ">{{ .Site.Params.author.headline }}</p>
+</div>
+
+<div class="recent-articles-section">
+  {{ partial "recent-articles/main.html" . }}
+</div>
