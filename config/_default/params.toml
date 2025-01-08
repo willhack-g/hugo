@@ -41,8 +41,8 @@ home_image_blur = false
 
 [article]
 showDate = true
-showViews = false
-showLikes = false
+showViews = true
+showLikes = true
 showDateOnlyInArticle = false
 showDateUpdated = true
 showAuthor = true
@@ -66,6 +66,8 @@ showZenMode = "Show"
 heroStyle = "basic"
 showRelatedContent = "Show"
 relatedContentLimit = "6"
+showComments = true
+sharingLinks = [ "linkedin", "twitter", "mastodon", "bluesky", "reddit", "whatsapp", "telegram", "pinterest", "facebook", "email"]
 
 [list]
 showHero = false
@@ -106,6 +108,13 @@ cardView = false
 cardViewScreenWidth = false
 
 [firebase]
+  apiKey = "AIzaSyA8y9qoCR3BCfMzGUNGLPSjmqkD7ZOpx24"
+  authDomain = "hugowithfire.firebaseapp.com"
+  projectId = "hugowithfire"
+  storageBucket = "hugowithfire.firebasestorage.app"
+  messagingSenderId = "295066417480"
+  appId = "1:295066417480:web:967a04f059ca0f9cc35b7d"
+  measurementId = "G-F8HNBN1T5S"
 
 [fathomAnalytics]
 
@@ -114,6 +123,11 @@ cardViewScreenWidth = false
 [selineAnalytics]
 
 [buymeacoffee]
+identifier = "WillHack"
+  globalWidget = true
+  globalWidgetMessage = ""
+  globalWidgetColor = "#FFDD00"
+  globalWidgetPosition = "Right"
 
 [verification]
 
