@@ -1,0 +1,45 @@
+[[main]]
+name = "SI"
+pageRef = "SI"
+identifier = "aBcD1234Ef"
+weight = 1
+
+[[main]]
+name = "Blockchain"
+pageRef = "Blockchain"
+identifier = "GhIj5678Kl"
+weight = 2
+
+[[main]]
+name = "Technologia" 
+pageRef = "Technologia"
+identifier = "MnOp9012Qr"
+weight = 3
+
+[[main]]
+name = "Zdrowie"
+pre = "heart"
+pageRef = "Zdrowie"
+identifier = "StUv3456Wx"
+weight = 4
+
+[[main]]
+name = "Geopolityka"
+pageRef = "Geopolityka"
+identifier = "YzAb7890Cd"
+weight = 5
+
+[[footer]]
+none = "none"
+
+[[footer]]
+name = "tagi"
+pageRef = "tags"
+identifier = "EfGh1234Ij"
+weight = 9999
+
+[[footer]]
+name = "kategorie"
+pageRef = "categories"
+identifier = "KlMn5678Op"
+weight = 9999

@@ -1,11 +1,11 @@
 ---
-title: "deepseek"
-date: 2025-01-06
+title: "SI"
+date: 2025-01-08
 draft: false
-description: "a description"
-tags: ["example", "tag"]
+description: "artykuły o si"
+tags: ["si", "sztuczna_inteligencja"]
 ---
- an example to get you started
+ artykuły o si
 # This is a heading
 ## This is a subheading
 ### This is a subsubheading

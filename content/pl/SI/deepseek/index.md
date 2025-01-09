@@ -1,9 +1,9 @@
 ---
 title: "deepseek"
-date: 2025-01-06
+date: 2025-01-08
 draft: false
-description: "a description"
-tags: ["example", "tag"]
+description: "nowy model si"
+tags: ["si", "deepseek"]
 ---
  an example to get you started
 # This is a heading
@@ -12,5 +12,6 @@ tags: ["example", "tag"]
 #### This is a subsubsubheading
 This is a paragraph with **bold** and *italic* text.
 Check more at [Blowfish documentation](https://blowfish.page/)
-undefined
-a to jest polski tekst
+
+
+a to jest polski tekst zwięzły

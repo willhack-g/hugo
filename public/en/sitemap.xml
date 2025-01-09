@@ -3,62 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>//$PREVIEW_URL:9002/en/ai/deepseek/</loc>
-    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <loc>//$PREVIEW_URL:9002/pl/technologia/artykul-1/</loc>
+    <lastmod>2025-01-09T12:42:07+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//$PREVIEW_URL:9002/en/health/</loc>
-    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <loc>//$PREVIEW_URL:9002/pl/zdrowie/artykul-1/</loc>
+    <lastmod>2025-01-09T12:42:07+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//$PREVIEW_URL:9002/pl/si/</loc>
-    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <loc>//$PREVIEW_URL:9002/pl/si/artykul-2/</loc>
+    <lastmod>2025-01-09T12:42:07+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//$PREVIEW_URL:9002/pl/si/deepseek/</loc>
-    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <loc>//$PREVIEW_URL:9002/pl/technologia/artykul-2/</loc>
+    <lastmod>2025-01-09T12:42:07+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//$PREVIEW_URL:9002/en/health/diet/</loc>
-    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//$PREVIEW_URL:9002/en/health/1736161267630-drugs/</loc>
-    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//$PREVIEW_URL:9002/en/</loc>
-    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//$PREVIEW_URL:9002/en/ai/1736161342140-models/</loc>
-    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <loc>//$PREVIEW_URL:9002/pl/zdrowie/artykul-2/</loc>
+    <lastmod>2025-01-09T12:42:07+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>//$PREVIEW_URL:9002/pl/</loc>
-    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-09T12:42:07+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>//$PREVIEW_URL:9002/</loc>
-    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-09T12:42:07+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -86,5 +68,83 @@
       hreflang="en"
       href="//$PREVIEW_URL:9002/"
     />
+  </url>
+  <url>
+    <loc>//$PREVIEW_URL:9002/pl/geopolityka/artykul-1/</loc>
+    <lastmod>2025-01-09T12:42:06+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//$PREVIEW_URL:9002/pl/si/artykul-1/</loc>
+    <lastmod>2025-01-09T12:42:06+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//$PREVIEW_URL:9002/pl/blockchain/artykul-2/</loc>
+    <lastmod>2025-01-09T12:42:06+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//$PREVIEW_URL:9002/pl/geopolityka/artykul-2/</loc>
+    <lastmod>2025-01-09T12:42:06+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//$PREVIEW_URL:9002/pl/blockchain/artykul-1/</loc>
+    <lastmod>2025-01-09T12:42:05+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//$PREVIEW_URL:9002/pl/si/deepseek/</loc>
+    <lastmod>2025-01-08T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//$PREVIEW_URL:9002/pl/si/</loc>
+    <lastmod>2025-01-08T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//$PREVIEW_URL:9002/en/ai/deepseek/</loc>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//$PREVIEW_URL:9002/en/health/</loc>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//$PREVIEW_URL:9002/en/health/diet/</loc>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//$PREVIEW_URL:9002/en/health/1736161267630-drugs/</loc>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//$PREVIEW_URL:9002/en/</loc>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//$PREVIEW_URL:9002/en/ai/1736161342140-models/</loc>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

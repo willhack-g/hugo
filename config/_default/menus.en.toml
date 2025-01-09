@@ -20,7 +20,7 @@ identifier = "bxmE9zazAu"
 weight = 3
 
 [[main]]
-name = "health"
+name = "Health"
 pre = "heart"
 pageRef = "health"
 identifier = "WZLmCP9cKG"

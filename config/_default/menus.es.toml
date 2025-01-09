@@ -1,0 +1,48 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "IA"
+pageRef = "IA"
+identifier = "QwEr1234Ty"
+weight = 1
+
+[[main]]
+name = "Blockchain"
+pageRef = "Blockchain"
+identifier = "UiOp5678As"
+weight = 2
+
+[[main]]
+name = "Tecnología"
+pageRef = "Tecnología"
+identifier = "DfGh9012Jk"
+weight = 3
+
+[[main]]
+name = "Salud"
+pre = "heart"
+pageRef = "Salud"
+identifier = "LzXc3456Vb"
+weight = 4
+
+[[main]]
+name = "Geopolítica"
+pageRef = "Geopolítica"
+identifier = "NmQw7890Rt"
+weight = 5
+
+[[footer]]
+none = "none"
+
+[[footer]]
+name = "etiquetas"
+pageRef = "tags"
+identifier = "YuIo1234Pp"
+weight = 9999
+
+[[footer]]
+name = "categorías"
+pageRef = "categories"
+identifier = "AaSs5678Dd"
+weight = 9999
