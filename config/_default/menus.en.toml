@@ -9,13 +9,13 @@ weight = 1
 
 [[main]]
 name = "Blockchain"
-pageRef = "blockchain"
+pageRef = "Blockchain"
 identifier = "pSZUdsMLwN"
 weight = 2
 
 [[main]]
 name = "Technology"
-pageRef = "technology"
+pageRef = "Technology"
 identifier = "bxmE9zazAu"
 weight = 3
 
@@ -28,7 +28,7 @@ weight = 4
 
 [[main]]
 name = "Geopolitics"
-pageRef = "geopolitics"
+pageRef = "Geopolitics"
 identifier = "LwYs7ovSjO"
 weight = 5
 

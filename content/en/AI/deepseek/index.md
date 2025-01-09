@@ -1,15 +1,32 @@
 ---
-title: "deepseek"
-date: 2025-01-06
+title: "Deepseek AI"
+date: 2024-01-05T12:42:22+01:00
 draft: false
-description: "a description"
-tags: ["example", "tag"]
+language: en
+description: "Exploring Deepseek's AI capabilities"
+tags: ["AI", "deep learning", "neural networks"]
 ---
- an example to get you started
-# This is a heading
-## This is a subheading
-### This is a subsubheading
-#### This is a subsubsubheading
-This is a paragraph with **bold** and *italic* text.
-Check more at [Blowfish documentation](https://blowfish.page/)
-undefined
+
+# Deepseek AI Overview
+
+Deepseek is an advanced AI system specializing in:
+
+- **Deep Learning** architectures
+- **Computer Vision** applications
+- **Reinforcement Learning** techniques
+
+## Key Features
+
+Deepseek offers several innovative features:
+1. Real-time object detection
+2. Predictive analytics
+3. Natural language understanding
+
+### Use Cases
+
+Deepseek is being used in various industries:
+* Healthcare diagnostics
+* Autonomous vehicles
+* Financial forecasting
+
+Learn more at [Deepseek Official Website](https://deepseek.ai)

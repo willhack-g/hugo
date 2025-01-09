@@ -1,15 +1,32 @@
 ---
-title: "diet"
-date: 2025-01-06
+title: "Nutrition Science"
+date: 2024-01-05T12:42:22+01:00
 draft: false
-description: "a description"
-tags: ["example", "tag"]
+language: en
+description: "Understanding modern dietary science"
+tags: ["nutrition", "diet", "health"]
 ---
- an example to get you started
-# This is a heading
-## This is a subheading
-### This is a subsubheading
-#### This is a subsubsubheading
-This is a paragraph with **bold** and *italic* text.
-Check more at [Blowfish documentation](https://blowfish.page/)
-undefined
+
+# Modern Nutrition Principles
+
+Key aspects of healthy eating include:
+
+- **Macronutrient** balance
+- **Micronutrient** adequacy
+- **Hydration** importance
+
+## Popular Diet Approaches
+
+Current dietary trends include:
+1. Mediterranean diet
+2. Ketogenic diet
+3. Plant-based diets
+
+### Nutrition Challenges
+
+Common issues in modern diets:
+* Processed food consumption
+* Vitamin deficiencies
+* Portion control
+
+Explore more at [Academy of Nutrition and Dietetics](https://www.eatright.org/)
