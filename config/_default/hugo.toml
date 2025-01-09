@@ -1,6 +1,7 @@
 baseURL = 'https://willhack.top'
 theme = "blowfish"
 defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 summaryLength = 5
 buildDrafts = false

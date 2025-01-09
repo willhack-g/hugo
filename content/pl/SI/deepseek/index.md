@@ -1,10 +1,10 @@
----
-title: "deepseek"
-date: 2025-01-08
-draft: false
-description: "nowy model si"
-tags: ["si", "deepseek"]
----
++++
+date = '2025-01-09T13:42:06Z'
+draft = false
+title = 'deepseek'
+language = "pl"
++++
+
  an example to get you started
 # This is a heading
 ## This is a subheading

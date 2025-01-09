@@ -3,7 +3,6 @@ date = '2025-01-09T12:42:05Z'
 draft = false
 title = 'Artykul 1'
 language = "pl"
-weight = 1
 +++
 
 Blockchain to rewolucyjna technologia, która zmienia sposób przechowywania i przesyłania danych. W tym artykule omówimy:

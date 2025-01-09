@@ -36,8 +36,9 @@ showRecentItems = "6"
 cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = false
- homepageImage = "back.webp"
+homepageImage = "back.webp"
 home_image_blur = false
+showOnlyCurrentLang = true
 
 [article]
 showDate = true
