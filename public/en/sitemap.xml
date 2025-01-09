@@ -3,71 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/en/ai/1736161284625-deepseek/</loc>
+    <loc>//$PREVIEW_URL:9002/en/ai/1736161284625-deepseek/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/en/ai/</loc>
+    <loc>//$PREVIEW_URL:9002/en/ai/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/en/health/</loc>
+    <loc>//$PREVIEW_URL:9002/en/health/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/en/health/1736161371581-diet/</loc>
+    <loc>//$PREVIEW_URL:9002/en/health/1736161371581-diet/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/en/health/1736161267630-drugs/</loc>
+    <loc>//$PREVIEW_URL:9002/en/health/1736161267630-drugs/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>//$PREVIEW_URL:9002/en/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/en/ai/1736161342140-models/</loc>
+    <loc>//$PREVIEW_URL:9002/en/ai/1736161342140-models/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>//$PREVIEW_URL:9002/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="pl"
-      href="http://localhost:1313/pl/"
+      href="//$PREVIEW_URL:9002/pl/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/"
+      href="//$PREVIEW_URL:9002/es/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="de"
-      href="http://localhost:1313/de/"
+      href="//$PREVIEW_URL:9002/de/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/"
+      href="//$PREVIEW_URL:9002/"
     />
   </url>
 </urlset>

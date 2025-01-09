@@ -3,28 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/de/</loc>
+    <loc>//$PREVIEW_URL:9002/de/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/"
+      href="//$PREVIEW_URL:9002/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="pl"
-      href="http://localhost:1313/pl/"
+      href="//$PREVIEW_URL:9002/pl/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="http://localhost:1313/es/"
+      href="//$PREVIEW_URL:9002/es/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="de"
-      href="http://localhost:1313/de/"
+      href="//$PREVIEW_URL:9002/de/"
     />
   </url>
 </urlset>

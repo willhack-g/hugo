@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>deepseek on WillHack</title>
-    <link>http://localhost:1313/en/ai/</link>
+    <link>//$PREVIEW_URL:9002/en/ai/</link>
     <description>Recent content in deepseek on WillHack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 </copyright>
-    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="//$PREVIEW_URL:9002/en/ai/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>deepseek</title>
-      <link>http://localhost:1313/en/ai/1736161284625-deepseek/</link>
+      <link>//$PREVIEW_URL:9002/en/ai/1736161284625-deepseek/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/ai/1736161284625-deepseek/</guid>
-      <description>&lt;p&gt;an example to get you started&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/en/ai/1736161284625-deepseek/featured.webp" />
+      <guid>//$PREVIEW_URL:9002/en/ai/1736161284625-deepseek/</guid>
+      <description>an example to get you started</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//$PREVIEW_URL:9002/en/ai/1736161284625-deepseek/featured.webp" />
     </item>
     
     <item>
       <title>models</title>
-      <link>http://localhost:1313/en/ai/1736161342140-models/</link>
+      <link>//$PREVIEW_URL:9002/en/ai/1736161342140-models/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/ai/1736161342140-models/</guid>
-      <description>&lt;p&gt;an example to get you started&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/en/ai/1736161342140-models/featured.webp" />
+      <guid>//$PREVIEW_URL:9002/en/ai/1736161342140-models/</guid>
+      <description>an example to get you started</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//$PREVIEW_URL:9002/en/ai/1736161342140-models/featured.webp" />
     </item>
     
   </channel>
