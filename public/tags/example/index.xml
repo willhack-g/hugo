@@ -11,22 +11,22 @@
     
     <item>
       <title>deepseek</title>
-      <link>//$PREVIEW_URL:9002/en/ai/1736161284625-deepseek/</link>
-      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>//$PREVIEW_URL:9002/en/ai/1736161284625-deepseek/</guid>
-      <description>an example to get you started</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//$PREVIEW_URL:9002/en/ai/1736161284625-deepseek/featured.webp" />
-    </item>
-    
-    <item>
-      <title>deepseek</title>
       <link>//$PREVIEW_URL:9002/en/ai/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>//$PREVIEW_URL:9002/en/ai/</guid>
       <description>an example to get you started</description>
       
+    </item>
+    
+    <item>
+      <title>deepseek</title>
+      <link>//$PREVIEW_URL:9002/en/ai/deepseek/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//$PREVIEW_URL:9002/en/ai/deepseek/</guid>
+      <description>an example to get you started</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//$PREVIEW_URL:9002/en/ai/deepseek/featured.webp" />
     </item>
     
     <item>

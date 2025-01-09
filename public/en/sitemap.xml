@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>//$PREVIEW_URL:9002/en/ai/1736161284625-deepseek/</loc>
+    <loc>//$PREVIEW_URL:9002/en/ai/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//$PREVIEW_URL:9002/en/ai/</loc>
+    <loc>//$PREVIEW_URL:9002/en/ai/deepseek/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
