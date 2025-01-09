@@ -3,12 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>//$PREVIEW_URL:9002/en/ai/</loc>
-    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>//$PREVIEW_URL:9002/en/ai/deepseek/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -21,7 +15,19 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//$PREVIEW_URL:9002/en/health/1736161371581-diet/</loc>
+    <loc>//$PREVIEW_URL:9002/pl/si/</loc>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//$PREVIEW_URL:9002/pl/si/deepseek/</loc>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//$PREVIEW_URL:9002/en/health/diet/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -45,6 +51,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>//$PREVIEW_URL:9002/pl/</loc>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>//$PREVIEW_URL:9002/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -63,6 +75,11 @@
       rel="alternate"
       hreflang="de"
       href="//$PREVIEW_URL:9002/de/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="local"
+      href="//$PREVIEW_URL:9002/local/"
     />
     <xhtml:link
       rel="alternate"

@@ -135,29 +135,6 @@
   <meta name="theme-color"/>
   
   
-  
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
-  <script>
-
-    const firebaseConfig = {
-      apiKey: "{{ .Site.Params.Firebase.ApiKey }}",
-      authDomain: "{{ .Site.Params.Firebase.ApiKey }}",
-      projectId: "{{ .Site.Params.Firebase.ProjectId }}",
-      storageBucket: "{{ .Site.Params.Firebase.StorageBucket }}",
-      messagingSenderId: "{{ .Site.Params.Firebase.MessagingSenderId }}",
-      appId: "{{ .Site.Params.Firebase.AppId }}",
-      measurementId: "{{ .Site.Params.Firebase.MeasurementId }}"
-    };
-
-    var app = firebase.initializeApp(firebaseConfig);
-    var db = firebase.firestore();
-    var auth = firebase.auth();
-
-  </script>
-  
-  
 </head>
 <body
   class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
@@ -202,7 +179,7 @@
             
             
             
-  <a href="/en/ai/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
         AI
@@ -323,6 +300,12 @@
           </p>
         </a>
         
+        <a href="/local/series/" class="flex items-center">
+          <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="Series">
+            
+          </p>
+        </a>
+        
       </div>
     </div>
   </div>
@@ -422,6 +405,12 @@
           </p>
         </a>
         
+        <a href="/local/series/" class="flex items-center">
+          <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="Series">
+            
+          </p>
+        </a>
+        
       </div>
     </div>
   </div>
@@ -506,7 +495,7 @@
 
                     
   <li class="mt-1">
-    <a href="/en/ai/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             AI

@@ -41,8 +41,8 @@ home_image_blur = false
 
 [article]
 showDate = true
-showViews = true
-showLikes = true
+showViews = false
+showLikes = false
 showDateOnlyInArticle = false
 showDateUpdated = true
 showAuthor = true
@@ -106,15 +106,6 @@ showTableOfContents = true
 groupByYear = false
 cardView = false
 cardViewScreenWidth = false
-
-[firebase]
-  apiKey = "{{ .Site.Params.Firebase.ApiKey }}"
-  authDomain = "{{ .Site.Params.Firebase.AuthDomain }}"
-  projectId = "{{ .Site.Params.Firebase.ProjectId }}"
-  storageBucket = "{{ .Site.Params.Firebase.StorageBucket }}"
-  messagingSenderId = "{{ .Site.Params.Firebase.MessagingSenderId }}"
-  appId = "{{ .Site.Params.Firebase.AppId }}"
-  measurementId = "{{ .Site.Params.Firebase.MeasurementId }}"
 
 [fathomAnalytics]
 

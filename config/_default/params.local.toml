@@ -1,0 +1,8 @@
+[firebase]
+  apiKey = "AIzaSyA8y9qoCR3BCfMzGUNGLPSjmqkD7ZOpx24"
+  authDomain = "hugowithfire.firebaseapp.com"
+  projectId = "hugowithfire"
+  storageBucket = "hugowithfire.firebasestorage.app"
+  messagingSenderId = "295066417480"
+  appId = "1:295066417480:web:967a04f059ca0f9cc35b7d"
+  measurementId = "1:295066417480:web:967a04f059ca0f9cc35b7d"

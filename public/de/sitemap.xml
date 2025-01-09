@@ -23,6 +23,11 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="local"
+      href="//$PREVIEW_URL:9002/local/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="de"
       href="//$PREVIEW_URL:9002/de/"
     />

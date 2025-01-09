@@ -29,6 +29,7 @@
             "--bind" "0.0.0.0"
             "--port" "$PORT"
             "--baseURL" "$PREVIEW_URL"
+            "--environment" "development"
           ];
           manager = "web";
         };

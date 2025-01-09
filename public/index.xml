@@ -20,13 +20,23 @@
     </item>
     
     <item>
-      <title>diet</title>
-      <link>//$PREVIEW_URL:9002/en/health/1736161371581-diet/</link>
+      <title>deepseek</title>
+      <link>//$PREVIEW_URL:9002/pl/si/deepseek/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>//$PREVIEW_URL:9002/en/health/1736161371581-diet/</guid>
+      <guid>//$PREVIEW_URL:9002/pl/si/deepseek/</guid>
       <description>an example to get you started</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//$PREVIEW_URL:9002/en/health/1736161371581-diet/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//$PREVIEW_URL:9002/pl/si/deepseek/featured.webp" />
+    </item>
+    
+    <item>
+      <title>diet</title>
+      <link>//$PREVIEW_URL:9002/en/health/diet/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//$PREVIEW_URL:9002/en/health/diet/</guid>
+      <description>an example to get you started</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//$PREVIEW_URL:9002/en/health/diet/featured.webp" />
     </item>
     
     <item>
