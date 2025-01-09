@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /
-Sitemap: //$PREVIEW_URL:9002/sitemap.xml
