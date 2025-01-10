@@ -7,10 +7,25 @@
     this.page.url = '{{ .Permalink }}';  // Use Hugo's page permalink
     this.page.identifier = '{{ .File.UniqueID }}'; // Use Hugo's unique page ID
     this.language = '{{ .Site.Language.Lang }}'; // Set language based on current site language
+    this.page.title = '{{ .Title }}';
+    this.callbacks = {
+        onReady: [function() {
+            if (this.language === 'pl') {
+                DISQUS.reset({
+                    reload: true,
+                    config: function () {
+                        this.language = 'pl';
+                        this.page.language = 'pl';
+                        this.page.title = '{{ .Title }}';
+                    }
+                });
+            }
+        }]
+    };
     };
     (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
-    s.src = 'https://willhack-1.disqus.com/embed.js';
+    s.src = 'https://willhack-{{ if eq .Site.Language.Lang "pl" }}pl{{ else }}1{{ end }}.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
     })();
