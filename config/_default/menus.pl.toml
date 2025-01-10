@@ -1,33 +1,39 @@
 [[main]]
+name = "O mnie"
+pageRef = "Omnie"
+identifier = "aBce1739Ef"
+weight = 1
+
+[[main]]
 name = "SI"
 pageRef = "SI"
 identifier = "aBcD1234Ef"
-weight = 1
+weight = 2
 
 [[main]]
 name = "Blockchain"
 pageRef = "Blockchain"
 identifier = "GhIj5678Kl"
-weight = 2
+weight = 3
 
 [[main]]
 name = "Technologia" 
 pageRef = "Technologia"
 identifier = "MnOp9012Qr"
-weight = 3
+weight = 4
 
 [[main]]
 name = "Zdrowie"
 pre = "heart"
 pageRef = "Zdrowie"
 identifier = "StUv3456Wx"
-weight = 4
+weight = 5
 
 [[main]]
 name = "Geopolityka"
 pageRef = "Geopolityka"
 identifier = "YzAb7890Cd"
-weight = 5
+weight = 6
 
 [[footer]]
 none = "none"

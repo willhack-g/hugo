@@ -3,7 +3,6 @@ date = '2025-01-09T12:42:05Z'
 draft = false
 title = 'Blockchain Fundamentals'
 language = "en"
-weight = 1
 description = "Understanding the core concepts of blockchain technology"
 tags = ["blockchain", "distributed ledger", "cryptography"]
 +++

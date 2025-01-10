@@ -65,8 +65,8 @@ showAuthorsBadges = "Show"
 showWordCount = true
 showZenMode = "Show"
 heroStyle = "basic"
-showRelatedContent = "Show"
-relatedContentLimit = "6"
+showRelatedContent = false
+relatedContentLimit = 6
 showComments = true
 sharingLinks = [ "linkedin", "twitter", "mastodon", "bluesky", "reddit", "whatsapp", "telegram", "pinterest", "facebook", "email"]
 

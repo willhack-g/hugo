@@ -9,7 +9,7 @@
     };
     (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
-    s.src = 'https://willhack-{{ if eq .Site.Language.Lang "pl" }}pl{{ else }}1{{ end }}.disqus.com/embed.js';
+    s.src = 'https://willhack-{{ if eq .Site.Language.Lang "pl" }}pl{{ else if eq .Site.Language.Lang "de" }}de{{ else if eq .Site.Language.Lang "es" }}es{{ else }}1{{ end }}.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
     })();

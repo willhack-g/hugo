@@ -2,35 +2,41 @@
 none = "none"
 
 [[main]]
+name = "About me"
+pageRef = "Aboutme"
+identifier = "aBce1739Ef"
+weight = 1
+
+[[main]]
 name = "AI"
 pageRef = "AI"
 identifier = "nu5VQvW2hY"
-weight = 1
+weight = 2
 
 [[main]]
 name = "Blockchain"
 pageRef = "Blockchain"
 identifier = "pSZUdsMLwN"
-weight = 2
+weight = 3
 
 [[main]]
 name = "Technology"
 pageRef = "Technology"
 identifier = "bxmE9zazAu"
-weight = 3
+weight = 4
 
 [[main]]
 name = "Health"
 pre = "heart"
 pageRef = "health"
 identifier = "WZLmCP9cKG"
-weight = 4
+weight = 5
 
 [[main]]
 name = "Geopolitics"
 pageRef = "Geopolitics"
 identifier = "LwYs7ovSjO"
-weight = 5
+weight = 6
 
 [[footer]]
 none = "none"
