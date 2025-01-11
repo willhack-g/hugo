@@ -17,7 +17,7 @@
     
     (function() {
         var d = document, s = d.createElement('script');
-        s.src = 'https://{{ .Site.Services.Disqus.Shortname }}.disqus.com/embed.js';
+        s.src = 'https://{{ .Site.Language.Params.services.disqus.shortname }}.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
