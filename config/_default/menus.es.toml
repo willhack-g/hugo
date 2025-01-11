@@ -1,54 +1,53 @@
-[[main]]
-none = "none"
 
 [[main]]
 name = "Sobre mí"
-pageRef = "Sobremi"
-identifier = "aBce1739Ef"
+pageRef = "Aboutme"
 weight = 1
 
 [[main]]
-name = "IA"
-pageRef = "IA"
-identifier = "QwEr1234Ty"
+name = "AI"
+pageRef = "AI"
 weight = 2
 
 [[main]]
 name = "Blockchain"
 pageRef = "Blockchain"
-identifier = "UiOp5678As"
 weight = 3
 
 [[main]]
 name = "Tecnología"
-pageRef = "Tecnología"
-identifier = "DfGh9012Jk"
+pageRef = "Technology"
 weight = 4
 
 [[main]]
 name = "Salud"
 pre = "heart"
-pageRef = "Salud"
-identifier = "LzXc3456Vb"
+pageRef = "Health"
 weight = 5
 
 [[main]]
 name = "Geopolítica"
-pageRef = "Geopolítica"
-identifier = "NmQw7890Rt"
+pageRef = "Geopolitics"
 weight = 6
 
 [[footer]]
 none = "none"
 
 [[footer]]
-name = "etiquetas"
-pageRef = "tags"
-identifier = "YuIo1234Pp"
-weight = 9999
+none = "none"
 
 [[footer]]
-name = "categorías"
+name = "Tags"
+pageRef = "tags"
+
+weight = 10
+
+[[footer]]
+name = "Categorías"
 pageRef = "categories"
-identifier = "AaSs5678Dd"
-weight = 9999
+weight = 20
+
+[[footer]]
+   name = "Autores"
+   pageRef = "authors"
+   weight = 30

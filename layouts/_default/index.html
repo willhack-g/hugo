@@ -1,0 +1,7 @@
+{{ define "main" }}
+  {{ if .Site.Params.home.useCustomHTML | default true }}
+    {{ partial "home/custom.html" . }}
+  {{ else }}
+    {{ partial "home/basic.html" . }}
+  {{ end }}
+{{ end }}

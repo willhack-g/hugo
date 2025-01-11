@@ -1,5 +1,7 @@
 {{ $recentArticles := 6 }}
-{{ $recentArticles = .Site.Params.homepage.showRecentItems }}
+{{ if isset .Site.Params.homepage "showRecentItems" }}
+  {{ $recentArticles = .Site.Params.homepage.showRecentItems }}
+{{ end }}
 
 <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
   {{ $pages := where .Site.RegularPages.ByDate.Reverse "Params.language" .Language.Lang }}

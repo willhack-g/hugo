@@ -5,6 +5,7 @@ weight = 3
 title = "WillHack"
 
 [params]
+contentDir = "content/es"
 displayName = "ES"
 isoCode = "es"
 rtl = false
