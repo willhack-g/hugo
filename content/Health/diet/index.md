@@ -2,8 +2,9 @@
 title: "Nutrition Science"
 date: 2024-01-05T12:42:22+01:00
 draft: false
-language: en
+language: "en"
 description: "Understanding modern dietary science"
+slug: "nutrition-science"
 tags: ["nutrition", "diet", "health"]
 ---
 

@@ -18,7 +18,7 @@ backgroundImageWidth = "1408"
 
 
 [header]
-layout = "fixed-fill-blur"
+layout = "fixed"
 
 [footer]
 showMenu = true

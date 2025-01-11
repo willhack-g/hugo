@@ -6,7 +6,7 @@ title = "WillHack"
 
 [params]
 contentDir = "content/de"
-displayName = "DE"
+displayName = "Deutch"
 isoCode = "de"
 rtl = false
 dateFormat = "2 January 2006"
@@ -14,5 +14,12 @@ logo = "logo.png"
 description = "Hacke deine Realität"
 
 [params.author]
+name = "Willhack"
+  email = "ml@willhack.top"
+  image = "img/fav.png"
 headline = "Hacke deine Realität - wenn du dich in der Welt von morgen, in der die Intelligenz explodiert, zurechtfinden willst, beginne noch heute, dich vorzubereiten."
 bio = "admin"
+
+[services]
+  [services.disqus]
+    shortname = "willhack-de"

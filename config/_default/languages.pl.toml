@@ -13,5 +13,12 @@ logo = "logo.png"
 description = "Hakuj swoją rzeczywistość"
 
 [params.author]
+name = "Willhack"
+  email = "ml@willhack.top"
+  image = "img/fav.png"
 headline = "Hakuj swoją rzeczywistość - jeśli chcesz odnaleźć się w jutrzejszym świecie eksplozji inteligencji - zacznij przygotowywać się już dziś. "
 bio = "admin"
+
+[services]
+  [services.disqus]
+    shortname = "willhack-pl"

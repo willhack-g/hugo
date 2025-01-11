@@ -1,10 +1,9 @@
-+++
-date = '2025-01-09T18:42:05Z'
-draft = false
-title = 'About the Author'
-tags = ['about']
-categories = ['about']
-+++
+---
+date: 2025-01-09T18:42:05Z
+draft: false
+title: "About the Author"
+tags: ["about"]
+---
 
 # A Few Words of Introduction
 

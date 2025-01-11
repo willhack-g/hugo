@@ -1,9 +1,10 @@
 ---
 title: "Deepseek AI"
-date: 2024-01-05T12:42:22+01:00
+date: 2025-01-10T12:42:22+01:00
 draft: false
-language: en
+language: "en"
 description: "Exploring Deepseek's AI capabilities"
+slug: "deepseek-ai"
 tags: ["AI", "deep learning", "neural networks"]
 ---
 

@@ -1,10 +1,12 @@
 ---
 title: "AI Models"
-date: 2024-01-05T12:42:22+01:00
+date: 2025-01-10T12:42:22+01:00
 draft: false
-language: en
+language: "en"
 description: "Exploring the latest AI models"
+slug: "ai-models"
 tags: ["AI", "machine learning", "models"]
+category: ["AI"]
 ---
 
 # State of the Art AI Models

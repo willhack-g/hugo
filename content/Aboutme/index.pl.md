@@ -1,9 +1,9 @@
-+++
-date = '2025-01-09T17:42:05Z'
-draft = false
-title = 'O autorze'
-language = 'pl'
-+++
+---
+title: "O autorze"
+date: 2025-01-09T17:42:05Z
+draft: false
+tags: ["projekty", "aktywność"]
+---
 
 # Wstępu słów kilka
 

@@ -1,11 +1,12 @@
-+++
-date = '2025-01-09T12:42:05Z'
-draft = false
-title = 'Blockchain Fundamentals'
-language = "en"
-description = "Understanding the core concepts of blockchain technology"
-tags = ["blockchain", "distributed ledger", "cryptography"]
-+++
+---
+title: "Blockchain Fundamentals"
+date: 2025-01-09T12:42:05Z
+draft: false
+language: "en"
+description: "Understanding the core concepts of blockchain technology"
+slug: "blockchain-fundamentals"
+tags: ["blockchain", "distributed ledger", "cryptography"]
+---
 
 # Blockchain Technology Explained
 

@@ -2,8 +2,9 @@
 title: "Modern Pharmacology"
 date: 2024-01-05T12:42:22+01:00
 draft: false
-language: en
+language: "en"
 description: "Advances in modern drug development"
+slug: "modern-pharmacology"
 tags: ["pharmacology", "medicine", "drugs"]
 ---
 
