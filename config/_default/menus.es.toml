@@ -9,11 +9,17 @@ name = "Proyectos"
 pageRef = "Projects"
 weight = 2
 
-[[main]]
-  name = "Agentes personales"
-  parent = "Proyectos"
-  pageRef = "PersonalAgents"
-  weight = 21
+    [[main]]
+      name = "Agentes personales"
+      parent = "Proyectos"
+      pageRef = "PersonalAgents"
+      weight = 21
+
+      [[main]]
+      name = "Agentes comerciales"
+      parent = "Proyectos"
+      pageRef = "BusinessAgents"
+      weight = 22
 
 [[main]]
 name = "AI"

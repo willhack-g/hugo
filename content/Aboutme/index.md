@@ -28,11 +28,16 @@ Even now, while AI is still in its infancy, it can diagnose diseases better than
 
 ## Portal's Purpose
 
-The intention behind creating this portal is to unite people who are concerned with these questions and who would like to personally ensure that the future for our children isn't a dystopia.
+The intention behind the creation of this portal is:
+
+*   To bring together people who are troubled by these questions and who would like to personally ensure that the future for our children is not a dystopia.
+*   To search for and share information that is or potentially may be relevant. The flood of useless information makes people read less. However, forming an opinion about what is and what will be requires extensive, though not necessarily professional, knowledge.
 
 We focus on:
-* Jointly seeking optimal paths for development - both personal and collective
-* Developing projects that have a real impact on our earnings and daily life
-* Directing AI development for the benefit of all people, not just the wealthy few
+
+*   Jointly deepening knowledge in important areas.
+*   Jointly searching for optimal development paths - both personal and collective.
+*   Developing projects that have a real impact on our earnings and everyday life.
+*   Guiding the development of AI for the benefit of all people, not just the wealthiest few.
 
 If this intention resonates with you - comment, share, write your own article, be active. If you don't start acting now, you might regret missing the chance to contribute to shaping this transformation in the future.

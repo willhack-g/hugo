@@ -23,7 +23,7 @@ layout = "fixed"
 [footer]
 showMenu = true
 showCopyright = true
-showThemeAttribution = false
+showThemeAttribution = true
 showAppearanceSwitcher = true
 showScrollToTop = true
 
@@ -71,7 +71,7 @@ showComments = true
 sharingLinks = [ "linkedin", "twitter", "mastodon", "bluesky", "reddit", "whatsapp", "telegram", "pinterest", "facebook", "email"]
 
 [list]
-showHero = false
+showHero = true
 layoutBackgroundBlur = false
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
@@ -79,10 +79,10 @@ showSummary = false
 showViews = false
 showLikes = false
 showTableOfContents = false
-showCards = false
+showCards = true
 orderByWeight = false
 groupByYear = true
-cardView = false
+cardView = true
 cardViewScreenWidth = false
 constrainItemsWidth = false
 
@@ -91,7 +91,7 @@ excludedKinds = [ "taxonomy", "term" ]
 
 [taxonomy]
 showTermCount = true
-showHero = false
+showHero = true
 showBreadcrumbs = false
 showViews = false
 showLikes = false
@@ -99,7 +99,7 @@ showTableOfContents = false
 cardView = false
 
 [term]
-showHero = false
+showHero = true
 showBreadcrumbs = false
 showViews = false
 showLikes = false
@@ -119,7 +119,7 @@ identifier = "WillHack"
   globalWidget = true
   globalWidgetMessage = ""
   globalWidgetColor = "#FFDD00"
-  globalWidgetPosition = "Right"
+  globalWidgetPosition = "Left"
 
 [verification]
 

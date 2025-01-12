@@ -26,11 +26,16 @@ Już obecnie, gdy SI jeszcze raczkuje, potrafi diagnozować choroby lepiej niż 
 * Czy ta technologia w końcu wyzwoli ludzkość, czy może jeszcze bardziej ją zniewoli?
 * Czy mam się temu procesowi bezczynnie przyglądać, czy może znajdę sposób, by mieć wpływ na zachodzące zmiany i być częścią tej transformacji?
 
-## Cel portalu
+## Cele portalu
 
-Intencją przyświecającą powstaniu tego portalu jest zrzeszenie ludzi, których te pytania nurtują i którzy chcieliby osobiście zatroszczyć się o to, by przyszłość dla naszych dzieci nie była dystopią.
+
+Intencją przyświecającą powstaniu tego portalu jest:
+* zrzeszenie ludzi, których te pytania nurtują i którzy chcieliby osobiście zatroszczyć się o to, by przyszłość dla naszych dzieci nie była dystopią.
+* wyszukiwanie i udostępnianie informacji, które mają lub potencjalnie mogą mieć znaczenie. Natłok bezużytecznych informacji sprawia że ludzie czytają mniej. Wyrobienie sobie opini o tym co jest i co będzie wymaga jednak, niekoniecznie profesjonalnej ale obszernej wiedzy.
+
 
 Stawiamy na:
+* Wspólne pogłębianie wiedzy w dziedzinach istotnych.
 * Wspólne poszukiwanie optymalnych ścieżek rozwoju - zarówno osobistego, jak i grupowego
 * Opracowywanie projektów mających realny wpływ na nasze zarobki i życie codzienne
 * Nakierowywanie rozwoju SI dla dobra wszystkich ludzi, a nie tylko dla nielicznych najbogatszych

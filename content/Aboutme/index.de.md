@@ -28,11 +28,16 @@ Schon jetzt, während KI noch in den Kinderschuhen steckt, kann sie Krankheiten 
 
 ## Zweck des Portals
 
-Die Intention hinter der Erstellung dieses Portals ist es, Menschen zusammenzubringen, die sich von diesen Fragen bewegt fühlen und persönlich dafür sorgen möchten, dass die Zukunft für unsere Kinder keine Dystopie wird.
+Die Intention hinter der Erstellung dieses Portals ist:
+
+*   Menschen zusammenzubringen, die sich mit diesen Fragen beschäftigen und die sich persönlich dafür einsetzen möchten, dass die Zukunft unserer Kinder keine Dystopie wird.
+*   Informationen zu suchen und zu teilen, die relevant sind oder potenziell relevant sein könnten. Die Flut an nutzlosen Informationen führt dazu, dass die Menschen weniger lesen. Um sich eine Meinung darüber zu bilden, was ist und was sein wird, ist jedoch ein umfangreiches, wenn auch nicht unbedingt professionelles Wissen erforderlich.
 
 Wir konzentrieren uns auf:
-* Gemeinsame Suche nach optimalen Entwicklungspfaden - sowohl persönlich als auch kollektiv
-* Entwicklung von Projekten, die einen realen Einfluss auf unseren Verdienst und Alltag haben
-* Ausrichtung der KI-Entwicklung zum Nutzen aller Menschen, nicht nur weniger Wohlhabender
+
+*   Gemeinsame Vertiefung des Wissens in wichtigen Bereichen.
+*   Gemeinsame Suche nach optimalen Entwicklungspfaden - sowohl persönlich als auch kollektiv.
+*   Entwicklung von Projekten, die einen realen Einfluss auf unser Einkommen und unser tägliches Leben haben.
+*   Ausrichtung der KI-Entwicklung zum Wohle aller Menschen, nicht nur der wenigen Reichsten.
 
 Wenn diese Intention bei Ihnen Anklang findet - kommentieren Sie, teilen Sie, schreiben Sie Ihren eigenen Artikel, werden Sie aktiv. Wenn Sie jetzt nicht handeln, könnten Sie es später bereuen, die Chance verpasst zu haben, diese Transformation mitzugestalten.

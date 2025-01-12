@@ -28,11 +28,16 @@ Incluso ahora, cuando la IA todavía está en su infancia, puede diagnosticar en
 
 ## Propósito del Portal
 
-La intención detrás de la creación de este portal es unir a las personas que están preocupadas por estas preguntas y que quisieran asegurarse personalmente de que el futuro para nuestros hijos no sea una distopía.
+La intención detrás de la creación de este portal es:
 
-Nos enfocamos en:
-* Buscar conjuntamente caminos óptimos de desarrollo - tanto personal como colectivo
-* Desarrollar proyectos que tengan un impacto real en nuestros ingresos y vida diaria
-* Dirigir el desarrollo de la IA para el beneficio de todas las personas, no solo de unos pocos privilegiados
+*   Reunir a personas que se preocupan por estas cuestiones y que desean contribuir personalmente a que el futuro de nuestros hijos no sea una distopía.
+*   Buscar y compartir información que sea o pueda ser potencialmente relevante. La avalancha de información inútil hace que la gente lea menos. Sin embargo, formarse una opinión sobre lo que es y lo que será requiere un conocimiento extenso, aunque no necesariamente profesional.
+
+Nos centramos en:
+
+*   Profundizar conjuntamente el conocimiento en áreas importantes.
+*   Buscar conjuntamente caminos de desarrollo óptimos, tanto a nivel personal como colectivo.
+*   Desarrollar proyectos que tengan un impacto real en nuestros ingresos y nuestra vida diaria.
+*   Orientar el desarrollo de la IA para el beneficio de todas las personas, no solo de los más ricos.
 
 Si esta intención resuena contigo - comenta, comparte, escribe tu propio artículo, sé activo. Si no empiezas a actuar ahora, podrías arrepentirte de haber perdido la oportunidad de contribuir a dar forma a esta transformación en el futuro.
