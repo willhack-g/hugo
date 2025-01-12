@@ -1,7 +1,10 @@
 ---
 title: "O autorze"
-date: 2025-01-09T17:42:05Z
+date: 2025-01-11T17:42:05Z
 draft: false
+language: "pl"
+description: "Intencja portalu "
+slug: "intencja-portalu"
 tags: ["projekty", "aktywność"]
 ---
 

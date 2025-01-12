@@ -1,9 +1,12 @@
-+++
-date = '2025-01-09T19:42:05Z'
-draft = false
-title = 'Sobre el Autor'
-language = 'es'
-+++
+---
+date: 2025-01-11T18:42:05Z
+draft: false
+title: "Sobre el Autor"
+language: "es"
+description: "Intención del portal "
+slug: "intencion-del-portal"
+tags: ["about"]
+---
 
 # Algunas Palabras de Introducción
 

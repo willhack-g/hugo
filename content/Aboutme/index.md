@@ -1,7 +1,10 @@
 ---
-date: 2025-01-09T18:42:05Z
-draft: false
 title: "About the Author"
+date: 2025-01-11T18:42:05Z
+draft: false
+language: "en"
+description: "Intent of the portal"
+slug: "intent-of-the-portal"
 tags: ["about"]
 ---
 

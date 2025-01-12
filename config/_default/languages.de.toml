@@ -6,7 +6,7 @@ title = "WillHack"
 
 [params]
 contentDir = "content/de"
-displayName = "Deutch"
+displayName = "Deutsch"
 isoCode = "de"
 rtl = false
 dateFormat = "2 January 2006"
