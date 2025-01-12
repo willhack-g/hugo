@@ -5,7 +5,7 @@ draft: false
 language: "en"
 description: "Intent of the portal"
 slug: "intent-of-the-portal"
-tags: ["about"]
+tags: ["projects", "activity"]
 ---
 
 # A Few Words of Introduction

@@ -5,7 +5,7 @@ title: "Sobre el Autor"
 language: "es"
 description: "Intención del portal "
 slug: "intencion-del-portal"
-tags: ["about"]
+tags: ["proyectos", "actividad"]
 ---
 
 # Algunas Palabras de Introducción

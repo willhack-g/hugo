@@ -1,6 +1,6 @@
 ---
 title: "El trabajo y la sociedad post-trabajo"
-date: 2025-01-10T12:42:22+01:00
+date: 2025-01-12T12:42:22+01:00
 draft: false
 language: "es"
 description: "Desde las civilizaciones antiguas hasta el auge de China y la sociedad post-trabajo"
