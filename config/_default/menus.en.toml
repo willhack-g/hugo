@@ -5,30 +5,47 @@ pageRef = "Aboutme"
 weight = 1
 
 [[main]]
+name = "Projects"
+pageRef = "Projects"
+weight = 2
+
+      [[main]]
+      name = "Personal Agents"
+      parent = "Projects"
+      pageRef = "PersonalAgents"
+      weight = 21
+
+      [[main]]
+      name = "Business Agents"
+      parent = "Projects"
+      pageRef = "BusinessAgents"
+      weight = 22
+
+[[main]]
 name = "AI"
 pageRef = "AI"
-weight = 2
+weight = 3
 
 [[main]]
 name = "Blockchain"
 pageRef = "Blockchain"
-weight = 3
+weight = 4
 
 [[main]]
 name = "Technology"
 pageRef = "Technology"
-weight = 4
+weight = 5
 
 [[main]]
 name = "Health"
 pre = "heart"
 pageRef = "Health"
-weight = 5
+weight = 6
 
 [[main]]
 name = "Geopolitics"
 pageRef = "Geopolitics"
-weight = 6
+weight = 7
 
 [[footer]]
 none = "none"
