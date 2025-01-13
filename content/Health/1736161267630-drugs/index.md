@@ -6,6 +6,11 @@ language: "en"
 description: "Advances in modern drug development"
 slug: "modern-pharmacology"
 tags: ["pharmacology", "medicine", "drugs"]
+categories: ["health"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 
 # Pharmaceutical Innovations

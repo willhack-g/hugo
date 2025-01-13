@@ -6,6 +6,11 @@ language: "es"
 description: "Explorando las capacidades de Deepseek AI"
 slug: "deepseek-ai"
 tags: ["AI", "aprendizaje profundo", "redes neuronales"]
+showAuthor: false
+showAuthorsBadges: true
+authors:
+  - "testauthor"
+  - "willhack"
 ---
 
 # DeepSeek-V3: La nueva generación de inteligencia artificial que cambia la forma en que los humanos interactúan con la tecnología

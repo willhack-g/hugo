@@ -6,6 +6,11 @@ language: "pl"
 description: "Zrozumienie podstawowych koncepcji technologii blockchain"
 slug: "blockchain-fundamentals"
 tags: ["blockchain", "rozproszony rejestr", "kryptografia"]
+categories: ["blockchain"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 # Technologia Blockchain: Historia, Funkcjonalność i Perspektywy Zastosowań
 

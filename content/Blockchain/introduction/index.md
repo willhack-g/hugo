@@ -6,6 +6,11 @@ language: "en"
 description: "Understanding the basic concepts of blockchain technology"
 slug: "blockchain-fundamentals"
 tags: ["blockchain", "distributed ledger", "cryptography"]
+categories: ["blockchain"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 # Blockchain Technology: History, Functionality and Application Perspectives
 

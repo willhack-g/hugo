@@ -6,6 +6,11 @@ language: "en"
 description: "From Ancient Civilizations to the Rise of China to post-labor society "
 slug: "labor-and-post-labor-society"
 tags: ["AI", "labor", "neural networks", "post-labor"]
+categories: ["ai"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 
 # Labor and post-labor society 

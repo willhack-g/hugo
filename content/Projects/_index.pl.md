@@ -3,4 +3,4 @@ title = "Projekty"
 language = "pl"
 +++
 
-Artykuły o Projektach
+W tej sekcji zajmujemy się praktycznym prywatnym i zawodowym wykorzystaniem tajnej broni SI - agentów.

@@ -6,6 +6,11 @@ language: "de"
 description: "Von antiken Zivilisationen über den Aufstieg Chinas bis zur Post-Arbeitsgesellschaft"
 slug: "arbeit-und-post-arbeitsgesellschaft"
 tags: ["KI", "Arbeit", "neuronale Netze", "Post-Arbeit"]
+categories: ["ki"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 
 # Arbeit und die Post-Arbeitsgesellschaft

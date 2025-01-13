@@ -6,7 +6,11 @@ language: "es"
 description: "Explorando los últimos modelos de IA"
 slug: "ai-models"
 tags: ["IA", "aprendizaje automático", "modelos"]
-category: ["IA"]
+categories: ["ia"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 
 # ¿Qué es la Inteligencia Artificial? Modelos Actuales.

@@ -6,6 +6,11 @@ language: "pl"
 description: "Od starożytnych cywilizacji przez wzrost Chin do społeczeństwa post-pracy"
 slug: "praca-i-spoleczenstwo-post-pracy"
 tags: ["AI", "praca", "sieci neuronowe", "post-praca"]
+categories: ["si"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 # Praca i społeczeństwo post-pracy
 

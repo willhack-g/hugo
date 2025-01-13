@@ -6,6 +6,11 @@ language: "de"
 description: "Erkundung der Fähigkeiten von Deepseek AI"
 slug: "deepseek-ai"
 tags: ["AI", "Deep Learning", "Neuronale Netze"]
+showAuthor: false
+showAuthorsBadges: true
+authors:
+  - "testauthor"
+  - "willhack"
 ---
 
 # DeepSeek-V3: Die nächste Generation künstlicher Intelligenz, die die Art und Weise verändert, wie Menschen mit Technologie interagieren

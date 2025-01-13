@@ -6,7 +6,11 @@ language: "de"
 description: "Erkundung der neuesten KI-Modelle"
 slug: "ai-models"
 tags: ["KI", "maschinelles Lernen", "Modelle"]
-category: ["KI"]
+categories: ["ki"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 
 # Was ist Künstliche Intelligenz? Aktuelle Modelle.

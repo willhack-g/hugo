@@ -1,0 +1,15 @@
+{
+    "name": "Test Author",
+    "image" : "img/author2.png",
+    "bio": "Test bio",
+    "social": [
+        { "linkedin": "https://linkedin.com/in/willhack" },
+        { "twitter": "https://twitter.com/willhack" },
+        { "instagram": "https://instagram.com/willhack" },
+        { "medium": "https://medium.com/@willhack" },
+        { "github": "https://github.com/willhack" },
+        { "goodreads": "http://goodreads.com/willhack" },
+        { "keybase": "https://keybase.io/willhack" },
+        { "reddit": "https://reddit.com/user/willhack" }
+    ]
+}

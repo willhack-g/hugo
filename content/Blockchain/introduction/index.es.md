@@ -6,6 +6,11 @@ language: "es"
 description: "Comprender los conceptos básicos de la tecnología blockchain"
 slug: "blockchain-fundamentals"
 tags: ["blockchain", "libro mayor distribuido", "criptografía"]
+categories: ["blockchain"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 # Tecnología Blockchain: Historia, Funcionalidad y Perspectivas de Aplicación
 

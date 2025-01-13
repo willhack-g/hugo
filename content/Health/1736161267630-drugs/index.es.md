@@ -6,6 +6,11 @@ language: "es"
 description: "Avances en el desarrollo moderno de medicamentos"
 slug: "modern-pharmacology"
 tags: ["farmacología", "medicina", "medicamentos"]
+categories: ["salud"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 
 # Innovaciones Farmacéuticas

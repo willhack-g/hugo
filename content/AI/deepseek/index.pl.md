@@ -6,6 +6,11 @@ language: "pl"
 description: "Eksploracja możliwości AI Deepseek"
 slug: "deepseek-ai"
 tags: ["AI", "głębokie uczenie", "sieci neuronowe"]
+showAuthor: false
+showAuthorsBadges: true
+authors:
+  - "testauthor"
+  - "willhack"
 ---
 
 # DeepSeek-V3: Nowa generacja sztucznej inteligencji, która zmienia sposób interakcji człowieka z technologią

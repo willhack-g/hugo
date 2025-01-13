@@ -6,7 +6,11 @@ language: "en"
 description: "Exploring the latest AI models"
 slug: "ai-models"
 tags: ["AI", "machine learning", "models"]
-category: ["AI"]
+categories: ["ai"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 
 # What is Artificial Intelligence? Current Models.

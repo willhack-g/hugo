@@ -3,4 +3,4 @@ title = "Projects"
 language = "en"
 +++
 
-Articles about Projects
+In this section, we deal with the practical private and professional use of the secret AI weapon - agents.

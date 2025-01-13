@@ -118,7 +118,7 @@ cardViewScreenWidth = false
 identifier = "WillHack"
   globalWidget = true
   globalWidgetMessage = ""
-  globalWidgetColor = "#FFDD00"
+  globalWidgetColor = "#FFDD0040"
   globalWidgetPosition = "Left"
 
 [verification]

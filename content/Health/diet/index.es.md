@@ -6,6 +6,11 @@ language: "es"
 description: "Comprensión de la ciencia nutricional moderna"
 slug: "nutrition-science"
 tags: ["nutrición", "dieta", "salud"]
+categories: ["salud"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 
 # Principios de Nutrición Moderna

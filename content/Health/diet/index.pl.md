@@ -6,6 +6,11 @@ language: "pl"
 description: "Zrozumienie współczesnej nauki o żywieniu"
 slug: "nutrition-science"
 tags: ["żywienie", "dieta", "zdrowie"]
+categories: ["zdrowie"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 
 # Zasady nowoczesnego żywienia

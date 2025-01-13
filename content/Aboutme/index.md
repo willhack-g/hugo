@@ -6,6 +6,10 @@ language: "en"
 description: "Intent of the portal"
 slug: "intent-of-the-portal"
 tags: ["projects", "activity"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 
 # A Few Words of Introduction

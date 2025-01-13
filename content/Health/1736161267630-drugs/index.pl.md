@@ -6,6 +6,11 @@ language: "pl"
 description: "Postępy w nowoczesnym rozwoju leków"
 slug: "modern-pharmacology"
 tags: ["farmakologia", "medycyna", "leki"]
+categories: ["zdrowie"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 
 # Innowacje farmaceutyczne

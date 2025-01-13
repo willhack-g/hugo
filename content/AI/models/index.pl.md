@@ -5,8 +5,12 @@ draft: false
 language: "pl"
 description: "Eksploracja najnowszych modeli AI"
 slug: "ai-modele"
-tags: ["AI", "uczenie maszynowe", "modele"]
-category: ["AI"]
+tags: ["SI", "uczenie maszynowe", "modele"]
+categories: ["si"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 
 # Czym jest sztuczna inteligencja? Aktualne modele.

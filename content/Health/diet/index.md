@@ -6,6 +6,11 @@ language: "en"
 description: "Understanding modern dietary science"
 slug: "nutrition-science"
 tags: ["nutrition", "diet", "health"]
+categories: ["health"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 
 # Modern Nutrition Principles

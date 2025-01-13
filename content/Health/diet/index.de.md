@@ -6,6 +6,11 @@ language: "de"
 description: "Verständnis der modernen Ernährungswissenschaft"
 slug: "nutrition-science"
 tags: ["ernährung", "diät", "gesundheit"]
+categories: ["gesundheit"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 
 # Prinzipien moderner Ernährung

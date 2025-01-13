@@ -6,6 +6,11 @@ language: "de"
 description: "Fortschritte in der modernen Arzneimittelentwicklung"
 slug: "modern-pharmacology"
 tags: ["pharmakologie", "medizin", "medikamente"]
+categories: ["gesundheit"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 
 # Pharmazeutische Innovationen

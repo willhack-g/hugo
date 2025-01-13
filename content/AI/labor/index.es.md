@@ -6,6 +6,11 @@ language: "es"
 description: "Desde las civilizaciones antiguas hasta el auge de China y la sociedad post-trabajo"
 slug: "el-trabajo-y-la-sociedad-post-trabajo"
 tags: ["IA", "trabajo", "redes neuronales", "post-trabajo"]
+categories: ["ia"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 
 # El trabajo y la sociedad post-trabajo

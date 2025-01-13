@@ -6,6 +6,11 @@ language: "de"
 description: "Grundlegende Konzepte der Blockchain-Technologie verstehen"
 slug: "blockchain-fundamentals"
 tags: ["blockchain", "verteiltes Hauptbuch", "kryptographie"]
+categories: ["blockchain"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 # Blockchain-Technologie: Geschichte, Funktionalität und Anwendungsperspektiven
 

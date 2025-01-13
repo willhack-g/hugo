@@ -6,6 +6,11 @@ language: "en"
 description: "Exploring the capabilities of Deepseek AI"
 slug: "deepseek-ai" 
 tags: ["AI", "deep learning", "neural networks"]
+showAuthor: false
+showAuthorsBadges: true
+authors:
+  - "testauthor"
+  - "willhack"
 ---
 
 # DeepSeek-V3: The Next Generation of Artificial Intelligence Changing How Humans Interact with Technology
