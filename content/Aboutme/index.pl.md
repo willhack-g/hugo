@@ -6,6 +6,10 @@ language: "pl"
 description: "Intencja portalu "
 slug: "intencja-portalu"
 tags: ["projekty", "aktywność"]
+showAuthor: false
+showAuthorsBadges: false
+authors:
+  - "willhack"
 ---
 
 # Wstępu słów kilka
