@@ -1,5 +1,5 @@
 ---
-title: "Dummy Second Author"
+title: "Test Author"
 ---
 
 informacje o autorze i bio

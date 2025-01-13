@@ -1,5 +1,5 @@
 ---
-title: "Dummy Second Author"
+title: "Test Author"
 ---
 
-autor bio espanol
+Test bio

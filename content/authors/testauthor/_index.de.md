@@ -1,4 +1,4 @@
 ---
-title: "Dummy Second Author"
+title: "Test Author"
 ---
-La fantastica biografia di Nuno. Deutsch
+Test bio
