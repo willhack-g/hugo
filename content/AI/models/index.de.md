@@ -50,6 +50,8 @@ Wie jede Technologie hat auch KI ihre Schattenseiten:
 *   **Datenschutz:** KI-Systeme können große Mengen an Daten über uns sammeln und verarbeiten, was Bedenken hinsichtlich unserer Privatsphäre aufwerfen kann.
 *   **Autonome Waffen:** Es besteht die Gefahr, dass KI zur Herstellung von Waffen verwendet wird, die ohne menschliche Kontrolle töten können.
 
+Hoffen wir, dass die meisten Menschen das Gerät wie ein anderes Hightech-Gerät - den Hammer - bestimmungsgemäß verwenden werden :)
+
 **Die Zukunft der Künstlichen Intelligenz**
 
 Künstliche Intelligenz ist ein Bereich, der sich sehr schnell entwickelt. Es ist schwer vorherzusagen, was die Zukunft bringen wird, aber KI wird zweifellos eine immer wichtigere Rolle in unserem Leben spielen. Es ist wichtig, dass wir uns sowohl der Vorteile als auch der Risiken dieser Technologie bewusst sind und sie weise entwickeln.

@@ -50,6 +50,8 @@ Like any technology, AI also has its dark side:
 *   **Privacy:** AI systems can collect and process large amounts of data about us, which can raise concerns about our privacy.
 *   **Autonomous Weapons:** There is a risk that AI could be used to create weapons that can kill without human control.
 
+Let's hope that, like other advanced technological devices - the hammer - most people will use it as intended :)
+
 **The Future of Artificial Intelligence**
 
 Artificial intelligence is a field that is developing very rapidly. It's hard to predict what the future will bring, but AI will undoubtedly play an increasingly important role in our lives. It's important that we are aware of both the benefits and risks associated with this technology and that we develop it wisely.

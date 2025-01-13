@@ -50,6 +50,8 @@ Como cualquier tecnología, la IA también tiene su lado oscuro:
 *   **Privacidad:** Los sistemas de IA pueden recopilar y procesar grandes cantidades de datos sobre nosotros, lo que puede generar preocupaciones sobre nuestra privacidad.
 *   **Armas Autónomas:** Existe el riesgo de que la IA se use para crear armas que puedan matar sin control humano.
 
+Esperemos que, como otros dispositivos tecnológicos avanzados - el martillo - la mayoría de la gente lo use según lo previsto :)
+
 **El Futuro de la Inteligencia Artificial**
 
 La inteligencia artificial es un campo que se está desarrollando muy rápidamente. Es difícil predecir lo que traerá el futuro, pero la IA sin duda jugará un papel cada vez más importante en nuestras vidas. Es importante que seamos conscientes tanto de los beneficios como de los riesgos asociados con esta tecnología y que la desarrollemos sabiamente.

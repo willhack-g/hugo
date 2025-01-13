@@ -50,6 +50,8 @@ Jak każda technologia, SI ma też swoje ciemne strony:
 *   **Prywatność:** Systemy SI mogą zbierać i przetwarzać ogromne ilości danych o nas, co może budzić obawy o naszą prywatność.
 *   **Autonomiczna broń:** Istnieje ryzyko, że SI zostanie wykorzystana do stworzenia broni, która będzie mogła zabijać bez kontroli człowieka.
 
+Miejmy nadzieję że podobnie jak inne zaawansowane technololicznie urządzenie - młotek - większość ludzi będzie używać zgodnie z przeznaczeniem :)
+
 **Przyszłość sztucznej inteligencji**
 
 Sztuczna inteligencja to dziedzina, która rozwija się bardzo szybko. Trudno przewidzieć, co przyniesie przyszłość, ale na pewno SI będzie odgrywać coraz większą rolę w naszym życiu. Ważne jest, żebyśmy byli świadomi zarówno korzyści, jak i zagrożeń związanych z tą technologią i mądrze ją rozwijali.
