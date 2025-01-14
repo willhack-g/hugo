@@ -1,6 +1,6 @@
 ---
 title: "Search Agent"
-date: 2025-01-10T12:42:22+01:00
+date: 2025-01-10
 draft: false
 language: "en"
 description: "Exploring Deepseek's AI capabilities"

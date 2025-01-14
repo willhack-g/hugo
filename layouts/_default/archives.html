@@ -1,0 +1,23 @@
+{{ define "main" }}
+<main class="main">
+  <div class="container">
+    {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{ $notHidden := where $pages ".Params.hidden" "!=" true }}
+    {{ $paginator := .Paginate $notHidden 6 }}
+    
+    <!-- Changed GroupByDate format back to "2006" -->
+    {{ range $paginator.Pages.GroupByDate "2006" }}
+    <div class="archives-year">
+      <h2 class="archives-title">{{ .Key }}</h2>
+      <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+        {{ range .Pages }}
+          {{ partial "article-link/card.html" . }}
+        {{ end }}
+      </section>
+    </div>
+    {{ end }}
+
+    {{ partial "pagination.html" . }}
+  </div>
+</main>
+{{ end }}

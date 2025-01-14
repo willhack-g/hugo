@@ -1,6 +1,6 @@
 ---
 title: "About the Author"
-date: 2025-01-11T18:42:05Z
+date: 2025-01-11
 draft: false
 language: "en"
 description: "Intent of the portal"

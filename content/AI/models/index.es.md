@@ -13,7 +13,7 @@ authors:
   - "willhack"
 ---
 
-# ¿Qué es la Inteligencia Artificial? Modelos Actuales.
+
 
 La Inteligencia Artificial (IA) es un campo de la informática que se centra en la creación de máquinas inteligentes. Estas máquinas pueden realizar tareas que normalmente requieren pensamiento humano, como aprender, resolver problemas y tomar decisiones.
 

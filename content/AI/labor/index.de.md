@@ -13,7 +13,7 @@ authors:
   - "willhack"
 ---
 
-# Arbeit und die Post-Arbeitsgesellschaft
+
 
 ## Von antiken Zivilisationen über den Aufstieg Chinas: Die Macht billiger Arbeitskräfte und intelligenter Governance
 

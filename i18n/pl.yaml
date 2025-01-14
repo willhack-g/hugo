@@ -1,13 +1,19 @@
 global:
   language: "PL"
 
-article:
-  zen_mode_title:
-    enable: "Włącz tryb zen"
-    disable: "Wyłącz tryb zen"
-
 taxonomy:
   tag:
     name: "Tagi"
   category:
     name: "Kategorie"
+
+archive:
+  title: "Archiwum"
+  description: "Wszystkie wpisy"
+  showMore: "Pokaż więcej"
+  noResults: "Nie znaleziono wpisów"
+
+article:
+  zen_mode_title:
+    enable: "Włącz tryb zen"
+    disable: "Wyłącz tryb zen"

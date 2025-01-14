@@ -1,6 +1,6 @@
 ---
 title: "Nutrition Science"
-date: 2024-01-05T12:42:22+01:00
+date: 2024-01-05
 draft: false
 language: "en"
 description: "Understanding modern dietary science"

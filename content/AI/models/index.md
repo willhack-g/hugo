@@ -1,6 +1,6 @@
 ---
 title: "What is Artificial Intelligence? Current Models."
-date: 2025-01-10T12:42:22+01:00
+date: 2025-01-10
 draft: false
 language: "en"
 description: "Exploring the latest AI models"
@@ -13,7 +13,7 @@ authors:
   - "willhack"
 ---
 
-# What is Artificial Intelligence? Current Models.
+
 
 Artificial Intelligence (AI) is a field of computer science focused on creating intelligent machines. These machines can perform tasks that normally require human thinking, such as learning, problem solving, and decision making.
 

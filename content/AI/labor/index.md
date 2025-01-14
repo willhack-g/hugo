@@ -1,6 +1,6 @@
 ---
 title: "Labor and post-labor society "
-date: 2025-01-12T11:42:22+01:00
+date: 2025-01-12
 draft: false
 language: "en"
 description: "From Ancient Civilizations to the Rise of China to post-labor society "
@@ -13,7 +13,7 @@ authors:
   - "willhack"
 ---
 
-# Labor and post-labor society 
+
 
 ## From Ancient Civilizations to the Rise of China: The Power of Cheap Labor and Intelligent Governance
 

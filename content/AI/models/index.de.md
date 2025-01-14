@@ -13,7 +13,7 @@ authors:
   - "willhack"
 ---
 
-# Was ist Künstliche Intelligenz? Aktuelle Modelle.
+
 
 Künstliche Intelligenz (KI) ist ein Bereich der Informatik, der sich auf die Schaffung intelligenter Maschinen konzentriert. Diese Maschinen können Aufgaben ausführen, die normalerweise menschliches Denken erfordern, wie Lernen, Problemlösen und Entscheidungsfindung.
 

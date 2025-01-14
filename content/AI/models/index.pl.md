@@ -13,7 +13,7 @@ authors:
   - "willhack"
 ---
 
-# Czym jest sztuczna inteligencja? Aktualne modele.
+
 
 Sztuczna inteligencja (SI) to dziedzina informatyki, która zajmuje się tworzeniem inteligentnych maszyn. Maszyny te mogą wykonywać zadania, które zwykle wymagają ludzkiego myślenia, takie jak uczenie się, rozwiązywanie problemów i podejmowanie decyzji.
 

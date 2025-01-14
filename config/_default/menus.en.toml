@@ -65,3 +65,8 @@ weight = 20
    name = "Authors"
    pageRef = "authors"
    weight = 30
+
+[[footer]]
+name = "archives"
+pageRef = "archives"
+weight = 40

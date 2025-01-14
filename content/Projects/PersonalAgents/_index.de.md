@@ -1,5 +1,5 @@
 +++
-title = "Projekte" 
+title = "Persönliche Agenten" 
 language = "de"
 +++
 

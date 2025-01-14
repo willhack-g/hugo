@@ -1,6 +1,6 @@
 ---
 title: "Blockchain Fundamentals"  
-date: 2025-01-09T12:42:05Z
+date: 2025-01-09
 draft: false
 language: "en"
 description: "Understanding the basic concepts of blockchain technology"

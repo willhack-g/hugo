@@ -13,7 +13,7 @@ authors:
   - "willhack"
 ---
 
-# El trabajo y la sociedad post-trabajo
+
 
 ## De las civilizaciones antiguas al auge de China: el poder de la mano de obra barata y la gobernanza inteligente
 

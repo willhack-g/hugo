@@ -12,7 +12,7 @@ showAuthorsBadges: false
 authors:
   - "willhack"
 ---
-# Praca i społeczeństwo post-pracy
+
 
 ## Od starożytnych cywilizacji do wzrostu Chin: Potęga taniej siły roboczej i inteligentnego zarządzania
 

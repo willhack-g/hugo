@@ -1,9 +1,14 @@
 global:
   language: "EN"
 
-
 taxonomy:
   tag:
     name: "Tags"
   category:
     name: "Categories"
+
+archive:
+  title: "Archive"
+  description: "All posts"
+  showMore: "Show more"
+  noResults: "No posts found"
