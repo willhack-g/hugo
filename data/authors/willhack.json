@@ -3,13 +3,12 @@
     "image" : "img/fav.png",
     "bio": "Admin",
     "social": [
-        { "linkedin": "https://linkedin.com/in/willhack" },
-        { "twitter": "https://twitter.com/willhack" },
-        { "instagram": "https://instagram.com/willhack" },
-        { "medium": "https://medium.com/@willhack" },
-        { "github": "https://github.com/willhack" },
-        { "goodreads": "http://goodreads.com/willhack" },
-        { "keybase": "https://keybase.io/willhack" },
-        { "reddit": "https://reddit.com/user/willhack" }
+        { "linkedin": "https://linkedin.com/in/willhacklin" },
+        { "twitter": "https://x.com/WillHackLin" },
+        { "instagram": "https://instagram.com/willhacklin" },
+        { "medium": "https://medium.com/@ml_15347" },
+        { "github": "https://github.com/willhack-g" },
+        { "goodreads": "http://goodreads.com/186456135-willhack" },
+        { "reddit": "https://reddit.com/user/WillHackLin" }
     ]
 }
