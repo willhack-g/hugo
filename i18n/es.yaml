@@ -1,0 +1,15 @@
+global:
+  language: "ES"
+
+article:
+  zen_mode_title:
+    enable: "Activar modo zen"
+    disable: "Desactivar modo zen"
+
+taxonomy:
+  tag:
+    name: "Etiquetas"
+    name_plural: "Etiquetas"
+  category:
+    name: "Categorías"
+    name_plural: "Categorías"

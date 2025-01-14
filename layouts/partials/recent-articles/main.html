@@ -1,5 +1,5 @@
 {{ $recentArticles := 6 }}
-{{ $showMoreLinkDest := "/posts/" }}
+{{ $showMoreLinkDest := .Site.Params.homepage.showMoreLinkDest | default "/posts/" }}
 {{ if .Site.Params.homepage.showRecent | default false }}
 {{ if index .Site.Params.homepage "showRecentItems" }}
 {{ $recentArticles = .Site.Params.homepage.showRecentItems }}
