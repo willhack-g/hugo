@@ -1,0 +1,9 @@
+global:
+  language: "EN"
+
+
+taxonomy:
+  tag:
+    name: "Tags"
+  category:
+    name: "Categories"
