@@ -1,5 +1,5 @@
 {{ $recentArticles := 6 }}
-{{ $showMoreLinkDest := .Site.Params.homepage.showMoreLinkDest | default "/posts/" }}
+{{ $showMoreLinkDest := printf "/%s%s" .Language.Lang (.Site.Params.homepage.showMoreLinkDest | default "/archives/") }}
 {{ if .Site.Params.homepage.showRecent | default false }}
 {{ if index .Site.Params.homepage "showRecentItems" }}
 {{ $recentArticles = .Site.Params.homepage.showRecentItems }}
@@ -14,7 +14,7 @@
 
 {{ if .Site.Params.homepage.showMoreLink | default false }}
 {{ if index .Site.Params.homepage "showRecentItems" }}
-{{ $showMoreLinkDest = .Site.Params.homepage.showMoreLinkDest }}
+{{ $showMoreLinkDest = printf "/%s%s" .Language.Lang (.Site.Params.homepage.showMoreLinkDest | default "/archives/") }}
 {{ end }}
 <div class="mt-10 flex justify-center">
   <a href="{{ $showMoreLinkDest }}">
