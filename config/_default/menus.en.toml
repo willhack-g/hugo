@@ -42,6 +42,18 @@ pre = "heart"
 pageRef = "Health"
 weight = 6
 
+      [[main]]
+      name = "Conventionally"
+      parent = "Health"
+      pageRef = "conventionally"
+      weight = 23
+
+      [[main]]
+      name = "Unconventionally"
+      parent = "Health"
+      pageRef = "unconventionally"
+      weight = 24
+
 [[main]]
 name = "Geopolitics"
 pageRef = "Geopolitics"
