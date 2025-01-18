@@ -1,6 +1,6 @@
 ---
 title: "Agent Reklamowy"
-date: 2025-01-10T12:42:22+01:00
+date: 2025-01-07
 draft: false
 language: "pl"
 description: "Tworzenie i wykorzystanie agenta reklamowego"
