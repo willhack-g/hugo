@@ -25,7 +25,8 @@
     {{- end }}
     {{ if not .Date.IsZero }}<lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     {{- with .OutputFormats.Get "RSS" -}}
-    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" (if eq hugo.Environment "production" ($.Site.BaseURL | replaceRE "^http://" "https://") else $.Site.BaseURL end) .MediaType | safeHTML }}
+    {{ $baseURL := cond (eq hugo.Environment "production") ($.Site.BaseURL | replaceRE "^http://" "https://") $.Site.BaseURL }}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" $baseURL .MediaType | safeHTML }}
     {{- end -}}
     {{ if and ($.Site.Params.rssnext.feedId) ($.Site.Params.rssnext.userId) }}
     <follow_challenge>

@@ -1,4 +1,5 @@
 baseURL = 'https://willhack.top'
+canonicalURL = 'https://willhack.top'
 theme = "blowfish"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
