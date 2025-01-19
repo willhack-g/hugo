@@ -1,5 +1,5 @@
 +++
-title = "Tecnología"
+title = "innovaciones técnicas"
 language = "es"
 +++
 

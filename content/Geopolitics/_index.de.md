@@ -1,5 +1,5 @@
 +++
-title = "Geopolitik"
+title = "Weltereignisse"
 language = "de"
 +++
 

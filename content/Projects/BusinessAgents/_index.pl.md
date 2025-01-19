@@ -1,5 +1,5 @@
 +++
-title = "Agenci biznesowi"
+title = "biznesowi pomocnicy"
 language = "pl"
 +++
 

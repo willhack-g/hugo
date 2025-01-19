@@ -1,5 +1,5 @@
 +++
-title = "Persönliche Agenten" 
+title = "persönliche Assistenten" 
 language = "de"
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "Handelsvertreter" 
+title = "Business-Helfer" 
 language = "de"
 +++
 

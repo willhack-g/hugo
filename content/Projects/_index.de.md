@@ -1,5 +1,5 @@
 +++
-title = "Projekte" 
+title = "Werkstatt" 
 language = "de"
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "Personal Agents"
+title = "personal assistants"
 language = "en"
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "Technologie"
+title = "technische Neuerungen"
 language = "de"
 +++
 

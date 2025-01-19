@@ -1,5 +1,5 @@
 +++
-title = "Blockchain"
+title = "Blockchain Entwicklung"
 language = "de"
 +++
 
