@@ -11,7 +11,7 @@
 {{- $pages = $pages | first $limit -}}
 {{- end -}}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link>{{ if eq hugo.Environment "production" }}{{ $.Site.BaseURL | replaceRE "^http://" "https://" }}{{ else }}{{ $.Site.BaseURL }}{{ end }}</link>
@@ -42,14 +42,17 @@
       {{ with $.Site.Params.Author.email }}<author>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ if eq hugo.Environment "production" }}{{ $.Site.BaseURL | replaceRE "^http://" "https://" }}{{ else }}{{ $.Site.BaseURL }}{{ end }}{{ .RelPermalink }}</guid>
       <description>{{ .Summary | html }}</description>
-      {{ range ( where $.Site.RegularPages ".RelPermalink" .RelPermalink | first 1 ) }}
+    {{ range ( where $.Site.RegularPages ".RelPermalink" .RelPermalink | first 1 ) }}
         {{- $images := .Resources.ByType "image" -}}
         {{- $featured := $images.GetMatch "*feature*" -}}
-        {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
-        {{- with $featured -}}
-        <media:content xmlns:media="http://search.yahoo.com/mrss/" url="{{ if eq hugo.Environment "production" }}{{ $featured.Permalink | replaceRE "^http://" "https://" }}{{ else }}{{ $featured.Permalink }}{{ end }}" />
+        {{- $instagram := $images.GetMatch "*instagram*" -}}
+        {{- if $featured -}}
+        <media:content url="{{ if eq hugo.Environment "production" }}{{ $featured.Permalink | replaceRE "^http://" "https://" }}{{ else }}{{ $featured.Permalink }}{{ end }}" />
         {{- end -}}
-      {{ end }}
+        {{- if $instagram -}}
+        <media:content url="{{ if eq hugo.Environment "production" }}{{ $instagram.Permalink | replaceRE "^http://" "https://" }}{{ else }}{{ $instagram.Permalink }}{{ end }}" />
+        {{- end -}}
+    {{ end }}
     </item>
     {{ end }}
   </channel>
