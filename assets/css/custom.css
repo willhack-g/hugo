@@ -21,8 +21,3 @@
   font-display: swap;
   src: url('/fonts/Inter.var.woff2') format('woff2');
 }
-
-/* Główna czcionka strony */
-body {
-  font-family: 'Inter', sans-serif;
-}
