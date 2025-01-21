@@ -6,6 +6,13 @@ article:
     enable: "Activar modo zen"
     disable: "Desactivar modo zen"
 
+search:
+  open_button_title: "Abrir búsqueda (/)"
+  close_button_title: "Cerrar (Esc)"
+  input_placeholder: "Buscar"
+  icon_alt: "Icono de búsqueda"
+  icon_title: "Haz clic para buscar"
+
 taxonomy:
   tag:
     name: "Etiquetas"
@@ -17,3 +24,8 @@ taxonomy:
 menu:
   main_navigation: "Navegación principal"
   expand_submenu: "Expandir submenú"
+
+appearance:
+  dark_mode: "Activar modo oscuro"
+  light_mode: "Activar modo claro"
+  icon_title: "Cambiar tema"

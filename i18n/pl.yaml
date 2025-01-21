@@ -21,3 +21,15 @@ article:
   zen_mode_title:
     enable: "Włącz tryb zen"
     disable: "Wyłącz tryb zen"
+
+search:
+  open_button_title: "Otwórz wyszukiwanie (/)"
+  close_button_title: "Zamknij (Esc)"
+  input_placeholder: "Szukaj"
+  icon_alt: "Ikona wyszukiwania"
+  icon_title: "Kliknij aby wyszukać"
+
+appearance:
+  dark_mode: "Włącz tryb ciemny"
+  light_mode: "Włącz tryb jasny"
+  icon_title: "Zmień motyw"

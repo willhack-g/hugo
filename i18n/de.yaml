@@ -6,6 +6,13 @@ article:
     enable: "Zen-Modus aktivieren"
     disable: "Zen-Modus deaktivieren"
 
+search:
+  open_button_title: "Suche öffnen (/)"
+  close_button_title: "Schließen (Esc)"
+  input_placeholder: "Suchen"
+  icon_alt: "Suchsymbol"
+  icon_title: "Klicken Sie zum Suchen"
+
 taxonomy:
   tag:
     name: "Schlagwörter"
@@ -17,3 +24,8 @@ taxonomy:
 menu:
   main_navigation: "Hauptnavigation"
   expand_submenu: "Untermenü erweitern"
+
+appearance:
+  dark_mode: "Dunkelmodus aktivieren"
+  light_mode: "Hellmodus aktivieren"
+  icon_title: "Design wechseln"

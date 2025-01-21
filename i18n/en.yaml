@@ -16,3 +16,16 @@ archive:
 menu:
   main_navigation: "Main navigation"
   expand_submenu: "Expand submenu"
+
+search:
+  open_button_title: "Open search (/)"
+  close_button_title: "Close (Esc)"
+  input_placeholder: "Search"
+  icon_alt: "Search icon"
+  icon_title: "Click to search"
+
+
+appearance:
+  dark_mode: "Enable dark mode"
+  light_mode: "Enable light mode"
+  icon_title: "Switch theme"
