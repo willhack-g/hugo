@@ -25,6 +25,7 @@ article:
   zen_mode_title:
     enable: "Włącz tryb zen"
     disable: "Wyłącz tryb zen"
+  related_article: "Powiązany artykuł"
 
 search:
   open_button_title: "Otwórz wyszukiwanie (/)"

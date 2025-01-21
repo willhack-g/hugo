@@ -5,6 +5,7 @@ article:
   zen_mode_title:
     enable: "Activar modo zen"
     disable: "Desactivar modo zen"
+  related_article: "Artículo relacionado"
 
 search:
   open_button_title: "Abrir búsqueda (/)"

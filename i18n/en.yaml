@@ -21,6 +21,12 @@ menu:
   home: "Home"
   logo_home: "Go to homepage"
 
+article:
+  zen_mode_title:
+    enable: "Enable zen mode"
+    disable: "Disable zen mode"
+  related_article: "Related article"
+
 search:
   open_button_title: "Open search (/)"
   close_button_title: "Close (Esc)"
