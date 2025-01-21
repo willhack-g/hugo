@@ -24,6 +24,10 @@ taxonomy:
 menu:
   main_navigation: "Hauptnavigation"
   expand_submenu: "Untermenü erweitern"
+  mobile_menu: "Mobiles Menü"
+  close_mobile_menu: "Menü schließen"
+  home: "Startseite"
+  logo_home: "Zur Startseite"
 
 appearance:
   dark_mode: "Dunkelmodus aktivieren"

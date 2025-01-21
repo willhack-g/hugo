@@ -4,7 +4,7 @@
     {{ $logo := resources.Get .Site.Params.Logo }}
     {{ if $logo }}
     <div>
-        <a href="{{ "" | relLangURL }}" class="flex">
+        <a href="{{ "" | relLangURL }}" class="flex" aria-label='{{ i18n "menu.logo_home" }}'>
             <span class="sr-only">{{ .Site.Title | markdownify }}</span>
 
             {{ if eq $logo.MediaType.SubType "svg" }}
@@ -13,7 +13,7 @@
             </span>
             {{ else }}
             <img src="{{ $logo.RelPermalink }}" width="{{ div $logo.Width 2 }}" height="{{ div $logo.Height 2 }}"
-                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="logo" />
+                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="{{ .Site.Title }}" />
             {{ end }}
 
         </a>
@@ -24,13 +24,13 @@
         <nav class="flex space-x-3">
 
             {{ if not .Site.Params.disableTextInHeader | default true }}
-            <a href="{{ "" | relLangURL }}" class="text-base font-medium text-gray-500 hover:text-gray-900">{{
+            <a href="{{ "" | relLangURL }}" class="text-base font-medium text-gray-500 hover:text-gray-900" aria-label='{{ i18n "menu.home" }}'>{{
                 .Site.Title | markdownify
                 }}</a>
             {{ end }}
 
         </nav>
-        <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
+        <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12" aria-label='{{ i18n "menu.main_navigation" }}'>
 
             {{ if .Site.Menus.main }}
             {{ range .Site.Menus.main }}
@@ -41,8 +41,8 @@
             {{ partial "translations.html" . }}
 
             {{ if .Site.Params.enableSearch | default false }}
-            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
-                title="{{ i18n "search.icon_title" }}">
+            <button id="search-button" aria-label='{{ i18n "search.icon_title" }}' class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title='{{ i18n "search.icon_title" }}'>
                 {{ partial "icon.html" "search" }}
             </button>
             {{ end }}
@@ -52,7 +52,7 @@
             {{ if .Site.Params.footer.showAppearanceSwitcher | default false }}
             <div
                 class="{{ if .Site.Params.footer.showScrollToTop | default true -}} ltr:mr-14 rtl:ml-14 {{- end }} flex items-center">
-                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400" title="{{ i18n "appearance.icon_title" }}">
+                <button id="appearance-switcher" aria-label='{{ i18n "appearance.icon_title" }}' type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400" title='{{ i18n "appearance.icon_title" }}'>
                     <div class="flex items-center justify-center dark:hidden">
                         {{ partial "icon.html" "moon" }}
                     </div>
@@ -71,15 +71,15 @@
             {{ partial "translations.html" . }}
 
             {{ if .Site.Params.enableSearch | default false }}
-            <button id="search-button-mobile" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
-                title="{{ i18n "search.icon_title" }}">
+            <button id="search-button-mobile" aria-label='{{ i18n "search.icon_title" }}' class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title='{{ i18n "search.icon_title" }}'>
                 {{ partial "icon.html" "search" }}
             </button>
             {{ end }}
 
             {{/* Appearance switch */}}
             {{ if .Site.Params.footer.showAppearanceSwitcher | default false }}
-            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400" style="margin-right:5px" title="{{ i18n "appearance.icon_title" }}">
+            <button id="appearance-switcher-mobile" aria-label='{{ i18n "appearance.icon_title" }}' type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400" style="margin-right:5px" title='{{ i18n "appearance.icon_title" }}'>
                 <div class="flex items-center justify-center dark:hidden">
                     {{ partial "icon.html" "moon" }}
                 </div>
@@ -93,7 +93,7 @@
     </div>
     <div class="-my-2 -mr-2 md:hidden">
 
-        <label id="menu-button" class="block">
+        <label id="menu-button" class="block" aria-label='{{ i18n "menu.mobile_menu" }}'>
             {{ if .Site.Menus.main }}
             <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
                 {{ partial "icon.html" "bars" }}
@@ -105,7 +105,7 @@
 
                     <li id="menu-close-button">
                         <span
-                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">{{
+                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400" aria-label='{{ i18n "menu.close_mobile_menu" }}'>{{
                             partial
                             "icon.html"
                             "xmark" }}</span>
@@ -126,8 +126,12 @@
 
                     {{ range .Site.Menus.subnavigation }}
                     <li class="mb-1">
-                        <a href="{{ .URL }}" {{ if or (strings.HasPrefix .URL "http:" ) (strings.HasPrefix .URL "https:"
-                            ) }} target="_blank" {{ end }} class="flex items-center">
+                        <a href="{{ .URL }}" 
+                        {{ if or (strings.HasPrefix .URL "http:" ) (strings.HasPrefix .URL "https:" ) }} 
+                        target="_blank" 
+                        {{ end }} 
+                        class="flex items-center"
+                        aria-label="{{ .Name | markdownify }} {{ if .Title }} - {{ .Title }}{{ end }}">
                             {{ if .Pre }}
                             <span {{ if and .Pre .Name}} class="mr-3" {{ end }}>
                                 {{ partial "icon.html" .Pre }}
@@ -154,8 +158,12 @@
     }} style="margin-top:-15px" {{ end }}>
     <div class="hidden md:flex items-center space-x-5">
         {{ range .Site.Menus.subnavigation }}
-        <a href="{{ .URL }}" {{ if or (strings.HasPrefix .URL "http:" ) (strings.HasPrefix .URL "https:" ) }}
-            target="_blank" {{ end }} class="flex items-center">
+        <a href="{{ .URL }}" 
+        {{ if or (strings.HasPrefix .URL "http:" ) (strings.HasPrefix .URL "https:" ) }}
+        target="_blank" 
+        {{ end }} 
+        class="flex items-center"
+        aria-label="{{ .Name | markdownify }} {{ if .Title }} - {{ .Title }}{{ end }}">
             {{ if .Pre }}
             <span {{ if and .Pre .Name}} class="mr-1" {{ end }}>
                 {{ partial "icon.html" .Pre }}

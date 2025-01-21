@@ -16,6 +16,10 @@ archive:
 menu:
   main_navigation: "Główna nawigacja"
   expand_submenu: "Rozwiń podmenu"
+  mobile_menu: "Menu mobilne"
+  close_mobile_menu: "Zamknij menu"
+  home: "Strona główna"
+  logo_home: "Przejdź do strony głównej"
 
 article:
   zen_mode_title:

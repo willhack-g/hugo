@@ -16,6 +16,10 @@ archive:
 menu:
   main_navigation: "Main navigation"
   expand_submenu: "Expand submenu"
+  mobile_menu: "Mobile menu"
+  close_mobile_menu: "Close menu"
+  home: "Home"
+  logo_home: "Go to homepage"
 
 search:
   open_button_title: "Open search (/)"
