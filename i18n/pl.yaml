@@ -13,6 +13,10 @@ archive:
   showMore: "Pokaż więcej"
   noResults: "Nie znaleziono wpisów"
 
+menu:
+  main_navigation: "Główna nawigacja"
+  expand_submenu: "Rozwiń podmenu"
+
 article:
   zen_mode_title:
     enable: "Włącz tryb zen"

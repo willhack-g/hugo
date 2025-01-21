@@ -13,3 +13,7 @@ taxonomy:
   category:
     name: "Kategorien"
     name_plural: "Kategorien"
+
+menu:
+  main_navigation: "Hauptnavigation"
+  expand_submenu: "Untermenü erweitern"
