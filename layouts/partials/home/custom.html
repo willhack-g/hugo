@@ -1,6 +1,6 @@
-<link rel="preload" href="/back.webp" as="image">
+<link rel="preload" href="{{ .Site.Params.defaultBackgroundImage | relURL }}" as="image">
 <div style="
-  background: url('/back.webp') no-repeat center center/cover;
+  background: url('{{ .Site.Params.defaultBackgroundImage | relURL }}') no-repeat center center/cover;
   min-height: 60vh;
   overflow: hidden;
   display: flex;

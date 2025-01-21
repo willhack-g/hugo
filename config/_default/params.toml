@@ -10,7 +10,7 @@ disableImageOptimization = false  # Włącz optymalizację obrazów
 disableTextInHeader = false
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
-defaultBackgroundImage = "back.webp"
+defaultBackgroundImage = "back_optimized.webp"
 defaultFeaturedImage = "def.png"
 highlightCurrentMenuArea = "Enable"
 smartTOC = "Enable"
@@ -38,7 +38,7 @@ showMoreLinkDest = "/archives/"
 cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = false
-homepageImage = "back.webp"
+homepageImage = "back_optimized.webp"
 home_image_blur = false
 showOnlyCurrentLang = true
 
