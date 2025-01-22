@@ -1,21 +1,17 @@
 <!DOCTYPE html>
-<html lang="{{ with .Site.Params.isoCode | default (.Site.LanguageCode | default " en") }} {{- . -}} {{ end }}" dir="{{ if .Site.Params.rtl | default false -}}
-    rtl
-  {{- else -}}
-    ltr
-  {{- end }}" class="scroll-smooth" data-default-appearance="{{ .Site.Params.defaultAppearance | default " light" }}"
-  data-auto-appearance="{{ .Site.Params.autoSwitchAppearance | default " true" }}">
+<html lang="{{ with .Site.Params.isoCode | default (.Site.LanguageCode | default "en") }} {{- . -}} {{ end }}" 
+      dir="{{ if .Site.Params.rtl | default false -}} rtl {{- else -}} ltr {{- end }}" 
+      class="scroll-smooth" 
+      data-default-appearance="{{ .Site.Params.defaultAppearance | default "light" }}"
+      data-auto-appearance="{{ .Site.Params.autoSwitchAppearance | default "true" }}">
 {{- partial "head.html" . -}}
 <link rel="preload" href="/back.webp" as="image">
 <link rel="preload" href="/fonts/Inter.var.woff2" as="font" type="font/woff2" crossorigin>
 
-<body
-  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+<body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
   <div id="the-top" class="absolute flex self-center">
     <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
-      href="#main-content"><span
-        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>{{ i18n
-      "nav.skip_to_main" }}</a>
+      href="#main-content"><span class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>{{ i18n "nav.skip_to_main" }}</a>
   </div>
   {{ $header := print "partials/header/" .Site.Params.header.layout ".html" }}
   {{ if templates.Exists $header }}
@@ -35,10 +31,98 @@
     {{- partial "search.html" . -}}
     {{ end }}
   </div>
+
+  <!-- Menu Scripts -->
+  <script>
+    // Mobile menu
+    document.getElementById('menu-button')?.addEventListener('click', function() {
+      const wrapper = document.getElementById('menu-wrapper');
+      wrapper.classList.toggle('visible');
+      wrapper.classList.toggle('opacity-0');
+      wrapper.classList.toggle('opacity-100');
+    });
+
+    document.getElementById('menu-close-button')?.addEventListener('click', function() {
+      const wrapper = document.getElementById('menu-wrapper');
+      wrapper.classList.remove('visible');
+      wrapper.classList.add('opacity-0');
+      wrapper.classList.remove('opacity-100');
+    });
+  </script>
+
+  <!-- Theme Scripts -->
+  <script>
+    // Initialize appearance
+    (() => {
+      const defaultTheme = document.documentElement.getAttribute('data-default-appearance');
+      const autoSwitch = document.documentElement.getAttribute('data-auto-appearance') === 'true';
+      
+      let currentTheme = localStorage.getItem('appearance');
+      
+      if (!currentTheme) {
+        if (autoSwitch && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          currentTheme = 'dark';
+        } else {
+          currentTheme = defaultTheme;
+        }
+      }
+      
+      if (currentTheme === 'dark') {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+      
+      // Set aria-pressed attribute on theme buttons
+      const updateAriaPressed = () => {
+        const isDark = document.documentElement.classList.contains('dark');
+        document.querySelectorAll('[id^="appearance-switcher"]').forEach(button => {
+          button.setAttribute('aria-pressed', isDark.toString());
+        });
+      };
+      
+      updateAriaPressed();
+      
+      // Watch for system theme changes
+      if (autoSwitch) {
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+          if (!localStorage.getItem('appearance')) {
+            if (e.matches) {
+              document.documentElement.classList.add('dark');
+            } else {
+              document.documentElement.classList.remove('dark');
+            }
+            updateAriaPressed();
+          }
+        });
+      }
+      
+      // Theme switcher click handlers
+      document.querySelectorAll('[id^="appearance-switcher"]').forEach(button => {
+        button.addEventListener('click', () => {
+          if (document.documentElement.classList.contains('dark')) {
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem('appearance', 'light');
+          } else {
+            document.documentElement.classList.add('dark');
+            localStorage.setItem('appearance', 'dark');
+          }
+          updateAriaPressed();
+        });
+      });
+    })();
+  </script>
 </body>
+
 {{ if .Site.Params.buymeacoffee.globalWidget | default false }}
 <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-  data-id="{{ .Site.Params.buymeacoffee.identifier }}" data-description="Support me on Buy me a coffee!" data-message="{{ .Site.Params.buymeacoffee.globalWidgetMessage | default "" }}"
-  data-color="{{ .Site.Params.buymeacoffee.globalWidgetColor | default "#FFDD00" }}" data-position="{{ .Site.Params.buymeacoffee.globalWidgetPosition | default "Left" }}" data-x_margin="18" data-y_margin="18"></script>
+  data-id="{{ .Site.Params.buymeacoffee.identifier }}" 
+  data-description="Support me on Buy me a coffee!" 
+  data-message="{{ .Site.Params.buymeacoffee.globalWidgetMessage | default "" }}"
+  data-color="{{ .Site.Params.buymeacoffee.globalWidgetColor | default "#FFDD00" }}" 
+  data-position="{{ .Site.Params.buymeacoffee.globalWidgetPosition | default "Left" }}" 
+  data-x_margin="18" 
+  data-y_margin="18">
+</script>
 {{ end }}
 </html>
