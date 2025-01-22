@@ -1,4 +1,4 @@
-mainSections = ["aboutme", "ai", "blockchain", "geopolitics", "health", "archives", "projects", "technology"]
+mainSections = ["aboutme", "ai", "blockchain", "geopolitics", "health", "projects", "technology"]
 
 colorScheme = "blowfish"
 defaultAppearance = "dark"

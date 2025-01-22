@@ -28,6 +28,7 @@ article:
     enable: "Zen-Modus aktivieren"
     disable: "Zen-Modus deaktivieren"
   related_article: "Verwandter Artikel"
+  related_articles: "Verwandte Artikel"
   external_link: "Externen Artikel öffnen: %s"
   read_article: "Artikel lesen: %s"
   draft: "Entwurf"

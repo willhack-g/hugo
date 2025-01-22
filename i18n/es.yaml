@@ -28,6 +28,7 @@ article:
     enable: "Activar modo zen"
     disable: "Desactivar modo zen"
   related_article: "Artículo relacionado"
+  related_articles: "Artículos relacionados"
   external_link: "Abrir artículo externo: %s"
   read_article: "Leer artículo: %s"
   draft: "Borrador"

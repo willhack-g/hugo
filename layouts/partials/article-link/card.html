@@ -1,0 +1,42 @@
+<a href="{{ .RelPermalink }}" 
+   class="flex flex-col min-w-full bg-neutral-100 dark:bg-neutral-700 shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:shadow-[0_8px_30px_rgba(0,0,0,0.24)] border border-neutral-200 dark:border-neutral-600 hover:border-primary-300 dark:hover:border-primary-600 rounded-xl overflow-hidden transition duration-300 hover:translate-y-[-2px]"
+   aria-label="{{ .Title }} - przeczytaj artykuł"
+   title="{{ .Title }}">
+  
+  {{/* Image container */}}
+  {{ $featured := "" }}
+  {{ with .Resources.GetMatch "featured.*" }}
+    {{ $featured = .RelPermalink }}
+  {{ end }}
+  {{ if $featured }}
+    <div class="relative w-full aspect-[2/1] overflow-hidden">
+      <img src="{{ $featured }}"
+           alt="{{ .Title }}"
+           class="w-full h-full object-cover image-zoom"
+           loading="lazy"
+           decoding="async">
+    </div>
+  {{ end }}
+
+  {{/* Content container */}}
+  <div class="flex flex-col flex-1 gap-2 p-4 dark:bg-neutral-800">
+    <h2 class="text-xl font-bold text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+      {{ .Title | emojify }}
+    </h2>
+    
+    {{ if .Description }}
+      <div class="text-sm text-neutral-600 dark:text-neutral-400 line-clamp-3">
+        {{ .Description | emojify }}
+      </div>
+    {{ end }}
+
+    <div class="flex items-center gap-x-4 text-sm text-neutral-600 dark:text-neutral-400">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">
+        {{ .Date.Format "2006-01-02" }}
+      </time>
+      {{ if .Params.readingTime }}
+        <span>· {{ .Params.readingTime }} min</span>
+      {{ end }}
+    </div>
+  </div>
+</a>

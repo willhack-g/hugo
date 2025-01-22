@@ -13,6 +13,15 @@
     border-top-right-radius: 20px;
 }
 
+/* Efekt przybliżenia obrazka */
+.image-zoom {
+    transition: transform 0.5s ease-in-out;
+}
+
+.image-zoom:hover {
+    transform: scale(1.1);
+}
+
 /* Definicja czcionki Inter */
 @font-face {
   font-family: 'Inter';

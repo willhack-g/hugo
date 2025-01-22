@@ -27,7 +27,8 @@ article:
   zen_mode_title:
     enable: "Włącz tryb zen"
     disable: "Wyłącz tryb zen"
-  related_article: "Powiązany artykuł"
+  related_article: "Podobny artykuł"
+  related_articles: "Podobne artykuły"
   external_link: "Otwórz artykuł zewnętrzny: %s"
   read_article: "Przeczytaj artykuł: %s"
   draft: "Szkic"
