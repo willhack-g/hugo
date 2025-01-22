@@ -3,15 +3,23 @@
     {{ range .Site.Menus.main }}
       {{ if .HasChildren }}
         <li class="relative group" aria-haspopup="true">
-          <button class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-neutral-900 dark:text-neutral-100 hover:text-primary-600 dark:hover:text-primary-400" aria-expanded="false">
+          <button 
+            class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-neutral-900 dark:text-neutral-100 hover:text-primary-600 dark:hover:text-primary-400" 
+            aria-expanded="false"
+            aria-label="{{ .Name }} - menu rozwijane, naciśnij aby rozwinąć">
             {{ .Name }}
             <span class="sr-only">{{ i18n "expand_submenu" }}</span>
             {{ partial "icon.html" "chevron-down" }}
           </button>
-          <ul class="absolute hidden group-hover:block lg:mt-2 lg:rounded-lg lg:shadow-lg lg:bg-white/95 lg:dark:bg-neutral-900/75" role="menu">
+          <ul class="absolute hidden group-hover:block lg:mt-2 lg:rounded-lg lg:shadow-lg lg:bg-white/95 lg:dark:bg-neutral-900/75" 
+              role="menu" 
+              aria-label="Podmenu sekcji {{ .Name }}">
             {{ range .Children }}
               <li role="none">
-                <a href="{{ .URL }}" class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-50 dark:hover:bg-neutral-800" role="menuitem" aria-label="{{ .Name }}">
+                <a href="{{ .URL }}" 
+                   class="block px-4 py-2 text-sm text-neutral-700 dark:text-neutral-300 hover:bg-neutral-50 dark:hover:bg-neutral-800" 
+                   role="menuitem" 
+                   aria-label="{{ $.Page.Parent.Title }}: {{ .Name }} - przejdź do podstrony">
                   {{ .Name }}
                 </a>
               </li>
@@ -20,7 +28,9 @@
         </li>
       {{ else }}
         <li>
-          <a href="{{ .URL }}" class="text-sm font-semibold leading-6 text-neutral-900 dark:text-neutral-100 hover:text-primary-600 dark:hover:text-primary-400" aria-label="{{ .Name }}">
+          <a href="{{ .URL }}" 
+             class="text-sm font-semibold leading-6 text-neutral-900 dark:text-neutral-100 hover:text-primary-600 dark:hover:text-primary-400" 
+             aria-label="{{ .Name }} - przejdź do sekcji">
             {{ .Name }}
           </a>
         </li>
