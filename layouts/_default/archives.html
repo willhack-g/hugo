@@ -5,7 +5,7 @@
     {{ $notHidden := where $pages ".Params.hidden" "!=" true }}
     {{ $paginator := .Paginate $notHidden 6 }}
     
-    <!-- Changed GroupByDate format back to "2006" -->
+    <!-- Changed GroupByDate  format back to "2006" -->
     {{ range $paginator.Pages.GroupByDate "2006" }}
     <div class="archives-year">
       <h2 class="archives-title">{{ .Key }}</h2>
