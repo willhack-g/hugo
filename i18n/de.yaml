@@ -1,26 +1,17 @@
 global:
   language: "DE"
 
-article:
-  zen_mode_title:
-    enable: "Zen-Modus aktivieren"
-    disable: "Zen-Modus deaktivieren"
-  related_article: "Verwandter Artikel"
-
-search:
-  open_button_title: "Suche öffnen (/)"
-  close_button_title: "Schließen (Esc)"
-  input_placeholder: "Suchen"
-  icon_alt: "Suchsymbol"
-  icon_title: "Klicken Sie zum Suchen"
-
 taxonomy:
   tag:
-    name: "Schlagwörter"
-    name_plural: "Schlagwörter"
+    name: "Tags"
   category:
     name: "Kategorien"
-    name_plural: "Kategorien"
+
+archive:
+  title: "Archiv"
+  description: "Alle Beiträge"
+  showMore: "Mehr anzeigen"
+  noResults: "Keine Beiträge gefunden"
 
 menu:
   main_navigation: "Hauptnavigation"
@@ -29,8 +20,29 @@ menu:
   close_mobile_menu: "Menü schließen"
   home: "Startseite"
   logo_home: "Zur Startseite"
+  logo_description: "Website-Logo"
+  home_title: "Startseite - %s"
+
+article:
+  zen_mode_title:
+    enable: "Zen-Modus aktivieren"
+    disable: "Zen-Modus deaktivieren"
+  related_article: "Verwandter Artikel"
+  external_link: "Externen Artikel öffnen: %s"
+  read_article: "Artikel lesen: %s"
+  draft: "Entwurf"
+
+search:
+  open_button_title: "Suche öffnen (/)"
+  close_button_title: "Schließen (Esc)"
+  input_placeholder: "Suchen"
+  icon_alt: "Suchsymbol"
+  icon_title: "Klicken zum Suchen"
 
 appearance:
   dark_mode: "Dunkelmodus aktivieren"
   light_mode: "Hellmodus aktivieren"
-  icon_title: "Design wechseln"
+  icon_title: "Theme ändern"
+
+list:
+  externalurl_title: "Externer Link"

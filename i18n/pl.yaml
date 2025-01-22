@@ -20,12 +20,17 @@ menu:
   close_mobile_menu: "Zamknij menu"
   home: "Strona główna"
   logo_home: "Przejdź do strony głównej"
+  logo_description: "Logo strony"
+  home_title: "Strona główna - %s"
 
 article:
   zen_mode_title:
     enable: "Włącz tryb zen"
     disable: "Wyłącz tryb zen"
   related_article: "Powiązany artykuł"
+  external_link: "Otwórz artykuł zewnętrzny: %s"
+  read_article: "Przeczytaj artykuł: %s"
+  draft: "Szkic"
 
 search:
   open_button_title: "Otwórz wyszukiwanie (/)"
@@ -38,3 +43,6 @@ appearance:
   dark_mode: "Włącz tryb ciemny"
   light_mode: "Włącz tryb jasny"
   icon_title: "Zmień motyw"
+
+list:
+  externalurl_title: "Link zewnętrzny"

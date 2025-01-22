@@ -7,12 +7,15 @@
             class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
             href="{{ . }}"
             target="_blank"
-            rel="external"
-            >{{ $.Title | emojify }}</a
+            rel="external noopener noreferrer"
+            aria-label='{{ printf (i18n "article.external_link") ($.Title | emojify) }}'
           >
+            {{ $.Title | emojify }}
+          </a>
           <span
             class="cursor-default text-xs text-neutral-400 dark:text-neutral-500"
             title="{{ i18n "list.externalurl_title" }}"
+            aria-hidden="true"
           >
             &#8599;
           </span>
@@ -21,12 +24,14 @@
         <a
           class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
           {{ if eq .Site.Language.Lang "en" }}
-  href="/en{{ .RelPermalink }}"
-{{ else }}
-  href="{{ .RelPermalink }}"
-{{ end }}
-          >{{ .Title | emojify }}</a
+            href="/en{{ .RelPermalink }}"
+          {{ else }}
+            href="{{ .RelPermalink }}"
+          {{ end }}
+          aria-label='{{ printf (i18n "article.read_article") (.Title | emojify) }}'
         >
+          {{ .Title | emojify }}
+        </a>
       {{ end }}
       {{ if .Site.Params.article.showDraftLabel | default false }}
         {{ if .Draft }}

@@ -20,12 +20,17 @@ menu:
   close_mobile_menu: "Close menu"
   home: "Home"
   logo_home: "Go to homepage"
+  logo_description: "Site logo"
+  home_title: "Homepage - %s"
 
 article:
   zen_mode_title:
     enable: "Enable zen mode"
     disable: "Disable zen mode"
   related_article: "Related article"
+  external_link: "Open external article: %s"
+  read_article: "Read article: %s"
+  draft: "Draft"
 
 search:
   open_button_title: "Open search (/)"
@@ -34,8 +39,10 @@ search:
   icon_alt: "Search icon"
   icon_title: "Click to search"
 
-
 appearance:
   dark_mode: "Enable dark mode"
   light_mode: "Enable light mode"
-  icon_title: "Switch theme"
+  icon_title: "Change theme"
+
+list:
+  externalurl_title: "External link"
