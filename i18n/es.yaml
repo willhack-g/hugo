@@ -22,6 +22,10 @@ menu:
   logo_home: "Ir a la página de inicio"
   logo_description: "Logo del sitio"
   home_title: "Página de inicio - %s"
+  section_nav: "Sección %s - ir a la página"
+  submenu_button: "Menú de sección %s - presione espacio o enter para expandir"
+  submenu_item: "Ir a %s en la sección %s"
+  main_section: "Ir a la sección %s"
 
 article:
   zen_mode_title:

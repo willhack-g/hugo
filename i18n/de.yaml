@@ -22,6 +22,10 @@ menu:
   logo_home: "Zur Startseite"
   logo_description: "Website-Logo"
   home_title: "Startseite - %s"
+  section_nav: "Bereich %s - zur Seite gehen"
+  submenu_button: "Bereichsmenü %s - Leertaste oder Enter drücken zum Erweitern"
+  submenu_item: "Zu %s im Bereich %s gehen"
+  main_section: "Zum Bereich %s gehen"
 
 article:
   zen_mode_title:

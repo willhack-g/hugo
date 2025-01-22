@@ -22,6 +22,10 @@ menu:
   logo_home: "Go to homepage"
   logo_description: "Site logo"
   home_title: "Homepage - %s"
+  section_nav: "Section %s - go to page"
+  submenu_button: "Section %s menu - press space or enter to expand"
+  submenu_item: "Go to %s in section %s"
+  main_section: "Go to section %s"
 
 article:
   zen_mode_title:

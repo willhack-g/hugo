@@ -57,14 +57,15 @@
             <div
                 class="{{ if .Site.Params.footer.showScrollToTop | default true -}} ltr:mr-14 rtl:ml-14 {{- end }} flex items-center">
                 <button id="appearance-switcher" 
-                        aria-label='{{ i18n "appearance.icon_title" }}' 
-                        type="button" 
+                        type="button"
                         class="text-base hover:text-primary-600 dark:hover:text-primary-400" 
-                        title='{{ i18n "appearance.icon_title" }}'>
-                    <div class="flex items-center justify-center dark:hidden">
+                        aria-label='{{ i18n "appearance.dark_mode" }}'
+                        title='{{ i18n "appearance.dark_mode" }}'
+                        aria-pressed="false">
+                    <div class="flex items-center justify-center dark:hidden" aria-hidden="true">
                         {{ partial "icon.html" "moon" }}
                     </div>
-                    <div class="items-center justify-center hidden dark:flex">
+                    <div class="items-center justify-center hidden dark:flex" aria-hidden="true">
                         {{ partial "icon.html" "sun" }}
                     </div>
                 </button>
@@ -90,15 +91,16 @@
             {{/* Appearance switch */}}
             {{ if .Site.Params.footer.showAppearanceSwitcher | default false }}
             <button id="appearance-switcher-mobile" 
-                    aria-label='{{ i18n "appearance.icon_title" }}' 
                     type="button" 
                     class="text-base hover:text-primary-600 dark:hover:text-primary-400" 
-                    style="margin-right:5px" 
-                    title='{{ i18n "appearance.icon_title" }}'>
-                <div class="flex items-center justify-center dark:hidden">
+                    style="margin-right:5px"
+                    aria-label='{{ i18n "appearance.dark_mode" }}'
+                    title='{{ i18n "appearance.dark_mode" }}'
+                    aria-pressed="false">
+                <div class="flex items-center justify-center dark:hidden" aria-hidden="true">
                     {{ partial "icon.html" "moon" }}
                 </div>
-                <div class="items-center justify-center hidden dark:flex">
+                <div class="items-center justify-center hidden dark:flex" aria-hidden="true">
                     {{ partial "icon.html" "sun" }}
                 </div>
             </button>
