@@ -1,5 +1,4 @@
 mainSections = ["aboutme", "ai", "blockchain", "geopolitics", "health", "projects", "technology"]
-
 colorScheme = "blowfish"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
@@ -9,6 +8,7 @@ replyByEmail = false
 searchIconTitle = "Click to search"
 disableImageOptimization = false  # Włącz optymalizację obrazów
 disableTextInHeader = false
+disableImageZoom = true  # Wyłącz efekt powiększania Medium Zoom
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
 defaultBackgroundImage = "back_optimized.webp"
