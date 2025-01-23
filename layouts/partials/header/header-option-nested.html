@@ -1,7 +1,9 @@
 <div>
-  <div class="cursor-pointer flex items-center nested-menu" 
-       aria-expanded="false" 
-       aria-haspopup="true"
+  <div class="cursor-pointer flex items-center nested-menu"
+       role="button"
+       aria-expanded="false"
+       aria-haspopup="menu"
+       aria-controls="submenu-{{.Name | urlize}}"
        aria-label='{{ i18n "menu.submenu_button" .Name }}'>
     {{ if .Pre }}
     <span {{ if and .Pre .Name}} class="mr-1" {{ end }}>
@@ -18,8 +20,9 @@
       {{ partial "icon.html" "chevron-down" }}
     </span>
   </div>
-  <div class="absolute menuhide" 
-       role="menu" 
+  <div id="submenu-{{.Name | urlize}}"
+       class="absolute menuhide"
+       role="menu"
        aria-label='{{ i18n "menu.section_nav" .Name }}'
        aria-hidden="true">
     <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
