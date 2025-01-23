@@ -10,22 +10,83 @@
   <script>
     (function() {
       const defaultTheme = document.documentElement.getAttribute('data-default-appearance') || 'light';
+      const userPreference = localStorage.getItem('appearance');
       const autoSwitch = document.documentElement.getAttribute('data-auto-appearance') === 'true';
       
-      let currentTheme = localStorage.getItem('appearance');
-      
-      if (!currentTheme) {
-        if (autoSwitch && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-          currentTheme = 'dark';
-        } else {
-          currentTheme = defaultTheme;
-        }
-      }
-      
-      if (currentTheme === 'dark') {
+      // Apply theme based on saved preference or default
+      if ((defaultTheme === 'dark' && !userPreference) || userPreference === 'dark') {
         document.documentElement.classList.add('dark');
       }
+
+      // Handle system preference
+      if (autoSwitch) {
+        if (window.matchMedia && 
+            window.matchMedia('(prefers-color-scheme: dark)').matches && 
+            userPreference !== 'light') {
+          document.documentElement.classList.add('dark');
+        }
+      }
     })();
+  </script>
+
+  <!-- Theme Switcher Script -->
+  <script>
+    function updateMeta() {
+      const elem = document.querySelector('body');
+      const style = getComputedStyle(elem);
+      document.querySelector('meta[name="theme-color"]')?.setAttribute('content', style.backgroundColor);
+    }
+
+    function getTargetAppearance() {
+      return document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const switcher = document.getElementById('appearance-switcher');
+      const switcherMobile = document.getElementById('appearance-switcher-mobile');
+      const autoSwitch = document.documentElement.getAttribute('data-auto-appearance') === 'true';
+
+      // Update meta on load
+      updateMeta();
+
+      // Setup system preference change listener
+      if (autoSwitch) {
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (event) => {
+          if (!localStorage.getItem('appearance')) {
+            if (event.matches) {
+              document.documentElement.classList.add('dark');
+            } else {
+              document.documentElement.classList.remove('dark');
+            }
+            updateMeta();
+          }
+        });
+      }
+
+      // Setup click handlers
+      [switcher, switcherMobile].forEach(button => {
+        if (button) {
+          button.addEventListener('click', () => {
+            document.documentElement.classList.toggle('dark');
+            const targetAppearance = getTargetAppearance();
+            localStorage.setItem('appearance', targetAppearance);
+            updateMeta();
+            
+            // Update aria-pressed
+            button.setAttribute('aria-pressed', targetAppearance === 'dark');
+          });
+
+          // Right click to reset to system preference
+          button.addEventListener('contextmenu', (event) => {
+            event.preventDefault();
+            localStorage.removeItem('appearance');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            document.documentElement.classList.toggle('dark', prefersDark);
+            updateMeta();
+          });
+        }
+      });
+    });
   </script>
 
   {{/* Title */}}
@@ -129,4 +190,6 @@
   {{ if templates.Exists "partials/extend-head.html" }}
   {{ partialCached "extend-head.html" .Site }}
   {{ end }}
+
+  <meta name="theme-color"/>
 </head>
