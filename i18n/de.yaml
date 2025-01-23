@@ -26,6 +26,8 @@ menu:
   submenu_button: "Bereichsmenü %s - Leertaste oder Enter drücken zum Erweitern"
   submenu_item: "Zu %s im Bereich %s gehen"
   main_section: "Zum Bereich %s gehen"
+  dropdown_menu: "Dropdown-Menü"
+  submenu_of: "Untermenü von"
 
 article:
   zen_mode_title:

@@ -26,6 +26,8 @@ menu:
   submenu_button: "Menu sekcji %s - naciśnij spację lub enter aby rozwinąć"
   submenu_item: "Przejdź do %s w sekcji %s"
   main_section: "Przejdź do sekcji %s"
+  dropdown_menu: "menu rozwijane"
+  submenu_of: "Podmenu"
 
 article:
   zen_mode_title:

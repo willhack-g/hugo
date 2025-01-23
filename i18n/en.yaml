@@ -26,6 +26,8 @@ menu:
   submenu_button: "Section %s menu - press space or enter to expand"
   submenu_item: "Go to %s in section %s"
   main_section: "Go to section %s"
+  dropdown_menu: "dropdown menu"
+  submenu_of: "Submenu of"
 
 article:
   zen_mode_title:

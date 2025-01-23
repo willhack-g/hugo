@@ -9,9 +9,9 @@ taxonomy:
 
 archive:
   title: "Archivo"
-  description: "Todas las publicaciones"
+  description: "Todas las entradas"
   showMore: "Mostrar más"
-  noResults: "No se encontraron publicaciones"
+  noResults: "No se encontraron entradas"
 
 menu:
   main_navigation: "Navegación principal"
@@ -19,13 +19,15 @@ menu:
   mobile_menu: "Menú móvil"
   close_mobile_menu: "Cerrar menú"
   home: "Inicio"
-  logo_home: "Ir a la página de inicio"
+  logo_home: "Ir a la página principal"
   logo_description: "Logo del sitio"
-  home_title: "Página de inicio - %s"
+  home_title: "Página principal - %s"
   section_nav: "Sección %s - ir a la página"
   submenu_button: "Menú de sección %s - presione espacio o enter para expandir"
   submenu_item: "Ir a %s en la sección %s"
   main_section: "Ir a la sección %s"
+  dropdown_menu: "menú desplegable"
+  submenu_of: "Submenú de"
 
 article:
   zen_mode_title:

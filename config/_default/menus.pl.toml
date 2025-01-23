@@ -59,9 +59,6 @@ pageRef = "Geopolitics"
 weight = 7
 
 [[footer]]
-none = "none"
-
-[[footer]]
 name = "Tagi"
 pageRef = "tags"
 weight = 10
