@@ -30,3 +30,37 @@
   font-display: swap;
   src: url('/fonts/Inter.var.woff2') format('woff2');
 }
+
+/* Style menu mobilnego */
+#menu-wrapper .text-sm {
+  font-size: 1.25rem !important;
+  line-height: 1.75rem !important;
+  padding: 0.5rem 0;
+}
+
+#menu-close-button {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 1rem;
+  z-index: 40;
+}
+
+#menu-close-button span {
+  font-size: 1.5rem;
+}
+
+.mobile-submenu {
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(156, 163, 175, 0.2);
+}
+
+.mobile-submenu li {
+  margin-bottom: 0.75rem;
+}
+
+#menu-wrapper {
+  background-color: rgba(0, 0, 0, 0.8);
+}
