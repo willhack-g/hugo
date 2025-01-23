@@ -108,32 +108,47 @@ function hideSearch() {
 
 function fetchJSON(path, callback) {
   var httpRequest = new XMLHttpRequest();
+  httpRequest.onerror = function () {
+    console.error('Błąd sieci podczas pobierania:', path);
+  };
   httpRequest.onreadystatechange = function () {
     if (httpRequest.readyState === 4) {
       if (httpRequest.status === 200) {
-        var data = JSON.parse(httpRequest.responseText);
-        if (callback) callback(data);
+        try {
+          var data = JSON.parse(httpRequest.responseText);
+          console.log('Pobrano dane dla:', path, 'Liczba wpisów:', data.length);
+          if (callback) callback(data);
+        } catch (e) {
+          console.error('Błąd parsowania JSON dla:', path, e);
+          output.innerHTML = '<li class="mb-2">Błąd wczytywania danych wyszukiwania</li>';
+        }
+      } else {
+        console.error('Błąd HTTP:', httpRequest.status, 'dla:', path);
+        output.innerHTML = '<li class="mb-2">Nie można wczytać danych wyszukiwania</li>';
       }
     }
   };
+  console.log('Pobieranie:', path);
   httpRequest.open("GET", path);
   httpRequest.send();
 }
 
 function buildIndex() {
   var baseURL = wrapper.getAttribute("data-url");
-  // Usuń trailing slash jeśli istnieje
-  baseURL = baseURL.replace(/\/$/, '');
+  var currentLang = wrapper.getAttribute("data-lang");
   
-  var currentLang = document.documentElement.lang;
+  console.log('BaseURL:', baseURL);
+  console.log('Język:', currentLang);
+  
+  baseURL = baseURL.replace(/\/$/, '');
   var indexPath = baseURL;
   
   if (currentLang && currentLang !== 'en') {
     indexPath = baseURL + '/' + currentLang;
   }
   
-  // Dodaj /index.json na końcu
   indexPath = indexPath + '/index.json';
+  console.log('Ścieżka do indeksu:', indexPath);
   
   fetchJSON(indexPath, function (data) {
     var options = {
@@ -154,6 +169,11 @@ function buildIndex() {
 }
 
 function executeQuery(term) {
+  if (!fuse) {
+    console.error('Indeks wyszukiwania nie jest gotowy');
+    return;
+  }
+  
   let results = fuse.search(term);
   let resultsHTML = "";
 
