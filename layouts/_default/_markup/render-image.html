@@ -4,7 +4,7 @@
 {{- $caption := .Title }}
 {{- if findRE "^https?" $url.Scheme }}
   <figure>
-    <img class="my-0 rounded-md" loading="lazy" src="{{ $url.String }}" alt="{{ $altText }}" />
+    <img class="my-0 rounded-md" loading="lazy" decoding="async" src="{{ $url.String }}" alt="{{ $altText }}" />
     {{ with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
   </figure>
 {{- else }}
@@ -20,19 +20,32 @@
       <img
         class="my-0 rounded-md"
         loading="lazy"
+        decoding="async"
         src="{{ .RelPermalink }}"
         alt="{{ $altText }}"
       />
       {{- else }}
+      {{- $resized330 := .Resize "330x webp" }}
+      {{- $resized660 := .Resize "660x webp" }}
+      {{- $resized768 := .Resize "768x webp" }}
+      {{- $resized1024 := .Resize "1024x webp" }}
+      {{- $resized1280 := .Resize "1280x webp" }}
       <img
         class="my-0 rounded-md"
         loading="lazy"
+        decoding="async"
         srcset="
-        {{ (.Resize "330x").RelPermalink }} 330w,
-        {{ (.Resize "660x").RelPermalink }} 660w,
-        {{ (.Resize "1024x").RelPermalink }} 1024w,
-        {{ (.Resize "1320x").RelPermalink }} 2x"
-        src="{{ (.Resize "660x").RelPermalink }}"
+        {{ $resized330.RelPermalink }} 330w,
+        {{ $resized660.RelPermalink }} 660w,
+        {{ $resized768.RelPermalink }} 768w,
+        {{ $resized1024.RelPermalink }} 1024w,
+        {{ $resized1280.RelPermalink }} 1280w"
+        sizes="(max-width: 330px) 330px,
+               (max-width: 660px) 660px,
+               (max-width: 768px) 768px,
+               (max-width: 1024px) 1024px,
+               1280px"
+        src="{{ $resized768.RelPermalink }}"
         alt="{{ $altText }}"
       />
       {{- end }}
@@ -40,7 +53,7 @@
     </figure>
   {{- else }}
     <figure>
-      <img class="my-0 rounded-md" loading="lazy" src="{{ $url.String }}" alt="{{ $altText }}" />
+      <img class="my-0 rounded-md" loading="lazy" decoding="async" src="{{ $url.String }}" alt="{{ $altText }}" />
       {{ with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
     </figure>
   {{- end }}
