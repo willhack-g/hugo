@@ -1,0 +1,28 @@
+<!-- jQuery dla Disqus (załadowane przed Disqus) -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<!-- Disqus -->
+{{ if .Site.Language.Services.disqus.shortname }}
+<script>
+  var disqus_config = function () {
+    this.page.url = "{{ .Permalink }}";
+    this.page.identifier = "{{ .File.UniqueID }}";
+    this.language = "{{ .Site.Language.Lang }}";
+  };
+  
+  // Załaduj Disqus dopiero po załadowaniu jQuery
+  (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://{{ .Site.Language.Services.disqus.shortname }}.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>
+  {{ if eq .Site.Language.Lang "pl" }}
+    Włącz JavaScript aby zobaczyć komentarze.
+  {{ else }}
+    Please enable JavaScript to view the comments.
+  {{ end }}
+</noscript>
+{{ end }}

@@ -1,1 +1,3 @@
-{{ template "_internal/disqus.html" . }}
+{{ if .Site.Language.Services.disqus.shortname }}
+<div id="disqus_thread"></div>
+{{ end }}
