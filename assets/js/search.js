@@ -106,49 +106,34 @@ function hideSearch() {
   }
 }
 
-function fetchJSON(path, callback) {
-  var httpRequest = new XMLHttpRequest();
-  httpRequest.onerror = function () {
-    console.error('Błąd sieci podczas pobierania:', path);
-  };
-  httpRequest.onreadystatechange = function () {
-    if (httpRequest.readyState === 4) {
-      if (httpRequest.status === 200) {
-        try {
-          var data = JSON.parse(httpRequest.responseText);
-          console.log('Pobrano dane dla:', path, 'Liczba wpisów:', data.length);
-          if (callback) callback(data);
-        } catch (e) {
-          console.error('Błąd parsowania JSON dla:', path, e);
-          output.innerHTML = '<li class="mb-2">Błąd wczytywania danych wyszukiwania</li>';
-        }
-      } else {
-        console.error('Błąd HTTP:', httpRequest.status, 'dla:', path);
-        output.innerHTML = '<li class="mb-2">Nie można wczytać danych wyszukiwania</li>';
+async function fetchJSON(path, callback) {
+  try {
+    const response = await fetch(path, {
+      method: 'GET',
+      headers: {
+        'Accept': 'application/json'
       }
+    });
+    
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
     }
-  };
-  console.log('Pobieranie:', path);
-  httpRequest.open("GET", path);
-  httpRequest.send();
+    
+    const data = await response.json();
+    if (callback) callback(data);
+  } catch (error) {
+    console.error('Error fetching JSON:', path, error);
+    output.innerHTML = '<li class="mb-2">Nie można wczytać danych wyszukiwania</li>';
+  }
 }
 
 function buildIndex() {
-  var baseURL = wrapper.getAttribute("data-url");
-  var currentLang = wrapper.getAttribute("data-lang");
+  var currentLang = wrapper.getAttribute("data-lang") || document.documentElement.lang;
+  console.log('Current language:', currentLang);
   
-  console.log('BaseURL:', baseURL);
-  console.log('Język:', currentLang);
-  
-  baseURL = baseURL.replace(/\/$/, '');
-  var indexPath = baseURL;
-  
-  if (currentLang && currentLang !== 'en') {
-    indexPath = baseURL + '/' + currentLang;
-  }
-  
-  indexPath = indexPath + '/index.json';
-  console.log('Ścieżka do indeksu:', indexPath);
+  // Użyj względnych ścieżek zamiast pełnych URL
+  var indexPath = currentLang === 'en' ? '/index.json' : `/${currentLang}/index.json`;
+  console.log('Loading index from:', indexPath);
   
   fetchJSON(indexPath, function (data) {
     var options = {
@@ -170,7 +155,7 @@ function buildIndex() {
 
 function executeQuery(term) {
   if (!fuse) {
-    console.error('Indeks wyszukiwania nie jest gotowy');
+    console.error('Search index not ready');
     return;
   }
   
