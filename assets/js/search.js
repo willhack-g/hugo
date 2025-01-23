@@ -122,18 +122,20 @@ function fetchJSON(path, callback) {
 
 function buildIndex() {
   var baseURL = wrapper.getAttribute("data-url");
-  baseURL = baseURL.replace(/\/?$/, '/');
+  // Usuń trailing slash jeśli istnieje
+  baseURL = baseURL.replace(/\/$/, '');
   
-  // Pobierz język z elementu HTML
   var currentLang = document.documentElement.lang;
   var indexPath = baseURL;
   
-  // Dla języka innego niż domyślny (angielski), dodaj prefix języka
   if (currentLang && currentLang !== 'en') {
-    indexPath = baseURL + currentLang + '/';
+    indexPath = baseURL + '/' + currentLang;
   }
   
-  fetchJSON(indexPath + "index.json", function (data) {
+  // Dodaj /index.json na końcu
+  indexPath = indexPath + '/index.json';
+  
+  fetchJSON(indexPath, function (data) {
     var options = {
       shouldSort: true,
       ignoreLocation: true,
