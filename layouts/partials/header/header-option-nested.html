@@ -2,7 +2,7 @@
   <div class="cursor-pointer flex items-center nested-menu" 
        aria-expanded="false" 
        aria-haspopup="true"
-       aria-label="{{ .Name }} {{ i18n "dropdown_menu" }}">
+       aria-label='{{ i18n "menu.submenu_button" .Name }}'>
     {{ if .Pre }}
     <span {{ if and .Pre .Name}} class="mr-1" {{ end }}>
       {{ partial "icon.html" .Pre }}
@@ -18,7 +18,10 @@
       {{ partial "icon.html" "chevron-down" }}
     </span>
   </div>
-  <div class="absolute menuhide" role="menu" aria-label="{{ i18n "submenu_of" }} {{ .Name }}">
+  <div class="absolute menuhide" 
+       role="menu" 
+       aria-label='{{ i18n "menu.section_nav" .Name }}'
+       aria-hidden="true">
     <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
       <div class="flex flex-col space-y-3">
         {{ range .Children }}
@@ -28,7 +31,7 @@
            {{ end }} 
            class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400"
            role="menuitem"
-           aria-label="{{ $.Name }}: {{ .Name }}">
+           aria-label='{{ i18n "menu.submenu_item" .Name $.Name }}'>
           {{ if .Pre }}
           <span {{ if and .Pre .Name}} class="mr-1" {{ end }}>
             {{ partial "icon.html" .Pre }}
