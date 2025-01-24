@@ -193,10 +193,9 @@
 {{ if .Site.Params.highlightCurrentMenuArea }}
 <script>
     (function () {
-        var $mainmenu = $('.main-menu');
         var path = window.location.pathname;
-        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
-            $(e).children('p').addClass('active');
+        document.querySelectorAll('.main-menu a[href="' + path + '"] p').forEach(function(element) {
+            element.classList.add('active');
         });
     })();
 </script>

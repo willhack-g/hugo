@@ -9,8 +9,9 @@
   style="visibility: hidden;"
 >
 <script>
-  // Przywrócenie widoczności strony po załadowaniu
-  document.documentElement.style.visibility = 'visible';
+  document.addEventListener('DOMContentLoaded', function() {
+    document.documentElement.style.visibility = 'visible';
+  });
 </script>
 {{- partial "head.html" . -}}
 
