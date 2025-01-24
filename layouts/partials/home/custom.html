@@ -1,33 +1,13 @@
-<link rel="preload" href="{{ .Site.Params.defaultBackgroundImage | relURL }}" as="image">
-<div style="
-  background: url('{{ .Site.Params.defaultBackgroundImage | relURL }}') no-repeat center center/cover;
-  min-height: 60vh;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 2rem;
-  border-radius: 20px;
-">
-  <h1 style="
-    color: white;
-    font-size: 3rem;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    margin-bottom: 1rem;
-  ">{{ .Site.Title }}</h1>
-  <p style="
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    max-width: 800px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-  ">{{ .Site.Params.author.headline }}</p>
+<link rel="preload" as="image" href="{{ .Site.Params.defaultBackgroundImage | relURL }}" media="(min-width: 768px)">
+<link rel="preload" as="image" href="{{ replace (.Site.Params.defaultBackgroundImage | relURL) ".webp" "_mobile.webp" }}" media="(max-width: 767px)">
+
+<div class="hero-section">
+  <div class="hero-content">
+    <h1>{{ .Site.Title }}</h1>
+    <p>{{ .Site.Params.author.headline }}</p>
+  </div>
 </div>
 
 <div class="recent-articles-section">
   {{ partial "recent-articles/main.html" . }}
 </div>
-
