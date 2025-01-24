@@ -11,7 +11,7 @@
   
   <!-- Disqus -->
   <script>
-    window.addEventListener('load', function() {
+    $(document).ready(function() {
       var disqus_config = function () {
         this.page.url = "{{ $.Permalink }}";
         this.page.identifier = "{{ $pageId }}";
