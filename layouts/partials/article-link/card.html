@@ -4,17 +4,9 @@
    title="{{ .Title }}">
   
   {{/* Image container */}}
-  {{ $featured := "" }}
   {{ with .Resources.GetMatch "featured.*" }}
-    {{ $featured = .RelPermalink }}
-  {{ end }}
-  {{ if $featured }}
     <div class="relative w-full aspect-[2/1] overflow-hidden">
-      <img src="{{ $featured }}"
-           alt="{{ .Title }}"
-           class="w-full h-full object-cover image-zoom"
-           loading="lazy"
-           decoding="async">
+      {{ partial "helpers/responsive-image.html" . }}
     </div>
   {{ end }}
 

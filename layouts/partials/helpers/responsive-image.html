@@ -1,0 +1,28 @@
+{{- $image := . -}}
+{{- $alt := "" -}}
+{{- if .Params }}
+  {{- $alt = .Params.alt | default .Title -}}
+{{- else }}
+  {{- $alt = .Title | default "Featured image" -}}
+{{- end -}}
+
+{{- if eq .MediaType.SubType "svg" -}}
+  <img src="{{ .RelPermalink }}" 
+       alt="{{ $alt }}"
+       class="w-full h-full object-cover image-zoom"
+       loading="lazy"
+       decoding="async">
+{{- else -}}
+  {{- $medium := $image.Resize "800x webp" -}}
+  {{- $small := $image.Resize "500x webp" -}}
+  
+  <img src="{{ $medium.RelPermalink }}" 
+       srcset="{{ $small.RelPermalink }} 500w,
+               {{ $medium.RelPermalink }} 800w"
+       sizes="(max-width: 500px) 500px,
+              800px"
+       alt="{{ $alt }}"
+       class="w-full h-full object-cover image-zoom"
+       loading="lazy"
+       decoding="async">
+{{- end -}}
