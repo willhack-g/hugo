@@ -4,6 +4,10 @@ languageName = "English"
 weight = 1
 title = "WillHack"
 
+[services]
+  [services.disqus]
+    shortname = "willhack-1"
+
 [params]
 displayName = "English"
 isoCode = "en"
@@ -18,7 +22,3 @@ name = "Willhack"
   image = "img/fav.png"
 headline = "Hack you reality - if you want to find yourself in tomorrow's world of intelligence explosion - start getting ready today."
 bio = "admin"
-
-[services]
-  [services.disqus]
-    shortname = "willhack-1"

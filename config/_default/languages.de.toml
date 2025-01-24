@@ -4,6 +4,10 @@ languageName = "Deutsch"
 weight = 4
 title = "WillHack"
 
+[services]
+  [services.disqus]
+    shortname = "willhack-de"
+
 [params]
 contentDir = "content/de"
 displayName = "Deutsch"
@@ -19,7 +23,3 @@ name = "Willhack"
   image = "img/fav.png"
 headline = "Hacke deine Realität - wenn du dich in der Welt von morgen, in der die Intelligenz explodiert, zurechtfinden willst, beginne noch heute, dich vorzubereiten."
 bio = "admin"
-
-[services]
-  [services.disqus]
-    shortname = "willhack-de"
