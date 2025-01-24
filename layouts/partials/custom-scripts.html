@@ -6,12 +6,9 @@
   {{ else }}
     {{ $pageId = $.Permalink }}
   {{ end }}
-  <!-- jQuery dla Disqus -->
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  
   <!-- Disqus -->
   <script>
-    $(document).ready(function() {
+    document.addEventListener('DOMContentLoaded', function() {
       var disqus_config = function () {
         this.page.url = "{{ $.Permalink }}";
         this.page.identifier = "{{ $pageId }}";
