@@ -31,4 +31,17 @@
     {{ end }}
   </noscript>
   {{ end }}
+
+  <!-- Medium Zoom initialization -->
+  {{ if not .Site.Params.disableImageZoom | default true }}
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      mediumZoom('img:not(.nozoom)', {
+        margin: 24,
+        background: 'rgba(0,0,0,0.8)',
+        scrollOffset: 0
+      });
+    });
+  </script>
+  {{ end }}
 {{ end }}
