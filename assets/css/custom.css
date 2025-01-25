@@ -140,3 +140,99 @@
     opacity: 1;
   }
 }
+
+/* Style ikon w artykułach */
+article .icon {
+    fill: currentColor;
+}
+
+[data-scheme="dark"] article .icon {
+    color: var(--neutral-300);
+}
+
+[data-scheme="light"] article .icon {
+    color: var(--neutral-800);
+}
+
+/* Table of Contents Styles */
+.toc-right {
+    position: sticky;
+    top: 100px;
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    background: var(--neutral-100);
+    border-radius: 0.5rem;
+    border: 1px solid var(--neutral-200);
+}
+
+[data-scheme="dark"] .toc-right {
+    background: var(--neutral-800);
+    border-color: var(--neutral-700);
+}
+
+.toc-right #TableOfContents {
+    font-size: 0.875rem;
+}
+
+.toc-right #TableOfContents ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.toc-right #TableOfContents > ul {
+    padding-left: 0;
+}
+
+.toc-right #TableOfContents li {
+    margin: 0.5rem 0;
+}
+
+.toc-right #TableOfContents a {
+    color: var(--neutral-700);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+[data-scheme="dark"] .toc-right #TableOfContents a {
+    color: var(--neutral-300);
+}
+
+/* Zwiększona specyficzność selektorów */
+.toc-right #TableOfContents a:hover {
+    color: var(--primary-600);
+}
+
+.toc-right #TableOfContents a.active {
+    color: var(--primary-600) !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
+}
+
+[data-scheme="dark"] .toc-right #TableOfContents a.active {
+    color: var(--primary-400);
+}
+
+/* Add custom scrollbar styles */
+.toc-right::-webkit-scrollbar {
+    width: 4px;
+}
+
+.toc-right::-webkit-scrollbar-track {
+    background: var(--neutral-200);
+    border-radius: 2px;
+}
+
+.toc-right::-webkit-scrollbar-thumb {
+    background: var(--neutral-400);
+    border-radius: 2px;
+}
+
+[data-scheme="dark"] .toc-right::-webkit-scrollbar-track {
+    background: var(--neutral-800);
+}
+
+[data-scheme="dark"] .toc-right::-webkit-scrollbar-thumb {
+    background: var(--neutral-600);
+}

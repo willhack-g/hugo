@@ -1,3 +1,4 @@
+{{ $isDark := or (eq .Site.Params.defaultAppearance "dark") (and (not .Site.Params.defaultAppearance) (eq .Site.Params.autoSwitchAppearance true)) }}
 <head>
   <!-- Immediate Theme Init - przed jakimkolwiek renderowaniem -->
   <script>
@@ -22,6 +23,13 @@
   {{ end }}
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- jQuery dla TOC -->
+  {{ if eq .Kind "page" }}
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+  {{ end }}
 
   <!-- Main Theme Script - bez defer/async -->
   <script>
@@ -150,6 +158,11 @@
 
   {{ $jsMobileMenu := resources.Get "js/mobilemenu.js" }}
   {{ $assets.Add "js" (slice $jsMobileMenu) }}
+
+  {{ if eq .Kind "page" }}
+  {{ $jsTOC := resources.Get "js/toc.js" }}
+  {{ $assets.Add "js" (slice $jsTOC) }}
+  {{ end }}
 
   {{ if $assets.Get "js" }}
   {{ $bundleJS := $assets.Get "js" | resources.Concat "js/main.bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}

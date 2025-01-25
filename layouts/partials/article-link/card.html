@@ -8,6 +8,12 @@
     <div class="relative w-full aspect-[2/1] overflow-hidden">
       {{ partial "helpers/responsive-image.html" . }}
     </div>
+  {{ else }}
+    {{ with .Site.Params.defaultFeaturedImage }}
+    <div class="relative w-full aspect-[2/1] overflow-hidden">
+      <img src="{{ . | absURL }}" alt="" class="w-full h-full object-cover">
+    </div>
+    {{ end }}
   {{ end }}
 
   {{/* Content container */}}

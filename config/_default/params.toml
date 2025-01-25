@@ -11,10 +11,11 @@ disableTextInHeader = false
 disableImageZoom = true  # Wyłącz efekt powiększania Medium Zoom
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
-defaultBackgroundImage = "back_optimized.webp"
+defaultBackgroundImage = "def.png"
 defaultFeaturedImage = "def.png"
 highlightCurrentMenuArea = "Enable"
 smartTOC = "Enable"
+smartTOCHideUnfocusedChildren = "true"
 backgroundImageWidth = "1408"
 backgroundImageResponsive = true  # Włącz responsywne obrazy
 backgroundImageSizes = ["480w", "768w", "1024w", "1280w"]  # Rozmiary dla różnych urządzeń
@@ -33,7 +34,7 @@ showScrollToTop = true
 
 [homepage]
 layout = "custom"
-showRecent = "enable"
+showRecent = "Enable"
 showRecentItems = "6"
 showMoreLink = "Enable"
 showMoreLinkDest = "/archives/"
@@ -121,11 +122,12 @@ cardViewScreenWidth = false
 [selineAnalytics]
 
 [buymeacoffee]
-identifier = "WillHack"
+  identifier = "WillHack"
   globalWidget = true
   globalWidgetMessage = ""
   globalWidgetColor = "#FFDD0040"
-  globalWidgetPosition = "Left"
+  globalWidgetPosition = "Right"
+  widgetScript = "https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
 
 [verification]
 
