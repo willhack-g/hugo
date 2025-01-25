@@ -252,3 +252,24 @@ article .icon {
 [data-scheme="dark"] .toc-right::-webkit-scrollbar-thumb {
     background: var(--neutral-600);
 }
+
+/* Style dla hero w artykułach */
+.article-hero {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 300px;
+    border-radius: 20px;
+}
+
+.article-hero img {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    object-fit: contain;
+    border-radius: 20px;
+}
