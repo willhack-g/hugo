@@ -211,4 +211,9 @@
   {{ $zoomJS := resources.Get "lib/zoom/zoom.min.js" | resources.Fingerprint "sha512" }}
   <script defer src="{{ $zoomJS.RelPermalink }}" integrity="{{ $zoomJS.Data.Integrity }}"></script>
   {{ end }}
+
+  <!-- Preload LCP image -->
+  <link rel="preload" href="/back_optimized.webp" as="image" type="image/webp" />
+  <link rel="preload" href="/back_optimized_mobile.webp" as="image" type="image/webp" media="(max-width: 768px)" />
+  
 </head>
