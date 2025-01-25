@@ -122,12 +122,14 @@ cardViewScreenWidth = false
 [selineAnalytics]
 
 [buymeacoffee]
-  identifier = "WillHack"
-  globalWidget = true
-  globalWidgetMessage = ""
-  globalWidgetColor = "#FFDD0040"
-  globalWidgetPosition = "Right"
-  widgetScript = "https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+identifier = "willhack"
+enabled = true
+globalWidget = true
+globalWidgetMessage = ""
+globalWidgetColor = "#FFDD0040"
+globalWidgetPosition = "left"
+showOnArticle = true
+widgetScript = "https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
 
 [verification]
 
