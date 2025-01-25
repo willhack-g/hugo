@@ -1,40 +1,74 @@
-<a href="{{ .RelPermalink }}" 
-   class="flex flex-col min-w-full bg-neutral-100 dark:bg-neutral-700 shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:shadow-[0_8px_30px_rgba(0,0,0,0.24)] border border-neutral-200 dark:border-neutral-600 hover:border-primary-300 dark:hover:border-primary-600 rounded-xl overflow-hidden transition duration-300 hover:translate-y-[-2px]"
-   aria-label="{{ .Title }} - przeczytaj artykuł"
-   title="{{ .Title }}">
-  
-  {{/* Image container */}}
-  {{ with .Resources.GetMatch "featured.*" }}
-    <div class="relative w-full aspect-[2/1] overflow-hidden">
-      {{ partial "helpers/responsive-image.html" . }}
-    </div>
+{{ $disableImageOptimization := .Page.Site.Params.disableImageOptimization | default false }}
+{{ with .Params.externalUrl }}
+<a href="{{ . }}" target="_blank" rel="external" class="min-w-full">
   {{ else }}
-    {{ with .Site.Params.defaultFeaturedImage }}
-    <div class="relative w-full aspect-[2/1] overflow-hidden">
-      <img src="{{ . | absURL }}" alt="" class="w-full h-full object-cover">
-    </div>
+  <a href="{{ .RelPermalink }}" class="min-w-full">
     {{ end }}
-  {{ end }}
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
 
-  {{/* Content container */}}
-  <div class="flex flex-col flex-1 gap-2 p-4 dark:bg-neutral-800">
-    <h2 class="text-xl font-bold text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
-      {{ .Title | emojify }}
-    </h2>
-    
-    {{ if .Description }}
-      <div class="text-sm text-neutral-600 dark:text-neutral-400 line-clamp-3">
-        {{ .Description | emojify }}
-      </div>
-    {{ end }}
-
-    <div class="flex items-center gap-x-4 text-sm text-neutral-600 dark:text-neutral-400">
-      <time datetime="{{ .Date.Format "2006-01-02" }}">
-        {{ .Date.Format "2006-01-02" }}
-      </time>
-      {{ if .Params.readingTime }}
-        <span>· {{ .Params.readingTime }} min</span>
+      {{- with $.Params.images -}}
+      {{- range first 6 . }}
+      <meta property="og:image" content="{{ . | absURL }}" />{{ end -}}
+      {{- else -}}
+      {{- $images := $.Resources.ByType "image" -}}
+      {{- $featured := $images.GetMatch "*feature*" -}}
+      {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
+      {{ if and .Params.featureimage (not $featured) }}
+      {{- $url:= .Params.featureimage -}}
+      {{ $featured = resources.GetRemote $url }}
       {{ end }}
+      {{- if not $featured }}{{ with .Site.Params.defaultFeaturedImage }}{{ $featured = resources.Get . }}{{ end }}{{ end -}}
+      {{ if .Params.hideFeatureImage }}{{ $featured = false }}{{ end }}
+      {{- with $featured -}}
+      {{ if or $disableImageOptimization (strings.HasSuffix $featured ".svg")}}
+        {{ with . }}
+        <div class="w-full thumbnail_card image-zoom" style="background-image: url('{{ .RelPermalink }}')"></div>
+        {{ end }}
+      {{ else }}
+        {{ with .Resize "600x" }}
+        <div class="w-full thumbnail_card image-zoom" style="background-image: url('{{ .RelPermalink }}')"></div>
+        {{ end }}
+      {{ end }}
+      {{- else -}}
+      {{- with $.Site.Params.images }}
+      <meta property="og:image" content="{{ index . 0 | absURL }}" />{{ end -}}
+      {{- end -}}
+      {{- end -}}
+
+
+      {{ if and .Draft .Site.Params.article.showDraftLabel }}
+      <span class="absolute top-0 right-0 m-2">
+        {{ partial "badge.html" (i18n "article.draft" | emojify) }}
+      </span>
+      {{ end }}
+
+      <div class="px-6 py-4">
+
+        {{ with .Params.externalUrl }}
+        <div>
+          <div
+            class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+            {{ $.Title | emojify }}
+            <span class="text-xs align-top cursor-default text-neutral-400 dark:text-neutral-500">
+              <span class="rtl:hidden">&#8599;</span>
+              <span class="ltr:hidden">&#8598;</span>
+            </span>
+          </div>
+        </div>
+        {{ else }}
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          >{{ .Title | emojify }}</div>
+        {{ end }}
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          {{ partial "article-meta/basic.html" . }}
+        </div>
+
+        {{ if .Params.showSummary | default (.Site.Params.list.showSummary | default false) }}
+        <div class="py-1 prose dark:prose-invert">
+          {{ .Summary | plainify }}
+        </div>
+        {{ end }}
+      </div>
     </div>
-  </div>
-</a>
+  </a>

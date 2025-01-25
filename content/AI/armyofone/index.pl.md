@@ -1,12 +1,12 @@
 ---
 title: "Armia Jednego"
 date: 2025-01-25
-draft: true
+draft: false
 language: "pl"
 description: "Przewodnik po automatyzacji przy minimalnym budżecie."
 slug: "przewodnik-po-automatyzacji-przy-minimalnym-budzecie"
-tags: ["AI", "automatyzacja", "DeepSeek", "Make.com", "produktywność"]
-categories: ["AI", "Technologia"]
+tags: ["SI", "automatyzacja", "DeepSeek", "Make.com", "produktywność"]
+categories: ["SI", "Technologia"]
 showAuthor: false
 showAuthorsBadges: true
 authors:
@@ -19,7 +19,7 @@ authors:
 Zanim SI dojrzeje na tyle by zabrać nam całą pracę, najpierw obdarzy tych z nas, którzy chcą się uczyć supermocami {{< icon "face-wink" >}}
 
 
-Używając odpowiednich narzędzi, pojedyncza osoba może osiągnąć to, co kiedyś wymagało całego zespołu! {{< icon "robot" >}}
+Używając odpowiednich narzędzi, pojedyncza osoba może osiągnąć to, co kiedyś wymagało całego zespołu! 
 
 {{< icon "lightbulb" >}}
 **Co zyskasz:**
@@ -51,10 +51,17 @@ DeepSeek to zaawansowany model AI, który 20 stycznia 2025 wydał przełomową w
 - W pełni open source'owy model z licencją MIT pozwalającą na komercyjne wykorzystanie
 
 Co wyróżnia DeepSeek-R1 spośród innych modeli AI? Przede wszystkim jego zaawansowane zdolności rozumowania i analizy, które dorównują lub przewyższają zamknięte modele komercyjne. Model wykorzystuje najnowocześniejszą architekturę MoE, co pozwala na znacznie lepszą wydajność przy zachowaniu rozsądnych kosztów wdrożenia.
-Deepseek R1 = $2.19/M tokenów wyjście do o1 $60/M tokenów.
+Oto poprawione zdanie do wklejenia:
+
+```
+Koszt użycia DeepSeek R1 to zaledwie $2.19 za milion tokenów 
+wyjściowych, w porównaniu do $60 za milion tokenów w przypadku 
+modelu o1.
+```
 ### Zastosowania DeepSeek
 
-1. **Generowanie kodu**
+1. **Generowanie kodu i treści**
+   - Generowanie tekstów
    - Tworzenie kompletnych funkcji i modułów
    - Automatyczne generowanie testów jednostkowych
    - Refaktoryzacja istniejącego kodu
@@ -123,7 +130,7 @@ Krok po kroku, od instalacji do działającej aplikacji z pełną automatyzacją
 {{< /lead >}}
 
 {{< alert "lightbulb" >}}
-**Pro tip:** Wszystkie narzędzia są dostępne za darmo dla projektów osobistych.
+**Pro tip:** Gdy masz problem z instalacją, zrozumieniem lub użyciem - zapytaj za darmo deepseek chat 
 {{< /alert >}}
 
 #### Krok 1: Konfiguracja środowiska
@@ -141,7 +148,7 @@ Krok po kroku, od instalacji do działającej aplikacji z pełną automatyzacją
 1. Otwórz VSCode
 2. Wciśnij Ctrl+Shift+P
 3. Wpisz: Cline: Open Settings
-4. Wybierz DeepSeek R1 jako model
+4. Wybierz DeepSeek R1 jako model 
 5. Wklej swój API code
 
 
@@ -186,7 +193,8 @@ Krok po kroku, od instalacji do działającej aplikacji z pełną automatyzacją
    - "Zoptymalizuj wydajność strony"
    - "Dodaj animacje przy przewijaniu"
 
-2. DeepSeek R1 wygeneruje odpowiedni kod, który możesz bezpośrednio wdrożyć.
+
+2. DeepSeek R1 wygeneruje odpowiedni kod, który możesz bezpośrednio wdrożyć. Do łatwiejszych zadań możesz przełączać w Cline na tańszy ale też bystry deepseek-chat.
 
 #### Krok 5: Integracja z API
 
@@ -343,11 +351,11 @@ Pełna Automatyzacja {{< /badge >}}
 System, który zbudujesz:
 
 * Automatyzuje powtarzalne zadania {{< icon "robot" >}}
-* Zwiększa produktywność {{< badge >}}+200%{{< /badge >}} {{< icon "rocket" >}}
-* Redukuje koszty operacyjne {{< badge >}}75%{{< /badge >}} {{< icon "piggy-bank" >}}
+* Zwiększa produktywność  {{< icon "rocket" >}}
+* Redukuje koszty operacyjne {{< icon "piggy-bank" >}}
 * Pozwala skupić się na strategicznych działaniach {{< icon "bullseye" >}}
 
-**Wskazówka:** {{< icon "robot" >}} Zacznij od małych automatyzacji i stopniowo rozbudowuj swój ekosystem.
+**Wskazówka:** Zacznij od małych automatyzacji i stopniowo rozbudowuj swój ekosystem.
 
 ## Przydatne linki
 
