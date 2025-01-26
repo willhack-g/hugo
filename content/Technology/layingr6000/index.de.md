@@ -17,6 +17,8 @@ authors:
 ## Einführung
 Der **Lanying R6000**, entwickelt von der **United Aircraft Corporation**, stellt einen bedeutenden Durchbruch in der Luftfahrttechnologie dar. Diese innovative 6-Tonnen-Kipprotor-Drohne, auch als **Lanthan-Schatten** bekannt, vereint die Vorteile eines Hubschraubers mit denen eines Starrflügelflugzeugs. Durch die Kombination von Senkrechtstart und -landung (VTOL) mit Hochgeschwindigkeitsleistung setzt der 2024 vorgestellte Lanying R6000 neue Maßstäbe in der zivilen und militärischen Luftfahrt.
 
+{{< figure src="lanying.webp" alt="Lanying R6000 Tiltrotor Drone" href="/technology/future-civil-aviation/lanying.webp" >}}
+
 ## Technische Spezifikationen
 Der Lanying R6000 zeichnet sich durch beeindruckende technische Merkmale aus:
 

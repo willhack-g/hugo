@@ -17,6 +17,8 @@ authors:
 ## Introduction
 The **Lanying R6000**, developed by **United Aircraft Corporation**, represents a significant leap in aviation technology, combining the vertical takeoff and landing (VTOL) capabilities of a helicopter with the high-speed performance of a fixed-wing aircraft. This 6-ton tiltrotor drone, also known as the **Lanthanum Shadow**, has garnered global attention for its innovative design and versatile applications. Unveiled in 2024, the Lanying R6000 is poised to revolutionize both civilian and military aviation, offering unprecedented efficiency, range, and payload capacity.
 
+{{< figure src="lanying.webp" alt="Lanying R6000 Tiltrotor Drone" href="lanying.webp" >}}
+
 ## Technical Specifications
 The Lanying R6000 boasts an impressive array of technical features that set it apart from conventional drones and helicopters:
 
