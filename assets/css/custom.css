@@ -8,14 +8,6 @@
     --hero-background: url('/back_optimized_mobile.webp');
   }
 }
-
-/* Hero background styles */
-.hero-background {
-  position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-  background-image: var(--hero-background);
-  background-size: cover; background-position: center;
-}
-
 /* Hero section styles */
 .hero-section {
   position: relative;
@@ -28,6 +20,9 @@
   align-items: center;
   text-align: center;
   padding: 2rem;
+  background-image: var(--hero-background);
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-content {

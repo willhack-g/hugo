@@ -1,11 +1,10 @@
 <link rel="preload" 
       href="{{ .Site.Params.defaultBackgroundImage | relURL }}" 
       as="image" 
-      type="image/webp">
+      type="image/webp"
+      fetchpriority="high">
 
 <div class="hero-section">
-  <div class="hero-background">
-  </div>
   <div class="hero-content">
     <h1>{{ .Site.Title }}</h1>
     <p>{{ .Site.Params.author.headline }}</p>
