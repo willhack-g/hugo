@@ -38,14 +38,6 @@
     overflow: hidden;
 }
 
-/* Definicja czcionki Inter */
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url('/fonts/Inter.var.woff2') format('woff2');
-}
 
 /* Style menu mobilnego */
 #menu-wrapper .text-sm {
@@ -95,17 +87,6 @@
   padding: 2rem;
 }
 
-.hero-section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #1a1a1a;
-  z-index: 1;
-}
-
 .hero-section::after {
   content: '';
   position: absolute;
@@ -113,14 +94,13 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('/back_optimized.webp');
   background-position: center;
+  background-image: url('/back_optimized.webp');
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: 2;
-  animation: fadeIn 0.5s ease-in forwards;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.6);
 }
-
 @media (max-width: 767px) {
   .hero-section::after {
     background-image: url('/back_optimized_mobile.webp');
@@ -129,7 +109,7 @@
 
 .hero-content {
   position: relative;
-  z-index: 3;
+  z-index: 2;
 }
 
 .hero-content h1 {
@@ -148,14 +128,6 @@
   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
 /* Style ikon w artykułach */
 article .icon {
