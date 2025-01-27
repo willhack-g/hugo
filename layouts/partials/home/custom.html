@@ -1,12 +1,10 @@
+<link rel="preload" 
+      href="{{ .Site.Params.defaultBackgroundImage | relURL }}" 
+      as="image" 
+      type="image/webp">
+
 <div class="hero-section">
-  <div class="hero-background" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('{{ .Site.Params.defaultBackgroundImage | relURL }}'); background-size: cover; background-position: center;">
-    <style>
-      @media (max-width: 767px) {
-        .hero-background {
-          background-image: url('{{ replace (.Site.Params.defaultBackgroundImage | relURL) ".webp" "_mobile.webp" }}') !important;
-        }
-      }
-    </style>
+  <div class="hero-background">
   </div>
   <div class="hero-content">
     <h1>{{ .Site.Title }}</h1>
