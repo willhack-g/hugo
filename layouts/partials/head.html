@@ -231,7 +231,7 @@
   {{ end }}
 
   <!-- Preload LCP image -->
-  <link rel="preload" href="/back_optimized.webp" as="image" type="image/webp" />
-  <link rel="preload" href="/back_optimized_mobile.webp" as="image" type="image/webp" media="(max-width: 768px)" />
+  <link rel="preload" href="/back_optimized.webp" as="image" type="image/webp" fetchpriority="high" />
+  <link rel="preload" href="/back_optimized_mobile.webp" as="image" type="image/webp" fetchpriority="high" media="(max-width: 767px)" />
   
 </head>

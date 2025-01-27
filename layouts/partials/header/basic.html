@@ -199,7 +199,10 @@
             // Sprawdź dokładne dopasowanie lub czy jest to sekcja nadrzędna
             if (href === path || 
                 (href !== '/' && path.startsWith(href))) {
-                link.querySelector('p').classList.add('active');
+                const paragraph = link.querySelector('p');
+                if (paragraph) {
+                    paragraph.classList.add('active');
+                }
             }
         });
     })();
