@@ -273,3 +273,17 @@ article .icon {
     object-fit: contain;
     border-radius: 20px;
 }
+
+/* Style dla aktywnego elementu menu */
+.main-menu a p.active {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    text-decoration-color: var(--primary-600);
+    color: var(--primary-600);
+}
+
+[data-scheme="dark"] .main-menu a p.active {
+    text-decoration-color: var(--primary-400);
+    color: var(--primary-400);
+}

@@ -10,6 +10,8 @@
     {{ partial "icon.html" .Pre }}
   </span>
   {{ end }}
-  {{ .Name | markdownify }}
+  <p class="text-base font-medium" title="{{ .Title }}">
+    {{ .Name | markdownify }}
+  </p>
 </a>
 

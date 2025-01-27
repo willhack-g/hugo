@@ -194,8 +194,13 @@
 <script>
     (function () {
         var path = window.location.pathname;
-        document.querySelectorAll('.main-menu a[href="' + path + '"] p').forEach(function(element) {
-            element.classList.add('active');
+        document.querySelectorAll('.main-menu a').forEach(function(link) {
+            var href = link.getAttribute('href');
+            // Sprawdź dokładne dopasowanie lub czy jest to sekcja nadrzędna
+            if (href === path || 
+                (href !== '/' && path.startsWith(href))) {
+                link.querySelector('p').classList.add('active');
+            }
         });
     })();
 </script>
