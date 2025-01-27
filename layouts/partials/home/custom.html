@@ -1,7 +1,13 @@
-<link rel="preload" as="image" href="{{ .Site.Params.defaultBackgroundImage | relURL }}" media="(min-width: 768px)">
-<link rel="preload" as="image" href="{{ replace (.Site.Params.defaultBackgroundImage | relURL) ".webp" "_mobile.webp" }}" media="(max-width: 767px)">
-
 <div class="hero-section">
+  <div class="hero-background" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('{{ .Site.Params.defaultBackgroundImage | relURL }}'); background-size: cover; background-position: center;">
+    <style>
+      @media (max-width: 767px) {
+        .hero-background {
+          background-image: url('{{ replace (.Site.Params.defaultBackgroundImage | relURL) ".webp" "_mobile.webp" }}') !important;
+        }
+      }
+    </style>
+  </div>
   <div class="hero-content">
     <h1>{{ .Site.Title }}</h1>
     <p>{{ .Site.Params.author.headline }}</p>

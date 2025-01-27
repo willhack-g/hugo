@@ -1,3 +1,38 @@
+/* Hero section styles */
+.hero-section {
+  position: relative;
+  min-height: 60vh;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  color: white;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  color: white;
+  font-size: clamp(1rem, 3vw, 1.25rem);
+  font-weight: bold;
+  max-width: 800px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
 /* Zaokrąglone rogi kart Recent Posts */
 .rounded {
   border-radius: 1rem !important;
@@ -38,7 +73,6 @@
     overflow: hidden;
 }
 
-
 /* Style menu mobilnego */
 #menu-wrapper .text-sm {
   font-size: 1.25rem !important;
@@ -72,62 +106,6 @@
 #menu-wrapper {
   background-color: rgba(0, 0, 0, 0.8);
 }
-
-/* Hero section styles */
-.hero-section {
-  position: relative;
-  min-height: 60vh;
-  border-radius: 20px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 2rem;
-}
-
-.hero-section::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-position: center;
-  background-image: url('/back_optimized.webp');
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 1;
-  background-color: rgba(0, 0, 0, 0.6);
-}
-@media (max-width: 767px) {
-  .hero-section::after {
-    background-image: url('/back_optimized_mobile.webp');
-  }
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-}
-
-.hero-content h1 {
-  color: white;
-  font-size: clamp(2rem, 5vw, 3rem);
-  font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-  margin-bottom: 1rem;
-}
-
-.hero-content p {
-  color: white;
-  font-size: clamp(1rem, 3vw, 1.25rem);
-  font-weight: bold;
-  max-width: 800px;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-}
-
 
 /* Style ikon w artykułach */
 article .icon {
