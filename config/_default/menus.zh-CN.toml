@@ -1,0 +1,79 @@
+[[main]]
+name = "关于我"
+pageRef = "Aboutme"
+weight = 1
+
+[[main]]
+name = "项目"
+pageRef = "Projects"
+weight = 2
+
+      [[main]]
+      name = "个人助手"
+      parent = "项目"
+      pageRef = "PersonalAgents"
+      weight = 21
+
+      [[main]]
+      name = "商业助手"
+      parent = "项目"
+      pageRef = "BusinessAgents"
+      weight = 22
+
+[[main]]
+name = "人工智能"
+pageRef = "AI"
+weight = 3
+
+[[main]]
+name = "区块链"
+pageRef = "Blockchain"
+weight = 4
+
+[[main]]
+name = "技术"
+pageRef = "Technology"
+weight = 5
+
+[[main]]
+name = "健康"
+pre = "heart"
+pageRef = "Health"
+weight = 6
+
+      [[main]]
+      name = "传统疗法"
+      parent = "健康"
+      pageRef = "conventionally"
+      weight = 23
+
+      [[main]]
+      name = "非传统疗法"
+      parent = "健康"
+      pageRef = "unconventionally"
+      weight = 24
+
+[[main]]
+name = "地缘政治"
+pageRef = "Geopolitics"
+weight = 7
+
+[[footer]]
+name = "标签"
+pageRef = "tags"
+weight = 10
+
+[[footer]]
+name = "分类"
+pageRef = "categories"
+weight = 20
+
+[[footer]]
+name = "作者"
+pageRef = "authors"
+weight = 30
+
+[[footer]]
+name = "归档"
+pageRef = "archives"
+weight = 40

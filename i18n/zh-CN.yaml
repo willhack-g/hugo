@@ -1,0 +1,61 @@
+global:
+  language: "zh-CN"
+
+taxonomy:
+  tag:
+    name: "标签"
+  category:
+    name: "分类"
+
+archive:
+  title: "存档"
+  description: "所有文章"
+  showMore: "显示更多"
+  noResults: "未找到文章"
+
+menu:
+  main_navigation: "主导航"
+  expand_submenu: "展开子菜单"
+  mobile_menu: "移动菜单"
+  close_mobile_menu: "关闭菜单"
+  home: "首页"
+  logo_home: "转到首页"
+  logo_description: "网站标志"
+  home_title: "首页 - %s"
+  section_nav: "部分 %s - 转到页面"
+  submenu_button: "部分 %s 菜单 - 按空格或回车展开"
+  submenu_item: "转到 %s 在部分 %s"
+  main_section: "转到部分 %s"
+  dropdown_menu: "下拉菜单"
+  submenu_of: "子菜单"
+
+article:
+  zen_mode_title:
+    enable: "启用禅模式"
+    disable: "禁用禅模式"
+  related_article: "相关文章"
+  related_articles: "相关文章"
+  external_link: "打开外部文章: %s"
+  read_article: "阅读文章: %s"
+  draft: "草稿"
+
+search:
+  open_button_title: "打开搜索 (/)"
+  close_button_title: "关闭 (Esc)"
+  input_placeholder: "搜索"
+  icon_alt: "搜索图标"
+  icon_title: "点击搜索"
+
+appearance:
+  dark_mode: "启用暗模式"
+  light_mode: "启用亮模式"
+  icon_title: "更改主题"
+
+list:
+  externalurl_title: "外部链接"
+
+shortcode:
+  recent_articles: "最新文章"
+
+recent:
+  show_more: "显示更多"
