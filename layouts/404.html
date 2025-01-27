@@ -1,0 +1,71 @@
+{{ define "main" }}
+<div class="container max-w-4xl mt-8 mb-8">
+    <article class="mx-auto prose dark:prose-invert">
+        <h1 class="mb-8">{{ i18n "error404.title" | default "Page Not Found" }}</h1>
+        
+        <div class="text-center mb-8">
+            <p class="text-xl mb-4">{{ i18n "error404.subtitle" | default "Sorry, but the page you're looking for doesn't exist or has been moved." }}</p>
+            
+            <p class="mb-8">{{ i18n "error404.message" | default "You can try:" }}</p>
+            
+            <ul class="list-none p-0">
+                <li class="mb-4">
+                    <a href="/" class="text-primary-600 hover:text-primary-800 dark:text-primary-400 dark:hover:text-primary-200">
+                        {{ i18n "error404.homePage" | default "Return to homepage" }}
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <a href="/archives/" class="text-primary-600 hover:text-primary-800 dark:text-primary-400 dark:hover:text-primary-200">
+                        {{ i18n "error404.archives" | default "Browse the archives" }}
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" onclick="window.history.back(); return false;" class="text-primary-600 hover:text-primary-800 dark:text-primary-400 dark:hover:text-primary-200">
+                        {{ i18n "error404.back" | default "Go back to previous page" }}
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mt-8 text-center">
+            <p class="text-sm text-gray-600 dark:text-gray-400">
+                {{ i18n "error404.help" | default "If you believe this is an error, please contact us." }}
+            </p>
+        </div>
+    </article>
+</div>
+
+{{ if .Site.Params.enableSearch | default false }}
+<script>
+    // Automatyczne przekierowanie na podobne strony na podstawie wyszukiwania
+    document.addEventListener('DOMContentLoaded', function() {
+        const path = window.location.pathname;
+        const searchQuery = path.split('/').filter(Boolean).join(' ');
+        
+        if (searchQuery) {
+            const searchIndex = window.searchIndex;
+            if (searchIndex) {
+                const results = searchIndex.search(searchQuery);
+                if (results.length > 0) {
+                    const similarPages = document.createElement('div');
+                    similarPages.className = 'mt-8 text-center';
+                    similarPages.innerHTML = `
+                        <h2 class="text-lg mb-4">{{ i18n "error404.similar" | default "Similar pages:" }}</h2>
+                        <ul class="list-none p-0">
+                            ${results.slice(0, 3).map(result => `
+                                <li class="mb-2">
+                                    <a href="${result.ref}" class="text-primary-600 hover:text-primary-800 dark:text-primary-400 dark:hover:text-primary-200">
+                                        ${result.doc.title}
+                                    </a>
+                                </li>
+                            `).join('')}
+                        </ul>
+                    `;
+                    document.querySelector('article').appendChild(similarPages);
+                }
+            }
+        }
+    });
+</script>
+{{ end }}
+{{ end }}

@@ -53,3 +53,13 @@ appearance:
 
 list:
   externalurl_title: "Enlace externo"
+
+error404:
+  title: "Página no encontrada"
+  subtitle: "Lo sentimos, pero la página que busca no existe o ha sido movida."
+  message: "Puede intentar:"
+  homePage: "Volver a la página principal"
+  archives: "Explorar el archivo"
+  back: "Volver a la página anterior"
+  help: "Si cree que esto es un error, contáctenos."
+  similar: "Páginas similares:"

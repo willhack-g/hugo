@@ -7,6 +7,10 @@ enableCodeCopy = true
 replyByEmail = false
 searchIconTitle = "Click to search"
 disableImageOptimization = false  # Włącz optymalizację obrazów
+
+# SEO Settings
+canonifyURLs = true
+enableRobotsTXT = true
 disableTextInHeader = false
 disableImageZoom = false  # Włącz efekt powiększania Medium Zoom
 giteaDefaultServer = "https://git.fsfe.org"
@@ -95,6 +99,29 @@ constrainItemsWidth = false
 
 [sitemap]
 excludedKinds = [ "taxonomy", "term" ]
+changefreq = "weekly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[sitemap.pl]
+changefreq = "weekly"
+priority = 0.5
+filename = "/pl/sitemap.xml"
+
+[sitemap.de]
+changefreq = "weekly"
+priority = 0.5
+filename = "/de/sitemap.xml"
+
+[sitemap.es]
+changefreq = "weekly"
+priority = 0.5
+filename = "/es/sitemap.xml"
+
+[sitemap.zh-cn]
+changefreq = "weekly"
+priority = 0.5
+filename = "/zh-cn/sitemap.xml"
 
 [taxonomy]
 showTermCount = true

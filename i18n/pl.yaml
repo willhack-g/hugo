@@ -53,3 +53,14 @@ appearance:
 
 list:
   externalurl_title: "Link zewnętrzny"
+
+error404:
+  title: "Nie znaleziono strony"
+  subtitle: "Przepraszamy, ale strona której szukasz nie istnieje lub została przeniesiona."
+  message: "Możesz spróbować:"
+  homePage: "Wrócić na stronę główną"
+  archives: "Przeglądać archiwum"
+  back: "Wrócić do poprzedniej strony"
+  help: "Jeśli uważasz, że to błąd, skontaktuj się z nami."
+  similar: "Podobne strony:"
+
