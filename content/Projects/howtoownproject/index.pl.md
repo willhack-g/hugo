@@ -31,7 +31,7 @@ Gdy już jesteś ze swoją domeną na Cloudflare, możesz użyć kilku ciekawych
 ## Nowoczesne oprogramowanie
 Najpopularniejszym i najłatwiejszym jest WordPress. Leciwy staruszek wymaga jednak sporych zasobów do działania: hosting, płatne wtyczki. Jest ciężki i powolny. Możesz zrobić ze swojej strony ferrari, ale znowu przy pomocy drogich wtyczek. Możesz też użyć alternatyw. Dla landing page najłatwiej jest użyć SI do jej stworzenia. Do większych zadań jest kilka ciekawych projektów jak Astra, Vue, Gohugo i inne. Ten blog jest zrobiony przy użyciu [https://gohugo.io](https://gohugo.io). Niestety zapoznanie się z oprogramowaniem wymaga trochę czasu, ale gdy już to zrobisz, twój projekt będzie błyszczał bez wydania jednego centa:
 
-{{< figure src="gallery/mobile.webp" href="/projects/your-place-on-the-internet-almost-free/gallery/mobile.webp" >}}
+{{< figure src="gallery/mobile.webp" >}}
 ## Darmowy hosting
 Projekty bez PHP, jak na przykład mój Gohugo, można hostować za darmo w wielu miejscach z szybkim dostępem: Github Pages, Cloudflare Pages, Netlify, Firebase. Jeśli projekt jest na GitHubie, przeniesienie go z jednego hostingu na drugi trwa minuty.
 

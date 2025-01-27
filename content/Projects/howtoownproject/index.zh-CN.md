@@ -31,7 +31,7 @@ authors:
 ## 现代软件
 最流行和最简单的是WordPress。然而，这位年迈的老兵需要大量资源来运行：托管，付费插件。它又重又慢。您可以将您的网站变成法拉利，但再次需要昂贵的插件。您也可以使用替代品。对于登陆页面，最容易使用AI来创建它们。对于更大的任务，有几个有趣的项目，如Astra，Vue，Gohugo等。这个博客是使用 [https://gohugo.io](https://gohugo.io) 制作的。不幸的是，熟悉软件需要一些时间，但一旦您做到了，您的项目将无需花费一分钱就能闪耀：
 
-{{< figure src="gallery/mobile.webp" href="gallery/mobile.webp" >}}
+{{< figure src="gallery/mobile.webp" >}}
 
 ## 免费托管
 没有PHP的项目，比如我的Gohugo，可以在许多地方免费托管，访问速度快：Github Pages，Cloudflare Pages，Netlify，Firebase。如果项目在GitHub上，从一个托管转移到另一个只需几分钟。

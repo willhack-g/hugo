@@ -17,7 +17,7 @@ authors:
 ## Introducción
 El **Lanying R6000**, desarrollado por **United Aircraft Corporation**, representa un avance revolucionario en la tecnología aeronáutica. Este innovador dron de rotor basculante de 6 toneladas, también conocido como **Sombra de Lantano**, combina magistralmente las capacidades de despegue y aterrizaje vertical (VTOL) con el rendimiento de alta velocidad propio de una aeronave de ala fija. Presentado en 2024, está destinado a transformar tanto la aviación civil como militar con su eficiencia, alcance y capacidad de carga sin precedentes.
 
-{{< figure src="lanying.webp" alt="Lanying R6000 Tiltrotor Drone" href="/technology/future-civil-aviation/lanying.webp" >}}
+{{< figure src="lanying.webp" alt="Lanying R6000 Tiltrotor Drone" >}}
 
 ## Especificaciones Técnicas
 El Lanying R6000 destaca por sus extraordinarias características técnicas:

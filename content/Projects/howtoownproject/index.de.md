@@ -31,7 +31,7 @@ Sobald du mit deiner Domain bei Cloudflare bist, kannst du mehrere interessante 
 ## Moderne Software
 Das Populärste und Einfachste ist WordPress. Der gealterte Veteran benötigt jedoch erhebliche Ressourcen für den Betrieb: Hosting, kostenpflichtige Plugins. Es ist schwer und langsam. Du kannst deine Website in einen Ferrari verwandeln, aber wieder mit teuren Plugins. Du kannst auch Alternativen verwenden. Für Landing Pages ist es am einfachsten, KI zu ihrer Erstellung zu verwenden. Für größere Aufgaben gibt es mehrere interessante Projekte wie Astra, Vue, Gohugo und andere. Dieser Blog wurde mit [https://gohugo.io](https://gohugo.io) erstellt. Leider braucht es einige Zeit, sich mit der Software vertraut zu machen, aber sobald du das getan hast, wird dein Projekt ohne einen Cent ausgeben zu müssen glänzen:
 
-{{< figure src="gallery/mobile.webp" href="/projects/your-place-on-the-internet-almost-free/gallery/mobile.webp" >}}
+{{< figure src="gallery/mobile.webp" >}}
 
 ## Kostenloses Hosting
 Projekte ohne PHP, wie mein Gohugo, können kostenlos an vielen Orten mit schnellem Zugriff gehostet werden: Github Pages, Cloudflare Pages, Netlify, Firebase. Wenn das Projekt auf GitHub ist, dauert das Verschieben von einem Hosting zum anderen nur Minuten.

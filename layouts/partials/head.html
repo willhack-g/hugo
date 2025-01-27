@@ -225,7 +225,9 @@
   <!-- Medium Zoom dla obrazów -->
   {{ if not .Site.Params.disableImageZoom | default true }}
   {{ $zoomJS := resources.Get "lib/zoom/zoom.min.js" | resources.Fingerprint "sha512" }}
-  <script defer src="{{ $zoomJS.RelPermalink }}" integrity="{{ $zoomJS.Data.Integrity }}"></script>
+  <script src="{{ $zoomJS.RelPermalink }}" integrity="{{ $zoomJS.Data.Integrity }}"></script>
+  {{ $jsZoom := resources.Get "js/zoom.js" }}
+  {{ $assets.Add "js" (slice $jsZoom) }}
   {{ end }}
 
   <!-- Preload LCP image -->

@@ -17,7 +17,7 @@ authors:
 ## Wprowadzenie
 **Lanying R6000**, opracowany przez **United Aircraft Corporation**, stanowi znaczący postęp w technologii lotniczej, łącząc możliwości pionowego startu i lądowania (VTOL) śmigłowca z wysoką prędkością samolotu o stałych skrzydłach. Ten 6-tonowy dron z wirnikiem przechylnym, znany również jako **Cień Lantanu**, przyciągnął globalną uwagę dzięki innowacyjnemu projektowi i wszechstronnym zastosowaniom. Zaprezentowany w 2024 roku, Lanying R6000 jest gotowy zrewolucjonizować zarówno cywilne, jak i wojskowe lotnictwo, oferując bezprecedensową wydajność, zasięg i ładowność.
 
-{{< figure src="lanying.webp" alt="Lanying R6000 Tiltrotor Drone" href="/technology/future-civil-aviation/lanying.webp" >}}
+{{< figure src="lanying.webp" alt="Lanying R6000 Tiltrotor Drone" >}}
 
 
 ## Dane techniczne
