@@ -4,6 +4,18 @@
       type="image/webp"
       fetchpriority="high">
 
+{{ with .Site.Params.defaultBackgroundImage }}
+<style>
+:root {
+  --hero-background: url('{{ . | relURL }}');
+}
+@media (max-width: 767px) {
+  :root {
+    --hero-background: url('{{ replace (. | relURL) ".webp" "_mobile.webp" }}');
+  }
+}
+</style>
+{{ end }}
 <div class="hero-section">
   <div class="hero-content">
     <h1>{{ .Site.Title }}</h1>
