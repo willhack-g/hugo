@@ -1,14 +1,13 @@
 {
-    "lang": "en",
+    "lang": "es",
     "name": "WillHack",
     "short_name": "Willhack",
-    "description": "Hack you reality - if you want to find yourself in tomorrow's world of intelligence explosion - start getting ready today.",
-    "start_url": "/",
+    "description": "Hackea tu realidad: si quieres encontrarte en el mundo de la explosión de inteligencia del mañana, empieza a prepararte hoy mismo.",
+    "start_url": "/es/",
     "scope": "/",
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone",
-
     "icons": [
       {
         "src": "/android-chrome-192x192.png",

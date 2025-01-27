@@ -1,12 +1,9 @@
-<link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.avif" | relURL }}" type="image/avif">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}" type="image/png">
-<link rel="icon" type="image/avif" sizes="32x32" href="{{ "favicon-32x32.avif" | relURL }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
-<link rel="icon" type="image/avif" sizes="16x16" href="{{ "favicon-16x16.avif" | relURL }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}">
-<link rel="shortcut icon" href="{{ "favicon.avif" | relURL }}" type="image/avif">
-<link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon">
-<link rel="manifest" href="{{ "webmanifest.json" | relURL }}">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+{{ $manifest := "site.webmanifest" }}
+{{ if ne .Language.Lang "en" }}
+  {{ $manifest = printf "site.webmanifest.%s" .Language.Lang }}
+{{ end }}
 
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}" />
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}" />
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}" />
+<link rel="manifest" href="{{ $manifest | relURL }}" />
