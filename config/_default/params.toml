@@ -45,7 +45,7 @@ showMoreLinkDest = "/archives/"
 cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = false
-homepageImage = "back_optimized.webp"
+homepageImage = "/images/hero-800.avif"
 home_image_blur = false
 showOnlyCurrentLang = true
 
