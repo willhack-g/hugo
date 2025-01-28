@@ -1,22 +1,27 @@
-{{ $bgImage := .Site.Params.defaultBackgroundImage }}
-
-<link rel="preload" as="image" href="{{ $bgImage | relURL }}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <div class="hero-container">
-  <img 
-    src="/back_optimized_mobile.webp"
-    srcset="/back_optimized_mobile.webp 480w, /back_optimized.webp 800w"
-    sizes="(max-width: 480px) 100vw, 800px"
-    width="800"
-    height="450"
-    class="hero-image"
-    alt=""
-    role="presentation"
-    loading="eager"
-    fetchpriority="high"
-    decoding="async"
-  >
+  <picture>
+    <source 
+      type="image/avif"
+      srcset="/images/hero-480.avif 480w,
+              /images/hero-800.avif 800w,
+              /images/hero-1600.avif 1600w"
+      sizes="(max-width: 480px) 100vw,
+            (max-width: 1200px) 80vw,
+            1600px">
+    <img 
+      src="{{ .Site.Params.defaultBackgroundImage | absURL }}"
+      alt="Hero background image"
+      width="800"
+      height="450"
+      loading="eager"
+      fetchpriority="high"
+      decoding="async"
+      class="hero-image"
+      role="presentation"
+    >
+  </picture>
   
   <div class="hero-content">
     <h1 class="text-white text-4xl md:text-5xl font-bold text-shadow mb-4">

@@ -1,86 +1,84 @@
-# Analiza wydajności Hero Image
+# Optymalizacja obrazu hero - Plan działania
 
-## Problem
-Zidentyfikowano znaczące opóźnienie w renderowaniu obrazu tła (hero image) na stronie głównej:
-- 77% całkowitego czasu LCP (1980 ms) to opóźnienie renderowania
-- 23% to TTFB (600 ms)
-- Element problematyczny: `div.relative > main#main-content > div.hero-section > img.absolute`
+## Analiza aktualnego stanu
+1. **Struktura plików:**
+   - Obraz główny: `static/back_optimized.webp` (800x450px)
+   - Wersja mobilna: `static/back_optimized_mobile.webp` (480x270px)
+   - Implementacja w `layouts/partials/home/custom.html`
 
-## Przyczyny opóźnień
+2. **Problem:**
+   - Brak responsywnych wersji obrazów
+   - Niespójne wykorzystanie zmiennych Hugo
+   - Brak preload dla obrazów
+   - Niekorzystne ustawienia dekodowania
 
-### 1. Problemy z optymalizacją renderowania
-- Używane są złożone transformacje 3D (`transform: translate3d`) i właściwości 3D (`perspective`, `transform-style: preserve-3d`), które wymuszają compositing na GPU
-- Właściwości `backface-visibility` i `transform-style` zwiększają złożoność renderowania
-- Nadmiarowe style CSS związane z 3D na elementach, które tego nie wymagają
+## Strategia optymalizacji
 
-### 2. Problemy z ładowaniem obrazu
-- Brak kompletnej optymalizacji ładowania obrazu:
-  - Jest `fetchpriority="high"`, ale brak `loading="eager"`
-  - W szablonie brak zdefiniowanego `srcset` i `sizes` (choć pojawia się w wygenerowanym HTML)
-  - Brak explicit wymiarów obrazu w HTML (`width` i `height`)
-
-### 3. Layout i Style
-- Użycie `position: absolute` może powodować reflow
-- Kombinacja `overflow: hidden` z `border-radius` i transformacjami 3D zwiększa złożoność renderowania
-- Nadmiarowe warstwy pozycjonowania względnego/absolutnego
-
-## Rekomendowane zmiany
-
-### 1. Optymalizacja ładowania obrazu
-```html
-<img 
-  src="{{ $bgImage | relURL }}"
-  srcset="/back_optimized_mobile.webp 480w, /back_optimized.webp 800w"
-  sizes="(max-width: 767px) 480px, 800px"
-  width="800"
-  height="450"
-  class="hero-image"
-  alt=""
-  role="presentation"
-  fetchpriority="high"
-  loading="eager"
-  decoding="async"
->
+### 1. Generowanie wersji obrazów
+```bash
+hugo gen chroma
+hugo gen images -q 80 -formats webp,avif -resize "800x, 1200x, 1600x"
 ```
 
-### 2. Uproszczenie CSS
-```css
-.hero-container {
-  position: relative;
-  height: 450px;
-  width: 100%;
-  max-width: 1920px;
-  margin: 0 auto;
-  border-radius: 20px;
-  overflow: hidden;
-  /* Usunięto transform/perspective/backface-visibility */
-}
+### 2. Modyfikacja szablonu
+```html
+{{ $hero := resources.GetMatch "images/hero.*" }}
+{{ $hero_webp := $hero.Resize "1600x webp q80" }}
+{{ $hero_avif := $hero.Resize "1600x avif q80" }}
 
-.hero-image {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  /* Usunięto transformacje 3D */
-}
+<picture>
+  <source 
+    srcset="{{ ($hero.Resize "480x avif q80").RelPermalink }} 480w,
+            {{ ($hero.Resize "800x avif q80").RelPermalink }} 800w,
+            {{ $hero_avif.RelPermalink }} 1600w"
+    type="image/avif"
+    sizes="(max-width: 480px) 100vw,
+          (max-width: 1200px) 80vw,
+          1600px">
+  
+  <source
+    srcset="{{ ($hero.Resize "480x webp q80").RelPermalink }} 480w,
+            {{ ($hero.Resize "800x webp q80").RelPermalink }} 800w,
+            {{ $hero_webp.RelPermalink }} 1600w"
+    type="image/webp"
+    sizes="(max-width: 480px) 100vw,
+          (max-width: 1200px) 80vw,
+          1600px">
+
+  <img 
+    src="{{ $hero.RelPermalink }}"
+    alt="{{ .Site.Params.heroAltText }}"
+    width="{{ $hero.Width }}"
+    height="{{ $hero.Height }}"
+    loading="eager"
+    fetchpriority="high"
+    decoding="async"
+    class="hero-image"
+    style="aspect-ratio: {{ div (float $hero.Width) $hero.Height }}">
+</picture>
 ```
 
-### 3. Optymalizacja warstw
-- Zmniejszenie liczby zagnieżdżonych elementów z pozycjonowaniem
-- Użycie `will-change: transform` tylko gdy jest naprawdę potrzebne
-- Wykorzystanie `contain: paint` dla lepszej izolacji warstw
+### 3. Wymagane zmiany konfiguracyjne
+```toml
+[imaging]
+resampleFilter = "CatmullRom"
+quality = 85
+anchor = "smart"
 
-## Oczekiwane rezultaty
-- Redukcja opóźnienia renderowania o ~40-60%
-- Szybsze rozpoczęcie ładowania obrazu dzięki `loading="eager"`
-- Mniejsze obciążenie GPU przez usunięcie niepotrzebnych transformacji 3D
-- Lepszy Layout Stability Score
+[mediaTypes]
+[mediaTypes."image/avif"]
+suffixes = ["avif"]
+[mediaTypes."image/webp"]
+suffixes = ["webp"]
+```
 
-## Dodatkowe rekomendacje
-1. Rozważyć użycie `<picture>` element dla lepszej kontroli nad responsywnością
-2. Zaimplementować progressive loading z placeholder
-3. Wykorzystać `Content-Visibility: auto` dla elementów poniżej hero section
-4. Dodać preload hint dla obrazu hero:
-```html
-<link rel="preload" as="image" href="/back_optimized.webp" />
+## Harmonogram wdrożenia
+1. Migracja obrazów do katalogu `assets/images/` (2h)
+2. Konfiguracja przetwarzania obrazów (1h)
+3. Testy wydajnościowe (Lighthouse Audit)
+4. Aktualizacja dokumentacji technicznej
+
+## Metryki sukcesu
+- Redukcja rozmiaru obrazu o ≥40%
+- LCP < 2.5s na 3G
+- Wynik Performance w Lighthouse ≥90

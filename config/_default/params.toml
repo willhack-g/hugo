@@ -23,7 +23,7 @@ smartTOCHideUnfocusedChildren = "true"
 backgroundImageWidth = "1408"
 backgroundImageResponsive = true  # Włącz responsywne obrazy
 backgroundImageSizes = ["480w", "768w", "1024w", "1280w"]  # Rozmiary dla różnych urządzeń
-backgroundImageFormats = ["webp"]  # Tylko webp, zgodnie z dokumentacją
+backgroundImageFormats = ["avif", "webp"]  # Dodajemy obsługę AVIF
 
 [header]
 layout = "fixed"

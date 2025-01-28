@@ -15,7 +15,15 @@ googleAnalytics = "G-7SL7HVPDGL"
 pagerSize = 100
 
 [imaging]
-anchor = "Center"
+anchor = "smart"
+resampleFilter = "CatmullRom"
+quality = 85
+
+[mediaTypes]
+[mediaTypes."image/avif"]
+suffixes = ["avif"]
+[mediaTypes."image/webp"]
+suffixes = ["webp"]
 
 [taxonomies]
     tag = "tags"
