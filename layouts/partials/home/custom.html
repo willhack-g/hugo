@@ -1,27 +1,81 @@
+{{ $bgImage := .Site.Params.defaultBackgroundImage }}
+{{ $mobileBgImage := replace ($bgImage | relURL) ".webp" "_mobile.webp" }}
+
 <link rel="preload" 
-      href="{{ .Site.Params.defaultBackgroundImage | relURL }}" 
+      href="{{ $bgImage | relURL }}" 
       as="image" 
       type="image/webp"
-      fetchpriority="high">
+      fetchpriority="high"
+      media="(min-width: 768px)">
+<link rel="preload" 
+      href="{{ $mobileBgImage }}" 
+      as="image" 
+      type="image/webp"
+      fetchpriority="high"
+      media="(max-width: 767px)">
 
-{{ with .Site.Params.defaultBackgroundImage }}
+<!-- Inline critical CSS -->
 <style>
 :root {
-  --hero-background: url('{{ . | relURL }}');
+  --hero-background: url('{{ $bgImage | relURL }}');
 }
 @media (max-width: 767px) {
   :root {
-    --hero-background: url('{{ replace (. | relURL) ".webp" "_mobile.webp" }}');
+    --hero-background: url('{{ $mobileBgImage }}');
   }
 }
+
+/* Critical CSS */
+.hero-section {
+  position: relative;
+  min-height: 60vh;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background-image: var(--hero-background);
+  background-size: cover;
+  background-position: center;
+  contain: content;
+  will-change: transform;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  color: #fff;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  text-shadow: 2px 2px 4px #00000080;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  color: #fff;
+  font-size: clamp(1rem, 3vw, 1.25rem);
+  font-weight: 700;
+  max-width: 800px;
+  text-shadow: 2px 2px 4px #00000080;
+}
 </style>
-{{ end }}
+
 <div class="hero-section">
   <div class="hero-content">
     <h1>{{ .Site.Title }}</h1>
     <p>{{ .Site.Params.author.headline }}</p>
   </div>
 </div>
+
+<!-- Load non-critical CSS asynchronously -->
+<link rel="preload" href="{{ "css/custom.css" | relURL }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ "css/custom.css" | relURL }}"></noscript>
 
 <div class="recent-articles-section">
   {{ partial "recent-articles/main.html" . }}
