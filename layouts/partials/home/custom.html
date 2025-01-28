@@ -75,7 +75,6 @@
 
 <!-- Load non-critical CSS asynchronously -->
 {{ $customCSS := resources.Get "css/custom.css" }}
-{{ $customCSS = $customCSS | resources.ToCSS }}
 <link rel="preload" href="{{ $customCSS.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="{{ $customCSS.RelPermalink }}"></noscript>
 
