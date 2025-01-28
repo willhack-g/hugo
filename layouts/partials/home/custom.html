@@ -1,23 +1,23 @@
 {{ $bgImage := .Site.Params.defaultBackgroundImage }}
 {{ $mobileBgImage := replace ($bgImage | relURL) ".webp" "_mobile.webp" }}
 
-<div class="hero-section relative flex flex-col justify-center items-center text-center rounded-[20px] overflow-hidden">
-  <!-- Optymalne ładowanie obrazu -->
+<div class="hero-section relative flex flex-col justify-center items-center text-center overflow-hidden">
   <img 
     src="{{ $bgImage | relURL }}"
     srcset="{{ $mobileBgImage }} 480w,
             {{ $bgImage | relURL }} 800w"
     sizes="(max-width: 767px) 480px,
            800px"
-    class="absolute inset-0 w-full h-full object-cover nozoom hero-background"
+    class="absolute inset-0 w-full h-full object-cover nozoom hero-image"
     alt=""
     role="presentation"
     fetchpriority="high"
-    style="z-index: -1;"
+    loading="eager"
+    decoding="async"
+    style="z-index: -1; contain: paint;"
   >
   
-  <!-- Treść -->
-  <div class="hero-content relative z-2">
+  <div class="relative z-10">
     <h1 class="text-white text-4xl md:text-5xl font-bold text-shadow mb-4">
       {{ .Site.Title }}
     </h1>
@@ -27,20 +27,23 @@
   </div>
 </div>
 
-<!-- Recent Articles -->
 <div class="recent-articles-section">
   {{ partial "recent-articles/main.html" . }}
 </div>
 
 <style>
-/* Minimalne wymagane style */
 .hero-section {
-  min-height: 60vh; /* Mniejsza wysokość */
+  min-height: 60vh;
   padding: 2rem;
+  border-radius: 20px;
+  contain: content;
+  will-change: transform;
 }
 
-.hero-background {
+.hero-image {
   border-radius: 20px;
+  contain: size layout paint;
+  will-change: transform;
 }
 
 .text-shadow {
