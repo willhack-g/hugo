@@ -1,83 +1,49 @@
 {{ $bgImage := .Site.Params.defaultBackgroundImage }}
 {{ $mobileBgImage := replace ($bgImage | relURL) ".webp" "_mobile.webp" }}
 
-<link rel="preload" 
-      href="{{ $bgImage | relURL }}" 
-      as="image" 
-      type="image/webp"
-      fetchpriority="high"
-      media="(min-width: 768px)">
-<link rel="preload" 
-      href="{{ $mobileBgImage }}" 
-      as="image" 
-      type="image/webp"
-      fetchpriority="high"
-      media="(max-width: 767px)">
-
-<!-- Inline critical CSS -->
-<style>
-:root {
-  --hero-background: url('{{ $bgImage | relURL }}');
-}
-@media (max-width: 767px) {
-  :root {
-    --hero-background: url('{{ $mobileBgImage }}');
-  }
-}
-
-/* Critical CSS */
-.hero-section {
-  position: relative;
-  min-height: 60vh;
-  border-radius: 20px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 2rem;
-  background-image: var(--hero-background);
-  background-size: cover;
-  background-position: center;
-  contain: content;
-  will-change: transform;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-}
-
-.hero-content h1 {
-  color: #fff;
-  font-size: clamp(2rem, 5vw, 3rem);
-  font-weight: 700;
-  text-shadow: 2px 2px 4px #00000080;
-  margin-bottom: 1rem;
-}
-
-.hero-content p {
-  color: #fff;
-  font-size: clamp(1rem, 3vw, 1.25rem);
-  font-weight: 700;
-  max-width: 800px;
-  text-shadow: 2px 2px 4px #00000080;
-}
-</style>
-
-<div class="hero-section">
-  <div class="hero-content">
-    <h1>{{ .Site.Title }}</h1>
-    <p>{{ .Site.Params.author.headline }}</p>
+<div class="hero-section relative flex flex-col justify-center items-center text-center rounded-[20px] overflow-hidden">
+  <!-- Optymalne ładowanie obrazu -->
+  <img 
+    src="{{ $bgImage | relURL }}"
+    srcset="{{ $mobileBgImage }} 480w,
+            {{ $bgImage | relURL }} 800w"
+    sizes="(max-width: 767px) 480px,
+           800px"
+    class="absolute inset-0 w-full h-full object-cover nozoom hero-background"
+    alt=""
+    role="presentation"
+    fetchpriority="high"
+    style="z-index: -1;"
+  >
+  
+  <!-- Treść -->
+  <div class="hero-content relative z-2">
+    <h1 class="text-white text-4xl md:text-5xl font-bold text-shadow mb-4">
+      {{ .Site.Title }}
+    </h1>
+    <p class="text-white text-lg md:text-xl font-bold max-w-[800px] text-shadow">
+      {{ .Site.Params.author.headline }}
+    </p>
   </div>
 </div>
 
-<!-- Load non-critical CSS asynchronously -->
-{{ $customCSS := resources.Get "css/custom.css" }}
-<link rel="preload" href="{{ $customCSS.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ $customCSS.RelPermalink }}"></noscript>
-
+<!-- Recent Articles -->
 <div class="recent-articles-section">
   {{ partial "recent-articles/main.html" . }}
 </div>
+
+<style>
+/* Minimalne wymagane style */
+.hero-section {
+  min-height: 60vh; /* Mniejsza wysokość */
+  padding: 2rem;
+}
+
+.hero-background {
+  border-radius: 20px;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+</style>
