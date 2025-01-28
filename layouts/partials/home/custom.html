@@ -74,8 +74,10 @@
 </div>
 
 <!-- Load non-critical CSS asynchronously -->
-<link rel="preload" href="{{ "css/custom.css" | relURL }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ "css/custom.css" | relURL }}"></noscript>
+{{ $customCSS := resources.Get "css/custom.css" }}
+{{ $customCSS = $customCSS | resources.ToCSS }}
+<link rel="preload" href="{{ $customCSS.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ $customCSS.RelPermalink }}"></noscript>
 
 <div class="recent-articles-section">
   {{ partial "recent-articles/main.html" . }}
