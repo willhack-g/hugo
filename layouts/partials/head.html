@@ -224,13 +224,10 @@
   {{ end }}
 
   <meta name="theme-color" content="{{ if or (eq .Site.Params.defaultAppearance "dark") (and (not .Site.Params.defaultAppearance) (eq .Site.Params.autoSwitchAppearance true) (eq (.Site.Params.darkPreference | default false) true)) }}#1b1b1c{{ else }}#fff{{ end }}"/>
-  
   <!-- Medium Zoom dla obrazów -->
-  {{ if and (eq .Kind "page") (not .Site.Params.disableImageZoom | default true) }}
-  {{ $zoomJS := resources.Get "lib/zoom/zoom.min.js" | resources.Fingerprint "sha512" }}
-  <script src="{{ $zoomJS.RelPermalink }}" integrity="{{ $zoomJS.Data.Integrity }}"></script>
-  {{ $jsZoom := resources.Get "js/zoom.js" }}
-  {{ $assets.Add "js" (slice $jsZoom) }}
+  {{ if eq .Kind "page" }}
+    {{ partial "zoom-scripts.html" (dict "Site" .Site "assets" $assets) }}
   {{ end }}
+
   
 </head>
