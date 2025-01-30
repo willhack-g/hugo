@@ -125,9 +125,9 @@
 
 /* Mobile menu - simplified */
 #menu-wrapper {
-  background-color: #000000cc;
+  background-color: rgba(31, 41, 55, 0.5);
   backdrop-filter: blur(8px);
-  width: 50% !important;
+  width: 60% !important;
   right: 0;
   left: auto !important;
   transform: translateX(100%);
