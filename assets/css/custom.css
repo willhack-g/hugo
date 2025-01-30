@@ -135,6 +135,10 @@
   padding: 0.5rem 0;
 }
 
+#menu-wrapper .text-bg {
+  font-size: 1.25rem;
+}
+
 #menu-close-button {
   position: fixed;
   top: 1rem;
@@ -152,6 +156,14 @@
 
 .mobile-submenu li {
   margin-bottom: 0.75rem;
+}
+
+.chevron {
+  transition: transform 0.3s ease;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
 }
 
 /* Icons */
