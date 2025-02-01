@@ -5,7 +5,7 @@ draft: false
 language: "pl"
 description: "Moringa - zwana nie bez powodu drzewem życia"
 slug: "moringa-zwana-nie-bez-powodu-drzewem-zycia"
-tags: ["żywienie", "dieta", "zdrowie"]
+tags: ["żywienie", "dieta", "zdrowie", "moringa"]
 categories: ["zdrowie niekonwencjonalnie"]
 showAuthor: false
 showAuthorsBadges: false
