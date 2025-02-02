@@ -14,7 +14,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
-    <link>{{ if eq hugo.Environment "production" }}{{ $.Site.BaseURL | replaceRE "^http://" "https://" }}{{ else }}{{ $.Site.BaseURL }}{{ end }}</link>
+    <link>{{ if eq hugo.Environment "production" }}{{ $.Site.BaseURL | replaceRE "^http://" "https://" | strings.TrimSuffix "/" }}{{ else }}{{ $.Site.BaseURL | strings.TrimSuffix "/" }}{{ end }}</link>
     <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>{{ $.Site.LanguageCode }}</language>{{ with $.Site.Params.Author.email }}
@@ -26,7 +26,7 @@
     {{ if not .Date.IsZero }}<lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     {{- with .OutputFormats.Get "RSS" -}}
     {{ $baseURL := cond (eq hugo.Environment "production") ($.Site.BaseURL | replaceRE "^http://" "https://") $.Site.BaseURL }}
-    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" $baseURL .MediaType | safeHTML }}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" ($baseURL | strings.TrimSuffix "/") .MediaType | safeHTML }}
     {{- end -}}
     {{ if and ($.Site.Params.rssnext.feedId) ($.Site.Params.rssnext.userId) }}
     <follow_challenge>
@@ -37,20 +37,20 @@
     {{ range $pages }}
     <item>
       <title>{{ .Title }}</title>
-      <link>{{ if eq hugo.Environment "production" }}{{ $.Site.BaseURL | replaceRE "^http://" "https://" }}{{ else }}{{ $.Site.BaseURL }}{{ end }}{{ .RelPermalink }}</link>
+      <link>{{ if eq hugo.Environment "production" }}{{ $.Site.BaseURL | replaceRE "^http://" "https://" | strings.TrimSuffix "/" }}{{ else }}{{ $.Site.BaseURL | strings.TrimSuffix "/" }}{{ end }}{{ .RelPermalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with $.Site.Params.Author.email }}<author>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</author>{{end}}
-      <guid>{{ if eq hugo.Environment "production" }}{{ $.Site.BaseURL | replaceRE "^http://" "https://" }}{{ else }}{{ $.Site.BaseURL }}{{ end }}{{ .RelPermalink }}</guid>
+      <guid>{{ if eq hugo.Environment "production" }}{{ $.Site.BaseURL | replaceRE "^http://" "https://" | strings.TrimSuffix "/" }}{{ else }}{{ $.Site.BaseURL | strings.TrimSuffix "/" }}{{ end }}{{ .RelPermalink }}</guid>
       <description>{{ .Summary | html }}</description>
     {{ range ( where $.Site.RegularPages ".RelPermalink" .RelPermalink | first 1 ) }}
         {{- $images := .Resources.ByType "image" -}}
         {{- $featured := $images.GetMatch "*feature*" -}}
         {{- $instagram := $images.GetMatch "*instagram*" -}}
         {{- if $featured -}}
-        <media:content url="{{ if eq hugo.Environment "production" }}{{ $featured.Permalink | replaceRE "^http://" "https://" }}{{ else }}{{ $featured.Permalink }}{{ end }}" />
+        <media:content url="{{ if eq hugo.Environment "production" }}{{ $featured.Permalink | replaceRE "^http://" "https://" | strings.TrimSuffix "/" }}{{ else }}{{ $featured.Permalink | strings.TrimSuffix "/" }}{{ end }}" />
         {{- end -}}
         {{- if $instagram -}}
-        <enclosure url="{{ if eq hugo.Environment "production" }}{{ $instagram.Permalink | replaceRE "^http://" "https://" }}{{ else }}{{ $instagram.Permalink }}{{ end }}" length="{{ $instagram.Content | len }}" type="{{ $instagram.MediaType }}" />
+        <enclosure url="{{ if eq hugo.Environment "production" }}{{ $instagram.Permalink | replaceRE "^http://" "https://" | strings.TrimSuffix "/" }}{{ else }}{{ $instagram.Permalink | strings.TrimSuffix "/" }}{{ end }}" length="{{ $instagram.Content | len }}" type="{{ $instagram.MediaType }}" />
         {{- end -}}
     {{ end }}
     </item>
