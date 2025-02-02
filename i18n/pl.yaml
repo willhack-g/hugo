@@ -37,6 +37,7 @@ article:
   related_articles: "Podobne artykuły"
   external_link: "Otwórz artykuł zewnętrzny: %s"
   read_article: "Przeczytaj artykuł: %s"
+  share_prompt: "Jeśli spodobał Ci się ten artykuł, podziel się nim ze znajomymi!"
   draft: "Szkic"
 
 search:

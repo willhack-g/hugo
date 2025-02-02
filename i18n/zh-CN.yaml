@@ -37,6 +37,7 @@ article:
   related_articles: "相关文章"
   external_link: "打开外部文章: %s"
   read_article: "阅读文章: %s"
+  share_prompt: "如果你喜欢这篇文章,请与朋友分享!"
   draft: "草稿"
 
 search:
