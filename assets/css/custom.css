@@ -190,28 +190,35 @@ article .icon {
 /* Table of Contents - simplified */
 .toc-right {
   position: sticky;
-  top: 100px;
-  max-height: calc(100vh - 200px);
-  overflow-y: auto;
+  top: 2rem;
+  height: calc(100vh - 4rem);
   margin-top: 1rem;
   padding: 1rem;
   background: var(--bg-color);
   border-radius: 0.5rem;
   border: 1px solid var(--border-color);
-  contain: content;
+  pointer-events: all;
 }
 
 .toc-right #TableOfContents {
   font-size: 0.875rem;
+  height: calc(100% - 2rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-color) transparent;
+  pointer-events: all;
 }
 
 .toc-right #TableOfContents ul {
   list-style: none;
   padding-left: 1rem;
+  pointer-events: all;
 }
 
 .toc-right #TableOfContents > ul {
   padding-left: 0;
+  pointer-events: all;
 }
 
 .toc-right #TableOfContents a {
