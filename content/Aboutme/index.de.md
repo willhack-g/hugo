@@ -18,7 +18,7 @@ Ich möchte, dass diese Website für alle konstruktiven Themen offen ist, unabh�
 
 Seit meiner Kindheit war ich von Science-Fiction fasziniert, was mir bis heute eine starke Affinität zur Wissenschaft und zur Vorstellung ihrer Auswirkungen auf unser tägliches, soziales und kulturelles Leben gibt.
 
-Dies ist besonders jetzt relevant, in der Zeit der größten Transformation in der Geschichte der Menschheit, da wir kurz davorstehen, erstmals auf SSI zu treffen - eine von Menschen geschaffene, aber dennoch fremde Intelligenz, die alles übertrifft, wozu wir fähig sind, und noch viel mehr.
+Dies ist besonders jetzt relevant, in der Zeit der größten Transformation in der Geschichte der Menschheit, da wir kurz davorstehen, erstmals auf KSI (Künstliche Super-Intelligenz) zu treffen - eine von Menschen geschaffene, aber dennoch fremde Intelligenz, die alles übertrifft, wozu wir fähig sind, und noch viel mehr.
 
 Vor einigen Jahrzehnten musste ich noch in die Bibliothek rennen, um Informationen zu sammeln. Das Internet hat dies dramatisch verändert, verwandelte sich aber schnell von einem Ort voller erhabener Ideen in eine Maschine, die menschliche Schwächen ausnutzt, damit wenige noch reicher werden können.
 

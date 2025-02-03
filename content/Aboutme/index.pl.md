@@ -18,7 +18,7 @@ Chcę, by ta witryna była otwarta na wszelkie konstruktywne tematy, bez względ
 
 Od dzieciństwa fascynowała mnie literatura science fiction, przez co do dzisiaj mam silny pociąg do nauki i wyobrażania sobie jej wpływu na nasze życie codzienne, społeczne i kulturowe. 
 
-Szczególnie teraz, w dobie rodzącej się największej transformacji w historii ludzkości, gdy już niebawem po raz pierwszy spotkamy się z SSI - zbudowaną przez ludzi, ale obcą przecież inteligencją, przewyższającą wszystko, na co nas stać, i jeszcze dużo więcej.
+Szczególnie teraz, w dobie rodzącej się największej transformacji w historii ludzkości, gdy już niebawem po raz pierwszy spotkamy się z SSI (Super Szczutczną Inteligencją) - zbudowaną przez ludzi, ale obcą przecież inteligencją, przewyższającą wszystko, na co nas stać, i jeszcze dużo więcej.
 
 Kilka dekad temu, by zdobyć informacje, musiałem biec do biblioteki. Internet to zmienił diametralnie, ale szybko przekształcił się z miejsca pełnego wzniosłych idei w maszynkę do wykorzystywania ludzkich ułomności, by nieliczni mogli się jeszcze bardziej wzbogacać.
 

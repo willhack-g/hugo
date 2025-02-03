@@ -18,7 +18,7 @@ Quiero que este sitio esté abierto a todos los temas constructivos, independien
 
 Desde la infancia, me ha fascinado la ciencia ficción, lo que me ha dado una fuerte atracción por la ciencia y por imaginar su impacto en nuestra vida diaria, social y cultural.
 
-Esto es especialmente relevante ahora, en la era de la mayor transformación en la historia de la humanidad, cuando estamos a punto de encontrarnos por primera vez con la SSI - una inteligencia construida por humanos pero ajena a nosotros, que supera todo lo que somos capaces de hacer y mucho más.
+Esto es especialmente relevante ahora, en la era de la mayor transformación en la historia de la humanidad, cuando estamos a punto de encontrarnos por primera vez con la ISA (Inteligencia Super Artificial) - una inteligencia construida por humanos pero ajena a nosotros, que supera todo lo que somos capaces de hacer y mucho más.
 
 Hace unas décadas, tenía que correr a la biblioteca para recopilar información. Internet cambió esto dramáticamente, pero rápidamente se transformó de un lugar lleno de ideas elevadas a una máquina que explota las debilidades humanas para que unos pocos se hagan aún más ricos.
 

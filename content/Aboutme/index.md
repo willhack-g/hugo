@@ -18,7 +18,7 @@ I want this site to be open to all constructive topics, regardless of their poli
 
 Since childhood, I've been fascinated by science fiction, which has given me a strong attraction to science and imagining its impact on our daily, social, and cultural life.
 
-This is especially relevant now, in the era of the greatest transformation in human history, as we're about to encounter SSI for the first time - an intelligence built by humans but alien to us, surpassing everything we're capable of and much more.
+This is especially relevant now, in the era of the greatest transformation in human history, as we're about to encounter ASI (Artificial Super Intelligence) for the first time - an intelligence built by humans but alien to us, surpassing everything we're capable of and much more.
 
 A few decades ago, I had to run to the library to gather information. The Internet changed this dramatically but quickly transformed from a place full of lofty ideas into a machine exploiting human weaknesses so that a few could become even wealthier.
 
