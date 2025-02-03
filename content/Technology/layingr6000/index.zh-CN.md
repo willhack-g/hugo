@@ -1,6 +1,6 @@
 ---
 title: "蓝鹰 R6000"
-date: 2025-01-25
+date: 2025-01-25T12:48:22+01:00
 draft: false
 language: "zh-CN"
 description: "民用航空的未来？"

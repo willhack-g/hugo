@@ -1,6 +1,6 @@
 ---
 title: "Armee der Eins"
-date: 2025-01-25
+date: 2025-01-25T12:49:22+01:00
 draft: false
 language: "de"
 description: "Leitfaden zur Automatisierung mit minimalem Budget."

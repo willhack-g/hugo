@@ -1,6 +1,6 @@
 ---
 title: "什么是人工智能？当前模型"
-date: 2025-01-10
+date: 2025-01-10T12:44:22+01:00
 draft: false
 language: "zh-CN"
 description: "探索最新的人工智能模型"

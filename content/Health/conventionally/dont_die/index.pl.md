@@ -1,6 +1,6 @@
 ---
 title: "Po Prostu Nie Umieraj"
-date: 2025-01-17
+date: 2025-01-17T12:47:22+01:00
 draft: false
 language: "pl"
 description: "Dlaczego powinieneś żyć wystarczająco długo, aby cofnąć zegar biologiczny"

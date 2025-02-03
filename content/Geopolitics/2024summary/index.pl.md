@@ -1,6 +1,6 @@
 ---
 title: "2024 - Podsumowanie"
-date: 2025-01-17
+date: 2025-01-17T12:48:22+01:00
 draft: false
 language: "pl"
 description: "Kluczowe globalne wydarzenia w 2024 roku"

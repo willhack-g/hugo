@@ -1,6 +1,6 @@
 ---
 title: "Simplemente No Mueras"
-date: 2025-01-17
+date: 2025-01-17T12:47:22+01:00
 draft: false
 language: "es"
 description: "Por qué deberías vivir lo suficiente para revertir el reloj biológico"

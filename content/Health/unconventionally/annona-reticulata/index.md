@@ -1,6 +1,6 @@
 ---
 title: "Annona reticulata - Comprehensive Analysis of Health-Promoting Properties"
-date: 2025-02-01
+date: 2025-02-01T12:44:22+01:00
 draft: false
 language: "en"
 description: "Detailed analysis of the health-promoting properties of Annona reticulata, with particular emphasis on its advantages over conventional cancer treatments."

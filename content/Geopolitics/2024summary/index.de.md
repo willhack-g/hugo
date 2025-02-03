@@ -1,6 +1,6 @@
 ---
 title: "2024 - Zusammenfassung"
-date: 2025-01-17
+date: 2025-01-17T12:48:22+01:00
 draft: false
 language: "de"
 description: "Wichtige globale Ereignisse im Jahr 2024"

@@ -1,6 +1,6 @@
 ---
 title: "Army of One"
-date: 2025-01-25
+date: 2025-01-25T12:49:22+01:00
 draft: false
 language: "en"
 description: "Guide to automation on a minimal budget."

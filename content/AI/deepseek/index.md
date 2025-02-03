@@ -1,6 +1,6 @@
 ---
 title: "Deepseek AI"  
-date: 2025-01-10
+date: 2025-01-10T12:43:22+01:00
 draft: false
 language: "en"
 description: "Exploring the capabilities of Deepseek AI"

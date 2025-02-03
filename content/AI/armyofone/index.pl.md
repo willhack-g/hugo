@@ -1,6 +1,6 @@
 ---
 title: "Armia Jednego"
-date: 2025-01-25
+date: 2025-01-25T12:49:22+01:00
 draft: false
 language: "pl"
 description: "Przewodnik po automatyzacji przy minimalnym budżecie."

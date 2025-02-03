@@ -1,6 +1,6 @@
 ---
 title: "Annona reticulata - Análisis Integral de las Propiedades Promotoras de la Salud"
-date: 2025-02-01
+date: 2025-02-01T12:44:22+01:00
 draft: false
 language: "es"
 description: "Análisis detallado de las propiedades promotoras de la salud de Annona reticulata, con especial énfasis en sus ventajas sobre los tratamientos convencionales contra el cáncer."

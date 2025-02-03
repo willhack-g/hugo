@@ -1,6 +1,6 @@
 ---
 title: "Graviola (Annona muricata) - ¿Una panacea para el cáncer y la diabetes?"
-date: 2025-02-01
+date: 2025-02-01T12:45:22+01:00
 draft: false
 language: "es"
 description: "Una revisión exhaustiva de la investigación científica sobre las propiedades medicinales de la graviola y los métodos prácticos para su preparación y uso."

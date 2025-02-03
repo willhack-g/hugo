@@ -1,6 +1,6 @@
 ---
 title: "Lanying R6000"
-date: 2025-01-25
+date: 2025-01-25T12:48:22+01:00
 draft: false
 language: "de"
 description: "Die Zukunft der zivilen Luftfahrt?"

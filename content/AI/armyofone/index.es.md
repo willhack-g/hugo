@@ -1,6 +1,6 @@
 ---
 title: "Ejército de Uno"
-date: 2025-01-25
+date: 2025-01-25T12:49:22+01:00
 draft: false
 language: "es"
 description: "Guía de automatización con un presupuesto mínimo."

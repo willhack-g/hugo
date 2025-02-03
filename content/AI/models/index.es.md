@@ -1,6 +1,6 @@
 ---
 title: "¿Qué es la Inteligencia Artificial? Modelos Actuales."
-date: 2025-01-10T12:42:22+01:00
+date: 2025-01-10T12:44:22+01:00
 draft: false
 language: "es"
 description: "Explorando los últimos modelos de IA"

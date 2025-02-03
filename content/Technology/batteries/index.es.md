@@ -1,6 +1,6 @@
 ---
 title: "Baterías"
-date: 2025-01-17
+date: 2025-01-17T12:45:22+01:00
 draft: false
 language: "es"
 description: "La evolución de las baterías en la última década"

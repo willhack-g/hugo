@@ -1,6 +1,6 @@
 ---
 title: "刺果番荔枝 (Annona muricata) - 癌症和糖尿病的万能药?"
-date: 2025-02-01
+date: 2025-02-01T12:45:22+01:00
 draft: false
 language: "zh-CN"
 description: "对刺果番荔枝药用特性的科学研究及其制备和使用实用方法的全面综述"

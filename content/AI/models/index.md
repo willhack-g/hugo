@@ -1,6 +1,6 @@
 ---
 title: "What is Artificial Intelligence? Current Models."
-date: 2025-01-10
+date: 2025-01-10T12:44:22+01:00
 draft: false
 language: "en"
 description: "Exploring the latest AI models"

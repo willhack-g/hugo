@@ -1,6 +1,6 @@
 ---
 title: "Just Don't Die"
-date: 2025-01-17
+date: 2025-01-17T12:47:22+01:00
 draft: false
 language: "en"
 description: "Why You Should Live Long Enough to Reverse the Biological Clock"

@@ -1,6 +1,6 @@
 ---
 title: "Annona reticulata - Kompleksowa Analiza Właściwości Prozdrowotnych"
-date: 2025-02-01
+date: 2025-02-01T12:44:22+01:00
 draft: false
 language: "pl"
 description: "Szczegółowa analiza właściwości prozdrowotnych Annona reticulata, ze szczególnym uwzględnieniem jej przewagi nad konwencjonalnymi metodami leczenia nowotworów."

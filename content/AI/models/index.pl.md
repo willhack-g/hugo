@@ -1,6 +1,6 @@
 ---
 title: "Czym jest sztuczna inteligencja? Aktualne modele."
-date: 2025-01-10T12:42:22+01:00
+date: 2025-01-10T12:44:22+01:00
 draft: false
 language: "pl"
 description: "Eksploracja najnowszych modeli AI"

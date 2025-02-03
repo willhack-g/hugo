@@ -1,6 +1,6 @@
 ---
 title: "2024 - Summary"
-date: 2025-01-17
+date: 2025-01-17T12:48:22+01:00
 draft: false
 language: "en"
 description: "Key Global Events in 2024"

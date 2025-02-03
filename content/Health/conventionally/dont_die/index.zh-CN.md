@@ -1,6 +1,6 @@
 ---
 title: "只是不要死"
-date: 2025-01-17
+date: 2025-01-17T12:47:22+01:00
 draft: false
 language: "zh-CN"
 description: "为什么你应该活得足够长以逆转生物钟"

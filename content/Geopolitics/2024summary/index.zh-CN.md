@@ -1,6 +1,6 @@
 ---
 title: "2024 - 总结"
-date: 2025-01-17
+date: 2025-01-17T12:48:22+01:00
 draft: false
 language: "zh-CN"
 description: "2024年全球重大事件"

@@ -1,6 +1,6 @@
 ---
 title: "Annona reticulata - Umfassende Analyse der gesundheitsfördernden Eigenschaften"
-date: 2025-02-01
+date: 2025-02-01T12:44:22+01:00
 draft: false
 language: "de"
 description: "Detaillierte Analyse der gesundheitsfördernden Eigenschaften von Annona reticulata, mit besonderem Schwerpunkt auf ihren Vorteilen gegenüber herkömmlichen Krebsbehandlungen."

@@ -1,6 +1,6 @@
 ---
 title: "Graviola (Annona muricata) - Ein Allheilmittel gegen Krebs und Diabetes?"
-date: 2025-02-01
+date: 2025-02-01T12:45:22+01:00
 draft: false
 language: "de"
 description: "Ein umfassender Überblick über die wissenschaftliche Forschung zu den medizinischen Eigenschaften von Graviola und praktische Methoden zu ihrer Zubereitung und Anwendung"

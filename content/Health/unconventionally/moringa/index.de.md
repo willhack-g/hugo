@@ -1,6 +1,6 @@
 ---
 title: "Moringa"
-date: 2025-01-17
+date: 2025-01-17T12:46:22+01:00
 draft: false
 language: "de"
 description: "Moringa - nicht ohne Grund der Baum des Lebens genannt"
