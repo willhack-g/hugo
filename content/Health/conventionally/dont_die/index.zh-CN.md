@@ -10,7 +10,7 @@ categories: ["非常规健康", "常规健康"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackcn"
 ---
 # 只是不要死：为什么你应该活得足够长以逆转生物钟
 

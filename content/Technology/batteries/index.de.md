@@ -10,7 +10,7 @@ categories: ["technologie"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackde"
 ---
 # Die Entwicklung von Batterien im letzten Jahrzehnt: Marktdynamik, technologische Fortschritte und zukünftige Perspektiven
 

@@ -10,7 +10,7 @@ categories: ["AI", "代理", "项目"]
 showAuthor: false
 showAuthorsBadges: true
 authors:
-  - "willhack"
+  - "willhackcn"
 ---
 
 **几乎免费的网络空间。**

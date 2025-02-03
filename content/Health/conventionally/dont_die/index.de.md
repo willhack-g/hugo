@@ -10,7 +10,7 @@ categories: ["unkonventionelle Gesundheit", "konventionelle Gesundheit"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackde"
 ---
 # Stirb Einfach Nicht: Warum du lange genug leben solltest, um die biologische Uhr zurückzudrehen
 

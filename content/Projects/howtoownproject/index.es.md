@@ -10,7 +10,7 @@ categories: ["IA", "agentes", "proyectos"]
 showAuthor: false
 showAuthorsBadges: true
 authors:
-  - "willhack"
+  - "willhackes"
 ---
 
 **Tu lugar en internet sin suscripciones costosas.**

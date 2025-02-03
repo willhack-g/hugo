@@ -10,7 +10,7 @@ categories: ["technologie"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackde"
 ---
 
 ## Entwicklung der Robotik im sozialen und technologischen Kontext

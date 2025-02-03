@@ -10,7 +10,7 @@ categories: ["unkonventionelle Gesundheit"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackde"
 ---
 # Gesundheitsfördernde Wirkung von Moringa: Umfassende Zusammenfassung von Forschung und Anwendungen
 

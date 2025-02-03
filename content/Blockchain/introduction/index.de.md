@@ -10,7 +10,7 @@ categories: ["blockchain"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackde"
 ---
 # Blockchain-Technologie: Geschichte, Funktionalität und Anwendungsperspektiven
 

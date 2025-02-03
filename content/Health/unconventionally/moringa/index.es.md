@@ -10,7 +10,7 @@ categories: ["salud no convencional"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackes"
 ---
 # Impacto beneficioso de la moringa: Resumen completo de investigaciones y aplicaciones
 

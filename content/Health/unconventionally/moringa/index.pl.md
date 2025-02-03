@@ -10,7 +10,7 @@ categories: ["zdrowie niekonwencjonalnie"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackpl"
 ---
 # Prozdrowotny wpływ moringi: Kompleksowe podsumowanie badań i zastosowań
 

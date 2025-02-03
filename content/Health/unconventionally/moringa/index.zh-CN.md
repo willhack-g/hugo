@@ -10,7 +10,7 @@ categories: ["非常规健康"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackcn"
 ---
 # 辣木的健康益处：综合研究总结与应用
 

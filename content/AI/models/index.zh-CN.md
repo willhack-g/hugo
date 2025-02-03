@@ -10,7 +10,7 @@ categories: ["ai"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackcn"
 ---
 
 人工智能（AI）是计算机科学的一个领域，专注于创造智能机器。这些机器可以执行通常需要人类思维的任务，如学习、解决问题和决策。

@@ -10,7 +10,7 @@ categories: ["KI", "Agenten", "Projekte"]
 showAuthor: false
 showAuthorsBadges: true
 authors:
-  - "willhack"
+  - "willhackde"
 ---
 
 **Dein Platz im Internet ohne teure Abonnements.**

@@ -10,7 +10,7 @@ categories: ["geopolityka"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackpl"
 ---
 
 ## Koniec 2024 roku

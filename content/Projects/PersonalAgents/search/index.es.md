@@ -10,7 +10,7 @@ categories: ["ia", "agentes", "proyectos"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackes"
 ---
 
 En preparación, un poco de paciencia. Si alguien tiene experiencia de agentes de la construcción y le gustaría ayudar - ml@willhack.com

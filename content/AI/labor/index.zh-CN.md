@@ -10,7 +10,7 @@ categories: ["ai"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackcn"
 ---
 
 ## 从古代文明到中国的崛起：廉价劳动力和智能治理的力量

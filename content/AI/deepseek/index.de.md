@@ -10,7 +10,7 @@ showAuthor: false
 showAuthorsBadges: true
 authors:
   - "testauthor"
-  - "willhack"
+  - "willhackde"
 ---
 
 # DeepSeek-V3: Die nächste Generation künstlicher Intelligenz, die die Art und Weise verändert, wie Menschen mit Technologie interagieren

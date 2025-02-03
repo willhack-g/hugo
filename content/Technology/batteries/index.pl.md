@@ -10,7 +10,7 @@ categories: ["technologia"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackpl"
 ---
 # Ewolucja baterii w ostatniej dekadzie: dynamika rynku, postępy technologiczne i przyszłe perspektywy
 

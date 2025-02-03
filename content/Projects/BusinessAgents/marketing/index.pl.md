@@ -10,7 +10,7 @@ categories: ["si", "agenci", "projekty"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackpl"
 ---
 
 W przygotowaniu, troszkę cierpliwości. Jeśli ktoś ma doświadczenie w budowaniu agentów i chciałby pomóc - ml@willhack.com

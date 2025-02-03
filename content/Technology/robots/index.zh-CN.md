@@ -10,7 +10,7 @@ categories: ["技术"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackcn"
 ---
 
 ## 机器人技术在社会和技术背景下的发展

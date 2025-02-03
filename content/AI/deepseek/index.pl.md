@@ -10,7 +10,7 @@ showAuthor: false
 showAuthorsBadges: true
 authors:
   - "testauthor"
-  - "willhack"
+  - "willhackpl"
 ---
 
 # DeepSeek-V3: Nowa generacja sztucznej inteligencji, która zmienia sposób interakcji człowieka z technologią

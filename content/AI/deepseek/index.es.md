@@ -10,7 +10,7 @@ showAuthor: false
 showAuthorsBadges: true
 authors:
   - "testauthor"
-  - "willhack"
+  - "willhackes"
 ---
 
 # DeepSeek-V3: La nueva generación de inteligencia artificial que cambia la forma en que los humanos interactúan con la tecnología

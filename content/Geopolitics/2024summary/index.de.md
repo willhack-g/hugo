@@ -10,7 +10,7 @@ categories: ["geopolitik"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackde"
 ---
 
 ## Ende 2024

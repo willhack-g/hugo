@@ -10,7 +10,7 @@ categories: ["zdrowie niekonwencjonalne", "zdrowie konwencjonalne"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackpl"
 ---
 # Po Prostu Nie Umieraj: Dlaczego powinieneś żyć wystarczająco długo, aby cofnąć zegar biologiczny
 

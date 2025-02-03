@@ -1,0 +1,12 @@
+{
+    "name": "WillHackDe",
+    "image" : "img/fav.png",
+    "bio": "Admin",
+    "social": [
+        { "twitter": "https://x.com/willhackde" },
+        { "instagram": "https://instagram.com/willhackde" },
+        { "github": "https://github.com/willhack-g" },
+        { "telegram": "https://t.me/willhackde" },
+        { "whatsapp": "https://wa.me/WillHackLin" }
+    ]
+}

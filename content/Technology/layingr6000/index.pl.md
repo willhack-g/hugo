@@ -10,7 +10,7 @@ categories: ["SI", "Technologia"]
 showAuthor: false
 showAuthorsBadges: true
 authors:
-  - "willhack"
+  - "willhackpl"
 ---
 # Lanying R6000: Rewolucyjny dron z wirnikiem przechylnym
 

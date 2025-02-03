@@ -9,7 +9,7 @@ tags: ["proyectos", "actividad"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackes"
 ---
 
 # Algunas Palabras de Introducción

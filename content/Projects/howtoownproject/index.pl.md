@@ -10,7 +10,7 @@ categories: ["SI", "agenci", "projekty"]
 showAuthor: false
 showAuthorsBadges: true
 authors:
-  - "willhack"
+  - "willhackpl"
 ---
 
 **Twoje miejsce w internecie bez drogich abonamentów.**

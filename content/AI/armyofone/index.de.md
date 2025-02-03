@@ -10,7 +10,7 @@ categories: ["KI", "Technologie"]
 showAuthor: false
 showAuthorsBadges: true
 authors:
-  - "willhack"
+  - "willhackde"
 ---
 
 ## Einführung

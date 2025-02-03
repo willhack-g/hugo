@@ -10,7 +10,7 @@ showAuthor: false
 showAuthorsBadges: true
 authors:
   - "testauthor"
-  - "willhack"
+  - "willhackcn"
 ---
 
 # DeepSeek-V3：改变人类与技术互动的下一代人工智能

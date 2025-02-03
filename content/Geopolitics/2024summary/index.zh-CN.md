@@ -10,7 +10,7 @@ categories: ["地缘政治"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackcn"
 ---
 
 ## 2024年底

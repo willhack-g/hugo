@@ -10,7 +10,7 @@ categories: ["技术"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackcn"
 ---
 # 过去十年电池的演变：市场动态、技术进步和未来前景
 

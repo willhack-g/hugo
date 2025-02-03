@@ -10,7 +10,7 @@ categories: ["ki", "agenten", "projekte"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackde"
 ---
 
 In Vorbereitung, ein wenig Geduld. Wenn jemand Erfahrung mit Baumitteln hat und helfen möchte - ml@willhack.com

@@ -10,7 +10,7 @@ categories: ["区块链"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackcn"
 ---
 # 区块链技术：历史、功能和应用前景
 

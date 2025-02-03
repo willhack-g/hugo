@@ -10,7 +10,7 @@ categories: ["AI", "技术"]
 showAuthor: false
 showAuthorsBadges: true
 authors:
-  - "willhack"
+  - "willhackcn"
 ---
 
 ## 介绍

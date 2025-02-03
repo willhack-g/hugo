@@ -10,7 +10,7 @@ categories: ["salud no convencional", "salud convencional"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackes"
 ---
 # Simplemente No Mueras: Por qué deberías vivir lo suficiente para revertir el reloj biológico
 

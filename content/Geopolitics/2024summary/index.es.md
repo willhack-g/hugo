@@ -10,7 +10,7 @@ categories: ["geopolítica"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackes"
 ---
 
 ## Final de 2024

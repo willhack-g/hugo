@@ -10,7 +10,7 @@ categories: ["AI", "技术"]
 showAuthor: false
 showAuthorsBadges: true
 authors:
-  - "willhack"
+  - "willhackcn"
 ---
 # 蓝鹰 R6000：中国革命性的倾转旋翼无人机
 

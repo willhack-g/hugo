@@ -10,7 +10,7 @@ categories: ["IA", "Tecnología"]
 showAuthor: false
 showAuthorsBadges: true
 authors:
-  - "willhack"
+  - "willhackes"
 ---
 
 ## Introducción

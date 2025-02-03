@@ -10,7 +10,7 @@ categories: ["tecnología"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackes"
 ---
 
 ## Desarrollo de la Robótica en Contexto Social y Tecnológico

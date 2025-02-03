@@ -10,7 +10,7 @@ categories: ["technologia"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackpl"
 ---
 
 

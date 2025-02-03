@@ -10,7 +10,7 @@ categories: ["IA", "Tecnología"]
 showAuthor: false
 showAuthorsBadges: true
 authors:
-  - "willhack"
+  - "willhackes"
 ---
 # El Lanying R6000: El dron de rotor basculante revolucionario de China
 

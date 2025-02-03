@@ -10,7 +10,7 @@ categories: ["Zdrowie"]
 showAuthor: false
 showAuthorsBadges: false
 authors:
-  - "willhack"
+  - "willhackpl"
 ---
 
 ## Wprowadzenie
