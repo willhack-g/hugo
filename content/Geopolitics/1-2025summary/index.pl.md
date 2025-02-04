@@ -1,5 +1,5 @@
 ---
-title: "Styczeń 2024 - Podsumowanie"
+title: "Styczeń 2025 - Podsumowanie"
 date: 2025-02-03T12:48:22+01:00
 draft: false
 language: "pl"
