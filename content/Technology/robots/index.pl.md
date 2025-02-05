@@ -14,7 +14,7 @@ authors:
 ---
 
 
-## rozwój robotyki w kontekście społecznym i technologicznym
+## Rozwój robotyki w kontekście społecznym i technologicznym
 
 
 > **Kluczowa refleksja**: Czy maszyny, które stworzyliśmy aby nas wyręczać, staną się naszymi partnerami, czy może nowymi władcami? Odpowiedź na to pytanie kształtuje się na naszych oczach, wraz z każdym przełomem w dziedzinie robotyki i sztucznej inteligencji.
