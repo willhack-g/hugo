@@ -8,7 +8,7 @@ taxonomy:
     name: "分类"
 
 archive:
-  title: "存档"
+  title: "归档"
   description: "所有文章"
   showMore: "显示更多"
   noResults: "未找到文章"
@@ -19,13 +19,13 @@ menu:
   mobile_menu: "移动菜单"
   close_mobile_menu: "关闭菜单"
   home: "首页"
-  logo_home: "转到首页"
+  logo_home: "返回首页"
   logo_description: "网站标志"
   home_title: "首页 - %s"
-  section_nav: "部分 %s - 转到页面"
-  submenu_button: "部分 %s 菜单 - 按空格或回车展开"
-  submenu_item: "转到 %s 在部分 %s"
-  main_section: "转到部分 %s"
+  section_nav: "板块 %s - 转到页面"
+  submenu_button: "板块 %s 菜单 - 按空格键或回车键展开"
+  submenu_item: "转到板块 %s 中的 %s"
+  main_section: "转到板块 %s"
   dropdown_menu: "下拉菜单"
   submenu_of: "子菜单"
 
@@ -35,9 +35,9 @@ article:
     disable: "禁用禅模式"
   related_article: "相关文章"
   related_articles: "相关文章"
-  external_link: "打开外部文章: %s"
-  read_article: "阅读文章: %s"
-  share_prompt: "如果你喜欢这篇文章,请与朋友分享!"
+  external_link: "打开外部文章：%s"
+  read_article: "阅读文章：%s"
+  share_prompt: "如果你喜欢这篇文章，请与朋友分享！"
   draft: "草稿"
 
 search:
@@ -48,15 +48,32 @@ search:
   icon_title: "点击搜索"
 
 appearance:
-  dark_mode: "启用暗模式"
-  light_mode: "启用亮模式"
+  dark_mode: "启用深色模式"
+  light_mode: "启用浅色模式"
   icon_title: "更改主题"
 
 list:
   externalurl_title: "外部链接"
 
-shortcode:
-  recent_articles: "最新文章"
+error404:
+  title: "页面未找到"
+  subtitle: "抱歉，您要找的页面不存在或已被移动。"
+  message: "您可以尝试："
+  homePage: "返回首页"
+  archives: "浏览归档"
+  back: "返回上一页"
+  help: "如果您认为这是一个错误，请联系我们。"
+  similar: "相似页面："
 
-recent:
-  show_more: "显示更多"
+sharing:
+  email: "通过电子邮件分享"
+  facebook: "分享到 Facebook"
+  linkedin: "分享到 LinkedIn"
+  pinterest: "分享到 Pinterest"
+  reddit: "分享到 Reddit"
+  twitter: "分享到 X (Twitter)"
+  whatsapp: "通过 WhatsApp 分享"
+  telegram: "通过 Telegram 分享"
+  bluesky: "分享到 Bluesky"
+  mastodon: "分享到 Mastodon"
+  instagram: "分享到 Instagram"

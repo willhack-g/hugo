@@ -79,7 +79,7 @@ heroStyle = "basic"
 showRelatedContent = true
 relatedContentLimit = 6
 showComments = true
-sharingLinks = [ "linkedin", "twitter", "mastodon", "bluesky", "reddit", "whatsapp", "telegram", "pinterest", "facebook", "email"]
+sharingLinks = [ "linkedin", "twitter", "mastodon", "bluesky", "reddit", "whatsapp", "telegram", "pinterest", "facebook", "email", "instagram"]
 
 [list]
 showHero = true

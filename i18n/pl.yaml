@@ -65,3 +65,15 @@ error404:
   help: "Jeśli uważasz, że to błąd, skontaktuj się z nami."
   similar: "Podobne strony:"
 
+sharing:
+  email: "Udostępnij przez Email"
+  facebook: "Udostępnij na Facebooku"
+  linkedin: "Udostępnij na LinkedIn"
+  pinterest: "Udostępnij na Pinterest"
+  reddit: "Udostępnij na Reddit"
+  twitter: "Udostępnij na X (Twitter)"
+  whatsapp: "Udostępnij przez WhatsApp"
+  telegram: "Udostępnij przez Telegram"
+  bluesky: "Udostępnij na Bluesky"
+  mastodon: "Udostępnij na Mastodon"
+  instagram: "Udostępnij na Instagram"

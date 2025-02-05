@@ -64,3 +64,16 @@ error404:
   back: "Go back to previous page"
   help: "If you believe this is an error, please contact us."
   similar: "Similar pages:"
+
+sharing:
+  email: "Share via Email"
+  facebook: "Share on Facebook"
+  linkedin: "Share on LinkedIn"
+  pinterest: "Share on Pinterest"
+  reddit: "Share on Reddit"
+  twitter: "Share on X (Twitter)"
+  whatsapp: "Share via WhatsApp"
+  telegram: "Share via Telegram"
+  bluesky: "Share on Bluesky"
+  mastodon: "Share on Mastodon"
+  instagram: "Share on Instagram"
