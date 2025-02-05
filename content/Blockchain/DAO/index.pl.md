@@ -1,5 +1,5 @@
 ---
-title: "Twój głos nie ma znaczenia - czas to zmienić ."
+title: "Twój głos nie ma znaczenia - Czas to zmienić"
 date: 2025-02-05T12:48:22+01:00
 draft: false
 language: "pl"
