@@ -181,3 +181,13 @@ showOnArticle = true
 widgetScript = "https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
 
 [rssnext]
+
+[feed]
+title = "WillHack Blog"
+description = "WillHack is your comprehensive guide to navigating the future of technology."
+favicon = "/favicon.png"
+icon = "/favicon.png"
+image = "/def.webp"
+language = "en"
+authorName = "WillHack"
+authorEmail = ""
