@@ -10,6 +10,8 @@ disableImageOptimization = false  # Włącz optymalizację obrazów
 
 # SEO Settings
 canonifyURLs = true
+description = "WillHack is your comprehensive guide to navigating the future of technology. Explore the latest in AI, blockchain, geopolitics, health innovations, and technological breakthroughs. Start preparing today for tomorrow's intelligence explosion."
+keywords = ["AI", "Blockchain", "Geopolitics", "Health", "Technology", "Future", "Innovation", "Intelligence Explosion"]
 enableRobotsTXT = true
 disableTextInHeader = false
 disableImageZoom = false  # Włącz efekt powiększania Medium Zoom
@@ -98,7 +100,7 @@ cardViewScreenWidth = false
 constrainItemsWidth = false
 
 [sitemap]
-excludedKinds = [ "taxonomy", "term" ]
+excludedKinds = ["taxonomy", "term"]
 changefreq = "weekly"
 priority = 0.8
 filename = "sitemap.xml"
@@ -142,6 +144,26 @@ groupByYear = false
 cardView = false
 cardViewScreenWidth = false
 
+[analytics]
+plausibleAnalytics = true
+plausibleDataDomain = "willhack.top"
+
+[verification]
+
+[opengraph]
+defaultImage = "def.webp"
+imageAlt = "WillHack - Explore the Future of Technology"
+defaultImageWidth = "1200"
+defaultImageHeight = "630"
+
+[twitter]
+handle = "@WillHackLin"
+site = "@WillHackLin"
+defaultImage = "def.webp"
+defaultImageAlt = "WillHack - Explore the Future of Technology"
+defaultImageWidth = "1200"
+defaultImageHeight = "630"
+
 [fathomAnalytics]
 
 [umamiAnalytics]
@@ -157,7 +179,5 @@ globalWidgetColor = "#FFDD0040"
 globalWidgetPosition = "left"
 showOnArticle = true
 widgetScript = "https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-
-[verification]
 
 [rssnext]

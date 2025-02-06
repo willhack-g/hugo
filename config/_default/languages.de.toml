@@ -15,11 +15,11 @@ isoCode = "de"
 rtl = false
 dateFormat = "2 January 2006"
 logo = "logo.png"
-description = "Hacke deine Realität"
+description = "WillHack ist Ihr umfassender Leitfaden für die Zukunft der Technologie. Entdecken Sie die neuesten Entwicklungen in den Bereichen KI, Blockchain, Geopolitik, Gesundheitsinnovationen und technologische Durchbrüche. Beginnen Sie heute mit der Vorbereitung auf die kommende Intelligenzexplosion."
 
 [params.author]
 name = "Willhack"
   email = "ml@willhack.top"
   image = "img/fav.png"
 headline = "Hacke deine Realität - wenn du dich in der Welt von morgen, in der die Intelligenz explodiert, zurechtfinden willst, beginne noch heute, dich vorzubereiten."
-bio = "admin"
+bio = "Technologieexperte mit Schwerpunkt KI, Blockchain und Zukunftsinnovationen"

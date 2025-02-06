@@ -14,11 +14,11 @@ isoCode = "pl"
 rtl = false
 dateFormat = "2 January 2006"
 logo = "logo.png"
-description = "Hakuj swoją rzeczywistość"
+description = "WillHack to Twój kompleksowy przewodnik po przyszłości technologii. Odkryj najnowsze trendy w dziedzinie sztucznej inteligencji, blockchain, geopolityki, innowacji zdrowotnych i przełomów technologicznych. Zacznij przygotowywać się już dziś na nadchodzącą eksplozję inteligencji."
 
 [params.author]
 name = "Willhack"
   email = "ml@willhack.top"
   image = "img/fav.png"
-headline = "Hakuj swoją rzeczywistość - jeśli chcesz odnaleźć się w jutrzejszym świecie eksplozji inteligencji - zacznij przygotowywać się już dziś. "
-bio = "admin"
+headline = "Hakuj swoją rzeczywistość - jeśli chcesz odnaleźć się w jutrzejszym świecie eksplozji inteligencji - zacznij przygotowywać się już dziś."
+bio = "Ekspert technologiczny specjalizujący się w AI, blockchain i innowacjach przyszłości"

@@ -14,11 +14,11 @@ isoCode = "zh-CN"
 rtl = false
 dateFormat = "2006年1月2日"
 logo = "logo.png"
-description = "创造你的现实"
+description = "WillHack是您探索技术未来的综合指南。探索人工智能、区块链、地缘政治、健康创新和技术突破的最新发展。从今天开始为即将到来的智能爆炸时代做好准备。"
 
 [params.author]
 name = "Willhack"
 email = "ml@willhack.top"
 image = "img/fav.png"
 headline = "创造你的现实 - 如果你想在未来的智能爆炸世界中找到自己的位置 - 现在就开始准备。"
-bio = "admin"
+bio = "专注于人工智能、区块链和未来创新的技术专家"

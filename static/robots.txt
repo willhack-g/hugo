@@ -1,48 +1,43 @@
 User-agent: *
 Allow: /
 
-# Block access to admin and private areas
-Disallow: /admin/
-Disallow: /private/
+# Crawl settings
+Crawl-delay: 5
 
-# Block access to search pages and taxonomy listings
-Disallow: /search/
-Disallow: /tags/
-Disallow: /categories/
+# Allow all languages
+Allow: /pl/
+Allow: /en/
+Allow: /es/
+Allow: /de/
+Allow: /zh-cn/
 
-# Allow access to main content sections - English
-Allow: /aboutme/
+# Allow main sections
 Allow: /ai/
 Allow: /blockchain/
-Allow: /geopolitics/
-Allow: /health/
-Allow: /projects/
 Allow: /technology/
+Allow: /health/
+Allow: /geopolitics/
+Allow: /projects/
+Allow: /authors/
+Allow: /archives/
+Allow: /tags/
+Allow: /categories/
 
-# Polish version
-Allow: /pl/aboutme/
-Allow: /pl/ai/
-Allow: /pl/blockchain/
-Allow: /pl/geopolitics/
-Allow: /pl/health/
-Allow: /pl/projects/
-Allow: /pl/technology/
+# Block certain files
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*.json$
+Disallow: /page/
+Disallow: /*?*
+Disallow: /search/
 
-# German version
-Allow: /de/*
-
-# Spanish version
-Allow: /es/*
-
-# Chinese version
-Allow: /zh-cn/*
-
-# Sitemaps for all languages - English uses root, others use language paths
+# Add all sitemaps
 Sitemap: https://willhack.top/sitemap.xml
+Sitemap: https://willhack.top/en/sitemap.xml
 Sitemap: https://willhack.top/pl/sitemap.xml
-Sitemap: https://willhack.top/de/sitemap.xml
 Sitemap: https://willhack.top/es/sitemap.xml
+Sitemap: https://willhack.top/de/sitemap.xml
 Sitemap: https://willhack.top/zh-cn/sitemap.xml
 
-# Crawl-delay directive (optional)
-Crawl-delay: 5
+# Host directive (for Yandex)
+Host: willhack.top

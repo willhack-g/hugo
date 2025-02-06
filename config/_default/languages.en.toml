@@ -14,11 +14,11 @@ isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
 logo = "logo.png"
-description = "Hack your reality"
+description = "WillHack is your comprehensive guide to navigating the future of technology. Explore the latest in AI, blockchain, geopolitics, health innovations, and technological breakthroughs. Start preparing today for tomorrow's intelligence explosion."
 
 [params.author]
 name = "Willhack"
   email = "ml@willhack.top"
   image = "img/fav.png"
 headline = "Hack you reality - if you want to find yourself in tomorrow's world of intelligence explosion - start getting ready today."
-bio = "admin"
+bio = "Technology expert focused on AI, blockchain, and future innovations"
