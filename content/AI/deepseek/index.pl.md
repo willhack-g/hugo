@@ -46,3 +46,6 @@ Jednocześnie, rozwój DeepSeek-V3 wiąże się z odpowiedzialnością. Twórcy 
 ## Podsumowanie
 DeepSeek-V3 to model, który łączy w sobie najnowocześniejsze technologie z głębokim zrozumieniem potrzeb użytkowników. Jego historia to opowieść o ciągłym dążeniu do doskonałości, a jego przyszłość zapowiada jeszcze więcej innowacji. W świecie, w którym sztuczna inteligencja odgrywa coraz większą rolę, DeepSeek-V3 wyróżnia się jako narzędzie, które nie tylko rozumie, ale także dostosowuje się do naszych potrzeb, zmieniając sposób, w jaki korzystamy z technologii.
 Na stronie [Deepseek.com](https://deepseek.com) masz darmowy chat, z opcjami wyszukiwania w internecie i głębogiego zastanawiania się. Po zarejstrowaniu się, możesz również za niewielką w stosunku do porównywalnych konkurencyjnych modeli opłatą, używać api do szerokiej gamy programów na przykład [Cline](https://github.com/nunocoracao/cline) jako plugin do [VSCode](https://code.visualstudio.com/)
+ 
+
+![Katalog SEO (moderowany)](https://tff.tf/katalog-seo-antipixel.png "Moderowany katalog stron")
