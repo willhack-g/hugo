@@ -134,6 +134,7 @@ Moringa oleifera to roślina o imponujących właściwościach prozdrowotnych, k
 
 [Największy Katalog Stron www](https://skocz.com "Największy Katalog Stron www")
 [83.pl - Katalog stron www](https://83.pl "83.pl - Katalog stron www")
+<a href="https://blooger.pl" title="Blooger.pl - Katalog Dobrych stron www">Blooger.pl - Katalog Dobrych stron www</a>
 
 
 
