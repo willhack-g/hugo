@@ -1,6 +1,7 @@
 ---
 title: "Army of One"
 date: 2025-01-25T12:49:22+01:00
+lastmod: 2025-02-07T12:59:49+01:00
 draft: false
 language: "en"
 description: "Guide to automation on a minimal budget."
