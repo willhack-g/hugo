@@ -36,6 +36,12 @@
     </p>
     {{ end }}
 
+    {{ if eq .Site.Language.Lang "pl" }}
+    <p class="text-xs text-neutral-500 dark:text-neutral-400">
+      <a href="https://katalog.stronwww.eu/" class="hover:underline hover:decoration-primary-400 hover:text-primary-500">Katalog Stron WWW</a>
+    </p>
+    {{ end }}
+
     {{/* Theme attribution */}}
     {{ if .Site.Params.footer.showThemeAttribution | default true }}
     <p class="text-xs text-neutral-500 dark:text-neutral-400">
