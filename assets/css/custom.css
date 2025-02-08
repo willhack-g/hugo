@@ -58,6 +58,7 @@
   height: 100%;
   text-align: center;
   contain: content;
+  color: white !important;
 }
 
 .text-shadow {
