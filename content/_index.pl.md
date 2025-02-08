@@ -1,5 +1,5 @@
 ---
 title: "Witaj"
-description: "Ten serwis jest dla hakerów rzeczywistości."
+description: "WillHack to Twój kompleksowy przewodnik po przyszłości technologii. Zacznij przygotowywać się już dziś na nadchodzącą eksplozję inteligencji."
 ---
-Artykuły pomocne w przygotowaniu się do kolejnej transformacji społecznej.
+WillHack to Twój kompleksowy przewodnik po przyszłości technologii. Zacznij przygotowywać się już dziś na nadchodzącą eksplozję inteligencji.

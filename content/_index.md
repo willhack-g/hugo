@@ -1,5 +1,5 @@
 ---
 title: "Welcome"
-description: "This service is for reality hackers."
+description: "WillHack is your comprehensive guide to navigating the future of technology. Start preparing today for tomorrow's intelligence explosion."
 ---
-Articles to help prepare for the next social transition.
+WillHack is your comprehensive guide to navigating the future of technology. Start preparing today for tomorrow's intelligence explosion.
