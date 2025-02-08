@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "WillHack - Hack you reality"
+title = "WillHack"
 
 [services]
   [services.disqus]
@@ -21,5 +21,5 @@ keywords = ["AI", "Blockchain", "Geopolitics", "Health", "Technology", "Future",
 name = "Willhack"
   email = "ml@willhack.top"
   image = "img/fav.png"
-headline = "If you want to find yourself in tomorrow's world of intelligence explosion - start getting ready today."
+headline = "Hack you reality - If you want to find yourself in tomorrow's world of intelligence explosion - start getting ready today."
 bio = "Technology expert focused on AI, blockchain, and future innovations"
