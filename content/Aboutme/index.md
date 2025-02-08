@@ -12,7 +12,7 @@ authors:
   - "willhack"
 ---
 
-# A Few Words of Introduction
+## A Few Words of Introduction
 
 I want this site to be open to all constructive topics, regardless of their political or ideological orientation - therefore, please forgive me for not introducing myself by name yet.
 

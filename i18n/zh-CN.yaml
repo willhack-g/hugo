@@ -12,6 +12,7 @@ archive:
   description: "所有文章"
   showMore: "显示更多"
   noResults: "未找到文章"
+older_articles: "历史文章"
 
 menu:
   main_navigation: "主导航"

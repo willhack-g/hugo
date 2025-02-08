@@ -121,7 +121,7 @@ The turn of the 1950s and 60s brought the first successful industrial implementa
    - Foundation for modern manipulators
    - Introduction of real-time control
 
-# Part 2: Contemporary Robotics Market - Analysis and Trends 2024/2025
+## Part 2: Contemporary Robotics Market - Analysis and Trends 2024/2025
 
 ## Global Robotics Market Panorama
 
@@ -279,7 +279,7 @@ The turn of the 1950s and 60s brought the first successful industrial implementa
    - Service robotics development
    - User interface advancement
 
-# Part 3: Revolution in Humanoid Robotics - In Search of Human Reflection
+## Part 3: Revolution in Humanoid Robotics - In Search of Human Reflection
 
 > **Key perspective**: Humanoid robots represent a special case in robotics - they are not just tools, but also a mirror in which we see ourselves as a species. Their development tells us as much about our technological aspirations as about our deep desire to understand our own nature.
 
@@ -421,7 +421,7 @@ Figure 01 has found application in:
    - Social acceptance
    - Legal regulations
 
-# Part 4: Industrial Transformation in the Era of Advanced Robotics
+## Part 4: Industrial Transformation in the Era of Advanced Robotics
 
 > **Industry 5.0 Paradigm**: Unlike Industry 4.0, which focused on digitization, the current era puts *human-machine synergy* at the center, where technology serves to enhance human capabilities rather than replace them.
 
@@ -578,7 +578,7 @@ The development of **Autonomous Mobile Robots** (AMR) has introduced new quality
    - Infrastructure modernization
    - System integration
 
-# Part 5: Robotics in Everyday Life - Revolution at Our Doorstep
+## Part 5: Robotics in Everyday Life - Revolution at Our Doorstep
 
 > **Key transformation**: The year 2024/2025 brought a fundamental change in consumer robotics - the transition from single, specialized devices to integrated robotic ecosystems, collaborating with each other in performing complex household tasks.
 
@@ -715,7 +715,7 @@ The future of home robotics is developing in three main directions:
    - Learning preferences
    - Cultural specificity adaptation
 
-# Part 6: Robotics Horizon - Where Are We Heading and What Awaits Us?
+## Part 6: Robotics Horizon - Where Are We Heading and What Awaits Us?
 
 > **Turning point**: We are at a moment that technology historians may recognize as the beginning of the era of **synergistic coevolution** - a period in which the development of robotics and human civilization become inextricably intertwined, mutually driving and transforming each other.
 

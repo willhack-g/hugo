@@ -119,7 +119,7 @@ El cambio de la década de 1950 a 1960 trajo las primeras implementaciones indus
    - Base para los manipuladores modernos
    - Introducción del control en tiempo real
 
-# Parte 2: Mercado Actual de la Robótica - Análisis y Tendencias 2024/2025
+## Parte 2: Mercado Actual de la Robótica - Análisis y Tendencias 2024/2025
 
 ## Panorama Global del Mercado de la Robótica
 
@@ -277,7 +277,7 @@ El cambio de la década de 1950 a 1960 trajo las primeras implementaciones indus
    - Desarrollo de robótica de servicio
    - Avance en interfaces de usuario
 
-# Parte 3: Revolución en la Robótica Humanoide - En Busca del Reflejo Humano
+## Parte 3: Revolución en la Robótica Humanoide - En Busca del Reflejo Humano
 
 > **Perspectiva clave**: Los robots humanoides representan un caso especial en la robótica - no son solo herramientas, sino también un espejo en el que nos vemos como especie. Su desarrollo nos dice tanto sobre nuestras aspiraciones tecnológicas como sobre nuestro profundo deseo de entender nuestra propia naturaleza.
 
@@ -419,7 +419,7 @@ Figure 01 ha encontrado aplicación en:
    - Aceptación social
    - Regulaciones legales
 
-# Parte 4: Transformación Industrial en la Era de la Robótica Avanzada
+## Parte 4: Transformación Industrial en la Era de la Robótica Avanzada
 
 > **Paradigma de la Industria 5.0**: A diferencia de la Industria 4.0, que se centró en la digitalización, la era actual pone la *sinergia humano-máquina* en el centro, donde la tecnología sirve para mejorar las capacidades humanas en lugar de reemplazarlas.
 
@@ -576,7 +576,7 @@ El desarrollo de **Robots Móviles Autónomos** (AMR) ha introducido una nueva c
    - Modernización de infraestructura
    - Integración de sistemas
 
-# Parte 5: La Robótica en la Vida Cotidiana - Revolución en Nuestro Umbral
+## Parte 5: La Robótica en la Vida Cotidiana - Revolución en Nuestro Umbral
 
 > **Transformación clave**: El año 2024/2025 trajo un cambio fundamental en la robótica de consumo - la transición de dispositivos únicos y especializados a ecosistemas robóticos integrados, colaborando entre sí en la realización de tareas domésticas complejas.
 
@@ -712,7 +712,7 @@ El futuro de la robótica doméstica se desarrolla en tres direcciones principal
    - Adaptación a rituales individuales
    - Aprendizaje de preferencias
 
-# Parte 6: Horizonte de la Robótica - ¿Hacia Dónde Vamos y Qué Nos Espera?
+## Parte 6: Horizonte de la Robótica - ¿Hacia Dónde Vamos y Qué Nos Espera?
 
 > **Punto de inflexión**: Nos encontramos en un momento que los historiadores de la tecnología pueden reconocer como el inicio de la era de la **coevolución sinérgica** - un período en el que el desarrollo de la robótica y la civilización humana se entrelazan inextricablemente, impulsándose y transformándose mutuamente.
 

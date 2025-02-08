@@ -1,5 +1,5 @@
 ---
-title: "刺果番荔枝 (Annona muricata) - 癌症和糖尿病的万能药?"
+title: "刺果番荔枝  - 癌症和糖尿病的万能药?"
 date: 2025-02-01T12:45:22+01:00
 draft: false
 language: "zh-CN"

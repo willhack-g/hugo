@@ -12,7 +12,7 @@ authors:
   - "willhackde"
 ---
 
-# Einige einführende Worte
+## Einige einführende Worte
 
 Ich möchte, dass diese Website für alle konstruktiven Themen offen ist, unabhängig von ihrer politischen oder ideologischen Ausrichtung - daher bitte ich um Verständnis, dass ich mich vorerst nicht namentlich vorstelle.
 

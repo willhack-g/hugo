@@ -12,7 +12,7 @@ showAuthorsBadges: false
 authors:
   - "willhackes"
 ---
-# Impacto beneficioso de la moringa: Resumen completo de investigaciones y aplicaciones
+## Impacto beneficioso de la moringa: Resumen completo de investigaciones y aplicaciones
 
 Moringa oleifera, conocida como "árbol de la vida" o "árbol milagroso", ha sido valorada durante siglos por sus propiedades medicinales y nutricionales. Originaria del norte de la India, esta planta es rica en vitaminas, minerales, antioxidantes y otros compuestos bioactivos que tienen una amplia gama de aplicaciones en medicina, cosmética y cocina. En este artículo, presentamos un resumen completo de los beneficios para la salud de la moringa, basado en investigaciones científicas actuales.
 

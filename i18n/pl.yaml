@@ -12,6 +12,7 @@ archive:
   description: "Wszystkie wpisy"
   showMore: "Pokaż więcej"
   noResults: "Nie znaleziono wpisów"
+older_articles: "Starsze artykuły"
 
 menu:
   main_navigation: "Główna nawigacja"

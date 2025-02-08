@@ -1,6 +1,7 @@
 {{ define "main" }}
 <main class="main">
   <div class="container">
+    <h1 class="mb-8 text-center">{{ T "older_articles" }}</h1>
     {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
     {{ $notHidden := where $pages ".Params.hidden" "!=" true }}
     {{ $paginator := .Paginate $notHidden 6 }}

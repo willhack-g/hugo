@@ -12,7 +12,7 @@ showAuthorsBadges: false
 authors:
   - "willhackde"
 ---
-# Blockchain-Technologie: Geschichte, Funktionalität und Anwendungsperspektiven
+
 
 ## Einführung
 

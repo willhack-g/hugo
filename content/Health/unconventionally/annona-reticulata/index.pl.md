@@ -1,5 +1,5 @@
 ---
-title: "Annona reticulata - Kompleksowa Analiza Właściwości Prozdrowotnych"
+title: "Annona reticulata - Właściwości Prozdrowotne"
 date: 2025-02-01T12:44:22+01:00
 draft: false
 language: "pl"

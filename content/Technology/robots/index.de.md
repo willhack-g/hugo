@@ -119,7 +119,7 @@ Die Wende der 1950er und 60er Jahre brachte die ersten erfolgreichen industriell
    - Grundlage für moderne Manipulatoren
    - Einführung der Echtzeit-Steuerung
 
-# Teil 2: Aktueller Robotikmarkt - Analyse und Trends 2024/2025
+## Teil 2: Aktueller Robotikmarkt - Analyse und Trends 2024/2025
 
 ## Globales Panorama des Robotikmarktes
 
@@ -277,7 +277,7 @@ Die Wende der 1950er und 60er Jahre brachte die ersten erfolgreichen industriell
    - Entwicklung der Servicerobotik
    - Fortschritt bei Benutzeroberflächen
 
-# Teil 3: Revolution in der humanoiden Robotik - Auf der Suche nach dem menschlichen Spiegelbild
+## Teil 3: Revolution in der humanoiden Robotik - Auf der Suche nach dem menschlichen Spiegelbild
 
 > **Zentrale Perspektive**: Humanoide Roboter stellen einen Sonderfall in der Robotik dar - sie sind nicht nur Werkzeuge, sondern auch ein Spiegel, in dem wir uns als Spezies betrachten. Ihre Entwicklung sagt uns ebenso viel über unsere technologischen Bestrebungen wie über unser tiefes Verlangen, unsere eigene Natur zu verstehen.
 
@@ -419,7 +419,7 @@ Figure 01 hat Anwendung gefunden in:
    - Gesellschaftliche Akzeptanz
    - Rechtliche Regelungen
 
-# Teil 4: Industrielle Transformation im Zeitalter der fortgeschrittenen Robotik
+## Teil 4: Industrielle Transformation im Zeitalter der fortgeschrittenen Robotik
 
 > **Industrie 5.0 Paradigma**: Im Gegensatz zu Industrie 4.0, die sich auf Digitalisierung konzentrierte, stellt die aktuelle Ära die *Mensch-Maschine-Synergie* in den Mittelpunkt, bei der Technologie zur Erweiterung menschlicher Fähigkeiten dient, anstatt sie zu ersetzen.
 
@@ -576,7 +576,7 @@ Die Entwicklung **Autonomer Mobiler Roboter** (AMR) hat eine neue Qualität in d
    - Infrastrukturmodernisierung
    - Systemintegration
 
-# Teil 5: Robotik im Alltag - Revolution an unserer Türschwelle
+## Teil 5: Robotik im Alltag - Revolution an unserer Türschwelle
 
 > **Schlüsseltransformation**: Das Jahr 2024/2025 brachte einen fundamentalen Wandel in der Verbraucherrobotik - den Übergang von einzelnen, spezialisierten Geräten zu integrierten robotischen Ökosystemen, die bei der Ausführung komplexer Haushaltsaufgaben zusammenarbeiten.
 
@@ -712,7 +712,7 @@ Die Zukunft der Haushaltsrobotik entwickelt sich in drei Hauptrichtungen:
    - Anpassung an individuelle Rituale
    - Lernen von Präferenzen
 
-# Teil 6: Robotik-Horizont - Wohin gehen wir und was erwartet uns?
+## Teil 6: Robotik-Horizont - Wohin gehen wir und was erwartet uns?
 
 > **Wendepunkt**: Wir befinden uns an einem Moment, den Technologiehistoriker als den Beginn der Ära der **synergistischen Koevolution** erkennen könnten - einer Periode, in der die Entwicklung von Robotik und menschlicher Zivilisation untrennbar miteinander verwoben sind und sich gegenseitig antreiben und transformieren.
 

@@ -1,12 +1,11 @@
 ---
-title: "Archivo de entradas"
-date: 2024-11-05T12:42:22+01:00
+title: "Archivo"
+date: 2024-11-05
 draft: false
 layout: "archives"
 language: "es"
+description: "Archivo de entradas"
 showAuthor: false
-paginate: 9 # Set number of posts per page
-groupByYear: true # Group posts by year
+paginate: 6
+groupByYear: true
 ---
-
-Archivo de entradas

@@ -1,5 +1,5 @@
 ---
-title: "Annona reticulata - Umfassende Analyse der gesundheitsfördernden Eigenschaften"
+title: "Annona reticulata - Gesundheitsfördernden Eigenschaften"
 date: 2025-02-01T12:44:22+01:00
 draft: false
 language: "de"

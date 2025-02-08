@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "WillHack"
+title = "WillHack - Hack you reality"
 
 [services]
   [services.disqus]
@@ -14,11 +14,12 @@ isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
 logo = "logo.png"
-description = "WillHack is your comprehensive guide to navigating the future of technology. Explore the latest in AI, blockchain, geopolitics, health innovations, and technological breakthroughs. Start preparing today for tomorrow's intelligence explosion."
+description = "WillHack is your comprehensive guide to navigating the future of technology. Start preparing today for tomorrow's intelligence explosion."
+keywords = ["AI", "Blockchain", "Geopolitics", "Health", "Technology", "Future", "Innovation", "Intelligence Explosion"]
 
 [params.author]
 name = "Willhack"
   email = "ml@willhack.top"
   image = "img/fav.png"
-headline = "Hack you reality - if you want to find yourself in tomorrow's world of intelligence explosion - start getting ready today."
+headline = "If you want to find yourself in tomorrow's world of intelligence explosion - start getting ready today."
 bio = "Technology expert focused on AI, blockchain, and future innovations"

@@ -10,8 +10,6 @@ disableImageOptimization = false  # Włącz optymalizację obrazów
 
 # SEO Settings
 canonifyURLs = true
-description = "WillHack is your comprehensive guide to navigating the future of technology. Explore the latest in AI, blockchain, geopolitics, health innovations, and technological breakthroughs. Start preparing today for tomorrow's intelligence explosion."
-keywords = ["AI", "Blockchain", "Geopolitics", "Health", "Technology", "Future", "Innovation", "Intelligence Explosion"]
 enableRobotsTXT = true
 disableTextInHeader = false
 disableImageZoom = false  # Włącz efekt powiększania Medium Zoom

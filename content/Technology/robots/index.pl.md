@@ -121,7 +121,7 @@ Przełom lat 50. i 60. XX wieku przyniósł pierwsze udane wdrożenia przemysło
    - Podstawa dla współczesnych manipulatorów
    - Wprowadzenie sterowania w czasie rzeczywistym
 
-# Część 2: Współczesny rynek robotyki - analiza i trendy 2024/2025
+## Część 2: Współczesny rynek robotyki - analiza i trendy 2024/2025
 
 ## Globalna panorama rynku robotycznego
 
@@ -279,7 +279,7 @@ Przełom lat 50. i 60. XX wieku przyniósł pierwsze udane wdrożenia przemysło
    - Rozwój robotyki usługowej
    - Postęp w interfejsach użytkownika
 
-# Część 3: Rewolucja w robotyce humanoidalnej - w poszukiwaniu ludzkiego odbicia
+## Część 3: Rewolucja w robotyce humanoidalnej - w poszukiwaniu ludzkiego odbicia
 
 > **Perspektywa kluczowa**: Roboty humanoidalne stanowią szczególny przypadek w robotyce - są nie tylko narzędziami, ale także zwierciadłem, w którym przeglądamy się jako gatunek. Ich rozwój mówi tyle samo o naszych aspiracjach technologicznych, co o głębokim pragnieniu zrozumienia własnej natury.
 
@@ -421,7 +421,7 @@ Figure 01 znalazł zastosowanie w:
    - Akceptacja społeczna
    - Regulacje prawne
 
-# Część 4: Transformacja przemysłu w erze zaawansowanej robotyki
+## Część 4: Transformacja przemysłu w erze zaawansowanej robotyki
 
 > **Paradygmat Przemysłu 5.0**: W przeciwieństwie do Przemysłu 4.0, który koncentrował się na cyfryzacji, obecna era stawia w centrum *synergię człowiek-maszyna*, gdzie technologia służy wzmocnieniu ludzkich możliwości, nie ich zastąpieniu.
 
@@ -578,7 +578,7 @@ Rozwój **Autonomicznych Robotów Mobilnych** (AMR) wprowadził nową jakość w
    - Modernizacja infrastruktury
    - Integracja systemów
 
-# Część 5: Robotyka w codziennym życiu - rewolucja na progu naszych domów
+## Część 5: Robotyka w codziennym życiu - rewolucja na progu naszych domów
 
 > **Kluczowa transformacja**: Rok 2024/2025 przyniósł fundamentalną zmianę w robotyce konsumenckiej - przejście od pojedynczych, wyspecjalizowanych urządzeń do zintegrowanych ekosystemów robotycznych, współpracujących ze sobą w realizacji złożonych zadań domowych.
 
@@ -715,7 +715,7 @@ Przyszłość robotyki domowej rysuje się w trzech głównych kierunkach:
    - Uczenie się preferencji
    - Dostosowanie do specyfiki kulturowej
 
-# Część 6: Horyzont robotyki - gdzie zmierzamy i co nas czeka?
+## Część 6: Horyzont robotyki - gdzie zmierzamy i co nas czeka?
 
 > **Punkt zwrotny**: Znajdujemy się w momencie, który historycy technologii mogą uznać za początek ery **synergicznej koewolucji** - okresu, w którym rozwój robotyki i ludzkiej cywilizacji stają się nierozłącznie splecione, wzajemnie się napędzając i transformując.
 

@@ -12,7 +12,7 @@ authors:
   - "willhackes"
 ---
 
-# Algunas Palabras de Introducción
+## Algunas Palabras de Introducción
 
 Quiero que este sitio esté abierto a todos los temas constructivos, independientemente de su orientación política o ideológica - por lo tanto, disculpen que por ahora no me presente con mi nombre.
 

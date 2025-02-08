@@ -12,7 +12,7 @@ showAuthorsBadges: false
 authors:
   - "willhack"
 ---
-# Blockchain Technology: History, Functionality and Application Perspectives
+
 
 ## Introduction
 

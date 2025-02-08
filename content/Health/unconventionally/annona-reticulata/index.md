@@ -1,5 +1,5 @@
 ---
-title: "Annona reticulata - Comprehensive Analysis of Health-Promoting Properties"
+title: "Annona reticulata - Health-Promoting Properties"
 date: 2025-02-01T12:44:22+01:00
 draft: false
 language: "en"

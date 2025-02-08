@@ -12,7 +12,7 @@ showAuthorsBadges: false
 authors:
   - "willhackpl"
 ---
-# Technologia Blockchain: Historia, Funkcjonalność i Perspektywy Zastosowań
+
 
 ## Wstęp
 

@@ -1,5 +1,5 @@
 ---
-title: "Annona reticulata - Análisis Integral de las Propiedades Promotoras de la Salud"
+title: "Annona reticulata - Propiedades Promotoras de la Salud"
 date: 2025-02-01T12:44:22+01:00
 draft: false
 language: "es"

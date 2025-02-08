@@ -12,6 +12,7 @@ archive:
   description: "All posts"
   showMore: "Show more"
   noResults: "No posts found"
+older_articles: "Older Articles"
 
 menu:
   main_navigation: "Main navigation"

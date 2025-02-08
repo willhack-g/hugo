@@ -12,7 +12,7 @@ authors:
   - "willhackpl"
 ---
 
-# Wstępu słów kilka
+## Wstępu słów kilka
 
 Chcę, by ta witryna była otwarta na wszelkie konstruktywne tematy, bez względu na ich orientację polityczną lub ideologiczną - w związku z tym wybaczcie, ale na razie nie przedstawię się z imienia.
 

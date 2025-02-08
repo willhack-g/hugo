@@ -12,7 +12,7 @@ showAuthorsBadges: false
 authors:
   - "willhackpl"
 ---
-# Prozdrowotny wpływ moringi: Kompleksowe podsumowanie badań i zastosowań
+## Prozdrowotny wpływ moringi: Kompleksowe podsumowanie badań i zastosowań
 
 Moringa oleifera, znana jako "drzewo życia" lub "cudowne drzewo", od wieków jest ceniona za swoje właściwości lecznicze i odżywcze. Pochodząca z północnych Indii roślina jest bogata w witaminy, minerały, przeciwutleniacze i inne bioaktywne związki, które mają szerokie zastosowanie w medycynie, kosmetyce i kuchni. W niniejszym artykule przedstawiamy kompleksowe podsumowanie korzyści zdrowotnych moringi, oparte na aktualnych badaniach naukowych.
 

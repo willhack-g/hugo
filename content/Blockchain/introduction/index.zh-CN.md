@@ -12,7 +12,7 @@ showAuthorsBadges: false
 authors:
   - "willhackcn"
 ---
-# 区块链技术：历史、功能和应用前景
+
 
 ## 介绍
 

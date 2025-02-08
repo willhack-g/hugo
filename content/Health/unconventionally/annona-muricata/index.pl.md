@@ -1,5 +1,5 @@
 ---
-title: "Graviola (Annona muricata) - Panaceum na raka i cukrzycę?"
+title: "Graviola - Panaceum na raka i cukrzycę?"
 date: 2025-02-01T12:45:22+01:00
 draft: false
 language: "pl"

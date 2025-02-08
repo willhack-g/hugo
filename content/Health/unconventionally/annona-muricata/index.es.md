@@ -1,5 +1,5 @@
 ---
-title: "Graviola (Annona muricata) - ¿Una panacea para el cáncer y la diabetes?"
+title: "Graviola - ¿Una panacea para el cáncer y la diabetes?"
 date: 2025-02-01T12:45:22+01:00
 draft: false
 language: "es"
