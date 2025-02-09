@@ -86,7 +86,7 @@ The possibilities are exciting:
 
 The road ahead looks promising:
 
-- **Price Potential**: Analysts suggest SUI could reach $5-$16 by 2025
+- **Price Potential**: Analysts suggest SUI could reach $5-$16 in 2025
 - **Technical Growth**: New updates coming to make the network even better
 - **Market Position**: While it may not replace Ethereum or Solana, SUI is carving out its own unique space
 
