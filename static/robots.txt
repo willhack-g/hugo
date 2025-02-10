@@ -30,6 +30,7 @@ Disallow: /*.json$
 Disallow: /page/
 Disallow: /*?*
 Disallow: /search/
+Disallow: /*index.xml$
 
 # Add all sitemaps
 Sitemap: https://willhack.top/sitemap.xml
