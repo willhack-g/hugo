@@ -16,7 +16,7 @@
 {{ if index .Site.Params.homepage "showRecentItems" }}
 {{ $showMoreLinkDest = cond (eq .Language.Lang "en") (.Site.Params.homepage.showMoreLinkDest | default "/archives/") (printf "/%s%s" .Language.Lang (.Site.Params.homepage.showMoreLinkDest | default "/archives/")) }}
 {{ end }}
-<div class="mt-10 flex justify-center">
+<div class="mt-10 mb-32 flex justify-center">
   <a href="{{ $showMoreLinkDest }}">
     <button
       class="bg-transparent hover:text-primary-500 prose dark:prose-invert font-semibold hover:text-white py-2 px-4 border border-primary-500 hover:border-transparent rounded">
