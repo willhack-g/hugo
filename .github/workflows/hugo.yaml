@@ -60,9 +60,7 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --config config/_default/params.toml \
-            --config config/_default/config.toml \
-            --config config/_default/params.local.toml \
+            --config config/_default/hugo.toml,config/_default/params.toml \
             --environment production
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
