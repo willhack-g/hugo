@@ -10,6 +10,14 @@ buildFuture = false
 enableEmoji = true
 googleAnalytics = "G-7SL7HVPDGL"
 
+[server]
+  [[server.headers]]
+    for = "/**"
+    [server.headers.values]
+      Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+
+[permalinks]
+  posts = "/:year/:month/:title/"
 
 [pagination]
 pagerSize = 100
@@ -68,3 +76,7 @@ home = [ "HTML", "RSS", "JSON" ]
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+
+[security]
+  [security.http]
+    urls = ["https://willhack.top"]
