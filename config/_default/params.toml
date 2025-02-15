@@ -99,27 +99,27 @@ constrainItemsWidth = false
 
 [sitemap]
 excludedKinds = ["taxonomy", "term"]
-changefreq = "weekly"
+changefreq = "daily"
 priority = 0.8
 filename = "sitemap.xml"
 
 [sitemap.pl]
-changefreq = "weekly"
+changefreq = "daily"
 priority = 0.8
 filename = "/pl/sitemap.xml"
 
 [sitemap.de]
-changefreq = "weekly"
+changefreq = "daily"
 priority = 0.8
 filename = "/de/sitemap.xml"
 
 [sitemap.es]
-changefreq = "weekly"
+changefreq = "daily"
 priority = 0.8
 filename = "/es/sitemap.xml"
 
 [sitemap.zh-cn]
-changefreq = "weekly"
+changefreq = "daily"
 priority = 0.8
 filename = "/zh-cn/sitemap.xml"
 
