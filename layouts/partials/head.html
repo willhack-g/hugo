@@ -1,5 +1,15 @@
 {{ $isDark := or (eq .Site.Params.defaultAppearance "dark") (and (not .Site.Params.defaultAppearance) (eq .Site.Params.autoSwitchAppearance true)) }}
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7SL7HVPDGL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-7SL7HVPDGL');
+  </script>
+
   <!-- Immediate Theme Init - przed jakimkolwiek renderowaniem -->
   <script>
     try {
