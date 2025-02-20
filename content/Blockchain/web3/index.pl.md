@@ -10,7 +10,6 @@ categories: ["Blockchain", "Technologia"]
 showAuthor: false
 showAuthorsBadges: false
 authors: ["willhackpl"]
-images: ["featured.webp"]
 ---
 
 ## Internet się zmienia (i tym razem chodzi o Ciebie)

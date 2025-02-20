@@ -10,7 +10,6 @@ categories: ["区块链", "技术"]
 showAuthor: false
 showAuthorsBadges: false
 authors: ["willhackcn"]
-images: ["featured.webp"]
 ---
 
 ## 互联网正在改变（这次与你有关）
