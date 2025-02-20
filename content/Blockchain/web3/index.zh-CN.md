@@ -10,6 +10,7 @@ categories: ["区块链", "技术"]
 showAuthor: false
 showAuthorsBadges: false
 authors: ["willhackcn"]
+featureImage: ["https://willhack.top/Blockchain/web3/featured.webp"]
 ---
 
 ## 互联网正在改变（这次与你有关）

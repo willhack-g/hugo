@@ -10,6 +10,7 @@ categories: ["Blockchain", "Tecnología"]
 showAuthor: false
 showAuthorsBadges: false
 authors: ["willhackes"]
+featureImage: ["https://willhack.top/Blockchain/web3/featured.webp"]
 ---
 
 ## El Internet Está Cambiando (Y Esta Vez, Se Trata de Ti)
