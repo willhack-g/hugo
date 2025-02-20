@@ -9,7 +9,7 @@ tags: ["Web3", "Blockchain", "NFT", "DeFi", "Cryptocurrency", "Digital Future", 
 categories: ["Blockchain", "Technology"]
 showAuthor: false
 showAuthorsBadges: false
-authors: ["willhackpl"]
+authors: ["willhack"]
 images: ["featured.webp"]
 ---
 
