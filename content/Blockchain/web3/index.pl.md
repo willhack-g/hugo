@@ -2,7 +2,7 @@
 title: "Web3: Przyszłość Internetu, w której to Ty masz kontrolę"
 date: 2025-02-20T08:27:05-03:00
 draft: false
-language: "en"
+language: "pl"
 slug: "web3-future-internet-explained"
 description: "Odkryj, jak Web3 rewolucjonizuje internet, oddając władzę w ręce użytkowników poprzez blockchain, NFT i zdecentralizowane systemy. Dowiedz się, co to oznacza dla Twojej cyfrowej przyszłości."
 tags: ["Web3", "Blockchain", "NFT", "DeFi", "Kryptowaluta", "Cyfrowa przyszłość", "Trendy technologiczne", "Decentralizacja"]
